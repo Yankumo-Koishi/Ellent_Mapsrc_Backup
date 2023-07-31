@@ -1,0 +1,1200 @@
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: F:\Shut up and take my money\steamapps\sourcemods\mapbase_episodic\materials
+Error opening c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+
+
+Using shader api: shaderapiempty.dll
+materialPath: F:\Shut up and take my money\steamapps\sourcemods\mapbase_episodic\materials
+Loading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 214 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (226786 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 392 texinfos to 229
+Reduced 40 texdatas to 30 (1191 bytes to 741)
+Writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.prt
+  40 portalclusters
+  60 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1066
+Average clusters visible: 26
+Building PAS...
+Average clusters audible: 40
+visdatasize:727  compressed from 640
+writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[97 texlights parsed from 'lights.rad']
+
+[Reading texlights from 'other.rad']
+Warning: Redundant 'lights/light_recessedcool001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_recessedcool002' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_green001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_orange001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white007' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white008' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white009' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white010' def in 'lights.rad' AND 'other.rad'!
+Warning: Overriding 'lights/white011' from 'lights.rad' with 'other.rad'!
+Warning: Overriding 'lights/light_panel_cool' from 'lights.rad' with 'other.rad'!
+Warning: Redundant 'lights/light_panel_warm' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_panel_neutral' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'cs_assault/windowBrightness_illum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'windows/hr_w/inferno/stained_glass_a_selfillum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/hr_single_pane_illum_ambient' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/hr_single_pane_illum_sun' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'de_nuke/nukwindowb_illum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'metal/metalwall102a' def in 'lights.rad' AND 'other.rad'!
+[21 texlights parsed from 'other.rad']
+
+Loading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+1661 faces
+43954 square feet [6329434.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1661 patches before subdivision
+7649 patches after subdivision
+120 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1461041, max 773
+transfer lists:  11.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(15398, 26556, 21159)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1996, 4439, 3337)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(353, 1032, 767)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(60, 232, 173)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(11, 57, 43)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 14, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0017 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+84 of 106 (79% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  24/4096         1152/196608   ( 0.6%) 
+brushes                558/32768        6696/393216   ( 1.7%) 
+brushsides            4585/65536       36680/524288   ( 7.0%) 
+planes                2800/65536       56000/1310720  ( 4.3%) 
+vertexes              2684/65536       32208/786432   ( 4.1%) 
+nodes                  440/65536       14080/2097152  ( 0.7%) 
+texinfos               229/12288       16488/884736   ( 1.9%) 
+texdata                 30/2048          960/65536    ( 1.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1661/65536       93016/3670016  ( 2.5%) 
+hdr faces             1661/65536       93016/3670016  ( 2.5%) 
+origfaces             1589/65536       88984/3670016  ( 2.4%) 
+leaves                 465/65536       14880/2097152  ( 0.7%) 
+leaffaces             2023/65536        4046/131072   ( 3.1%) 
+leafbrushes            793/65536        1586/131072   ( 1.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            14395/512000      57580/2048000  ( 2.8%) 
+edges                 9015/256000      36060/1024000  ( 3.5%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights        120/16384       10560/1441792  ( 0.7%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             74/131072        740/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1617/131072       3234/262144   ( 1.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      643540/0        ( 0.0%) 
+visdata               [variable]         727/16777216 ( 0.0%) 
+entdata               [variable]       34757/393216   ( 8.8%) 
+LDR ambient table      465/65536        1860/262144   ( 0.7%) 
+HDR ambient table      465/65536        1860/262144   ( 0.7%) 
+LDR leaf ambient       465/65536       13020/1835008  ( 0.7%) 
+HDR leaf ambient       809/65536       22652/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3656     ( 0.0%) 
+pakfile               [variable]      360192/0        ( 0.0%) 
+physics               [variable]      226786/4194304  ( 5.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 4442
+Writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+7 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: F:\Shut up and take my money\steamapps\sourcemods\mapbase_episodic\materials
+Loading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 214 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (228034 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 399 texinfos to 233
+Reduced 42 texdatas to 31 (1248 bytes to 768)
+Writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.prt
+  40 portalclusters
+  60 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1066
+Average clusters visible: 26
+Building PAS...
+Average clusters audible: 40
+visdatasize:727  compressed from 640
+writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[97 texlights parsed from 'lights.rad']
+
+[Reading texlights from 'other.rad']
+Warning: Redundant 'lights/light_recessedcool001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_recessedcool002' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_green001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_orange001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white007' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white008' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white009' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white010' def in 'lights.rad' AND 'other.rad'!
+Warning: Overriding 'lights/white011' from 'lights.rad' with 'other.rad'!
+Warning: Overriding 'lights/light_panel_cool' from 'lights.rad' with 'other.rad'!
+Warning: Redundant 'lights/light_panel_warm' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_panel_neutral' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'cs_assault/windowBrightness_illum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'windows/hr_w/inferno/stained_glass_a_selfillum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/hr_single_pane_illum_ambient' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/hr_single_pane_illum_sun' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'de_nuke/nukwindowb_illum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'metal/metalwall102a' def in 'lights.rad' AND 'other.rad'!
+[21 texlights parsed from 'other.rad']
+
+Loading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+1664 faces
+44125 square feet [6354010.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1664 patches before subdivision
+7662 patches after subdivision
+128 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1469647, max 775
+transfer lists:  11.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(20237, 33972, 25412)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2907, 6272, 4414)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(546, 1545, 1075)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(100, 372, 259)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(19, 95, 67)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 24, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 6, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0017 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+84 of 114 (73% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  24/4096         1152/196608   ( 0.6%) 
+brushes                562/32768        6744/393216   ( 1.7%) 
+brushsides            4609/65536       36872/524288   ( 7.0%) 
+planes                2802/65536       56040/1310720  ( 4.3%) 
+vertexes              2688/65536       32256/786432   ( 4.1%) 
+nodes                  440/65536       14080/2097152  ( 0.7%) 
+texinfos               233/12288       16776/884736   ( 1.9%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1664/65536       93184/3670016  ( 2.5%) 
+hdr faces             1664/65536       93184/3670016  ( 2.5%) 
+origfaces             1592/65536       89152/3670016  ( 2.4%) 
+leaves                 465/65536       14880/2097152  ( 0.7%) 
+leaffaces             2032/65536        4064/131072   ( 3.1%) 
+leafbrushes            805/65536        1610/131072   ( 1.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            14439/512000      57756/2048000  ( 2.8%) 
+edges                 9049/256000      36196/1024000  ( 3.5%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights        128/16384       11264/1441792  ( 0.8%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             83/131072        830/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1731/131072       3462/262144   ( 1.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      643540/0        ( 0.0%) 
+visdata               [variable]         727/16777216 ( 0.0%) 
+entdata               [variable]       35251/393216   ( 9.0%) 
+LDR ambient table      465/65536        1860/262144   ( 0.7%) 
+HDR ambient table      465/65536        1860/262144   ( 0.7%) 
+LDR leaf ambient       465/65536       13020/1835008  ( 0.7%) 
+HDR leaf ambient       846/65536       23688/1835008  ( 1.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3656     ( 0.0%) 
+pakfile               [variable]      360192/0        ( 0.0%) 
+physics               [variable]      228034/4194304  ( 5.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 4468
+Writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+7 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: F:\Shut up and take my money\steamapps\sourcemods\mapbase_episodic\materials
+Loading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 214 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (227114 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 396 texinfos to 230
+Reduced 41 texdatas to 30 (1221 bytes to 741)
+Writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.prt
+  40 portalclusters
+  60 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1066
+Average clusters visible: 26
+Building PAS...
+Average clusters audible: 40
+visdatasize:727  compressed from 640
+writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[97 texlights parsed from 'lights.rad']
+
+[Reading texlights from 'other.rad']
+Warning: Redundant 'lights/light_recessedcool001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_recessedcool002' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_green001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_orange001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white007' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white008' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white009' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white010' def in 'lights.rad' AND 'other.rad'!
+Warning: Overriding 'lights/white011' from 'lights.rad' with 'other.rad'!
+Warning: Overriding 'lights/light_panel_cool' from 'lights.rad' with 'other.rad'!
+Warning: Redundant 'lights/light_panel_warm' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_panel_neutral' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'cs_assault/windowBrightness_illum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'windows/hr_w/inferno/stained_glass_a_selfillum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/hr_single_pane_illum_ambient' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/hr_single_pane_illum_sun' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'de_nuke/nukwindowb_illum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'metal/metalwall102a' def in 'lights.rad' AND 'other.rad'!
+[21 texlights parsed from 'other.rad']
+
+Loading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+1661 faces
+43954 square feet [6329434.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1661 patches before subdivision
+7659 patches after subdivision
+128 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1463981, max 773
+transfer lists:  11.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(20220, 33946, 25400)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2828, 6152, 4343)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(520, 1491, 1042)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(93, 354, 248)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(18, 89, 63)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3, 22, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 6, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0022 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+84 of 114 (73% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4.
+
+
+Using shader api: shaderapiempty.dll
+materialPath: F:\Shut up and take my money\steamapps\sourcemods\mapbase_episodic\materials
+Loading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 214 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (228034 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 399 texinfos to 233
+Reduced 42 texdatas to 31 (1248 bytes to 768)
+Writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.prt
+  40 portalclusters
+  60 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1066
+Average clusters visible: 26
+Building PAS...
+Average clusters audible: 40
+visdatasize:727  compressed from 640
+writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[97 texlights parsed from 'lights.rad']
+
+[Reading texlights from 'other.rad']
+Warning: Redundant 'lights/light_recessedcool001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_recessedcool002' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_green001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_orange001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white007' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white008' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white009' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white010' def in 'lights.rad' AND 'other.rad'!
+Warning: Overriding 'lights/white011' from 'lights.rad' with 'other.rad'!
+Warning: Overriding 'lights/light_panel_cool' from 'lights.rad' with 'other.rad'!
+Warning: Redundant 'lights/light_panel_warm' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_panel_neutral' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'cs_assault/windowBrightness_illum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'windows/hr_w/inferno/stained_glass_a_selfillum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/hr_single_pane_illum_ambient' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/hr_single_pane_illum_sun' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'de_nuke/nukwindowb_illum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'metal/metalwall102a' def in 'lights.rad' AND 'other.rad'!
+[21 texlights parsed from 'other.rad']
+
+Loading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+1664 faces
+44125 square feet [6354010.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1664 patches before subdivision
+7662 patches after subdivision
+128 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1469647, max 775
+transfer lists:  11.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(20237, 33970, 25410)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2907, 6272, 4414)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(546, 1545, 1075)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(100, 372, 259)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(19, 95, 67)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 24, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 6, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+84 of 114 (73% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  24/4096         1152/196608   ( 0.6%) 
+brushes                562/32768        6744/393216   ( 1.7%) 
+brushsides            4609/65536       36872/524288   ( 7.0%) 
+planes                2802/65536       56040/1310720  ( 4.3%) 
+vertexes              2688/65536       32256/786432   ( 4.1%) 
+nodes                  440/65536       14080/2097152  ( 0.7%) 
+texinfos               233/12288       16776/884736   ( 1.9%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1664/65536       93184/3670016  ( 2.5%) 
+hdr faces             1664/65536       93184/3670016  ( 2.5%) 
+origfaces             1592/65536       89152/3670016  ( 2.4%) 
+leaves                 465/65536       14880/2097152  ( 0.7%) 
+leaffaces             2032/65536        4064/131072   ( 3.1%) 
+leafbrushes            805/65536        1610/131072   ( 1.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            14439/512000      57756/2048000  ( 2.8%) 
+edges                 9049/256000      36196/1024000  ( 3.5%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights        128/16384       11264/1441792  ( 0.8%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             83/131072        830/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1731/131072       3462/262144   ( 1.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      643540/0        ( 0.0%) 
+visdata               [variable]         727/16777216 ( 0.0%) 
+entdata               [variable]       35789/393216   ( 9.1%) 
+LDR ambient table      465/65536        1860/262144   ( 0.7%) 
+HDR ambient table      465/65536        1860/262144   ( 0.7%) 
+LDR leaf ambient       465/65536       13020/1835008  ( 0.7%) 
+HDR leaf ambient       846/65536       23688/1835008  ( 1.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3656     ( 0.0%) 
+pakfile               [variable]      360192/0        ( 0.0%) 
+physics               [variable]      228034/4194304  ( 5.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 4468
+Writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+10 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: F:\Shut up and take my money\steamapps\sourcemods\mapbase_episodic\materials
+Loading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 214 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (230678 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 399 texinfos to 233
+Reduced 42 texdatas to 31 (1248 bytes to 768)
+Writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.prt
+  40 portalclusters
+  60 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1066
+Average clusters visible: 26
+Building PAS...
+Average clusters audible: 40
+visdatasize:727  compressed from 640
+writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[97 texlights parsed from 'lights.rad']
+
+[Reading texlights from 'other.rad']
+Warning: Redundant 'lights/light_recessedcool001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_recessedcool002' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_green001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_orange001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white007' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white008' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white009' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white010' def in 'lights.rad' AND 'other.rad'!
+Warning: Overriding 'lights/white011' from 'lights.rad' with 'other.rad'!
+Warning: Overriding 'lights/light_panel_cool' from 'lights.rad' with 'other.rad'!
+Warning: Redundant 'lights/light_panel_warm' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_panel_neutral' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'cs_assault/windowBrightness_illum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'windows/hr_w/inferno/stained_glass_a_selfillum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/hr_single_pane_illum_ambient' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/hr_single_pane_illum_sun' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'de_nuke/nukwindowb_illum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'metal/metalwall102a' def in 'lights.rad' AND 'other.rad'!
+[21 texlights parsed from 'other.rad']
+
+Loading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+1692 faces
+44636 square feet [6427703.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1692 patches before subdivision
+7690 patches after subdivision
+128 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1504897, max 775
+transfer lists:  11.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(20597, 34607, 25951)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2957, 6380, 4499)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(555, 1572, 1095)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(102, 378, 264)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(20, 97, 68)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 25, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 6, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+84 of 114 (73% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  26/4096         1248/196608   ( 0.6%) 
+brushes                564/32768        6768/393216   ( 1.7%) 
+brushsides            4657/65536       37256/524288   ( 7.1%) 
+planes                2802/65536       56040/1310720  ( 4.3%) 
+vertexes              2736/65536       32832/786432   ( 4.2%) 
+nodes                  468/65536       14976/2097152  ( 0.7%) 
+texinfos               233/12288       16776/884736   ( 1.9%) 
+texdata                 31/2048          992/65536    ( 1.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1692/65536       94752/3670016  ( 2.6%) 
+hdr faces             1692/65536       94752/3670016  ( 2.6%) 
+origfaces             1620/65536       90720/3670016  ( 2.5%) 
+leaves                 495/65536       15840/2097152  ( 0.8%) 
+leaffaces             2060/65536        4120/131072   ( 3.1%) 
+leafbrushes            807/65536        1614/131072   ( 1.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            14727/512000      58908/2048000  ( 2.9%) 
+edges                 9193/256000      36772/1024000  ( 3.6%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights        128/16384       11264/1441792  ( 0.8%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             83/131072        830/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1731/131072       3462/262144   ( 1.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      643540/0        ( 0.0%) 
+visdata               [variable]         727/16777216 ( 0.0%) 
+entdata               [variable]       36793/393216   ( 9.4%) 
+LDR ambient table      495/65536        1980/262144   ( 0.8%) 
+HDR ambient table      495/65536        1980/262144   ( 0.8%) 
+LDR leaf ambient       495/65536       13860/1835008  ( 0.8%) 
+HDR leaf ambient       874/65536       24472/1835008  ( 1.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3656     ( 0.0%) 
+pakfile               [variable]      360192/0        ( 0.0%) 
+physics               [variable]      230678/4194304  ( 5.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 4556
+Writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+9 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: F:\Shut up and take my money\steamapps\sourcemods\mapbase_episodic\materials
+Loading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Placing static props...
+0 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: F:\Shut up and take my money\steamapps\sourcemods\mapbase_episodic\materials
+Loading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Placing static props...
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: F:\Shut up and take my money\steamapps\sourcemods\mapbase_episodic\materials
+Loading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 328 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (275057 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 482 texinfos to 275
+Reduced 46 texdatas to 33 (1378 bytes to 824)
+Writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.prt
+  40 portalclusters
+  60 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1066
+Average clusters visible: 26
+Building PAS...
+Average clusters audible: 40
+visdatasize:727  compressed from 640
+writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[97 texlights parsed from 'lights.rad']
+
+[Reading texlights from 'other.rad']
+Warning: Redundant 'lights/light_recessedcool001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_recessedcool002' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_green001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_orange001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white007' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white008' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white009' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white010' def in 'lights.rad' AND 'other.rad'!
+Warning: Overriding 'lights/white011' from 'lights.rad' with 'other.rad'!
+Warning: Overriding 'lights/light_panel_cool' from 'lights.rad' with 'other.rad'!
+Warning: Redundant 'lights/light_panel_warm' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_panel_neutral' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'cs_assault/windowBrightness_illum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'windows/hr_w/inferno/stained_glass_a_selfillum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/hr_single_pane_illum_ambient' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/hr_single_pane_illum_sun' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'de_nuke/nukwindowb_illum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'metal/metalwall102a' def in 'lights.rad' AND 'other.rad'!
+[21 texlights parsed from 'other.rad']
+
+Loading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+2002 faces
+46867 square feet [6748886.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2002 patches before subdivision
+8458 patches after subdivision
+155 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1708984, max 819
+transfer lists:  13.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(26292, 46463, 38865)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4004, 9271, 7639)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(796, 2468, 2073)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(162, 684, 601)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(36, 208, 191)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(8, 66, 64)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 22, 22)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 8, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0018 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+98 of 141 (69% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  30/4096         1440/196608   ( 0.7%) 
+brushes                673/32768        8076/393216   ( 2.1%) 
+brushsides            5429/65536       43432/524288   ( 8.3%) 
+planes                3012/65536       60240/1310720  ( 4.6%) 
+vertexes              3385/65536       40620/786432   ( 5.2%) 
+nodes                  492/65536       15744/2097152  ( 0.8%) 
+texinfos               275/12288       19800/884736   ( 2.2%) 
+texdata                 33/2048         1056/65536    ( 1.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2002/65536      112112/3670016  ( 3.1%) 
+hdr faces             2002/65536      112112/3670016  ( 3.1%) 
+origfaces             1906/65536      106736/3670016  ( 2.9%) 
+leaves                 523/65536       16736/2097152  ( 0.8%) 
+leaffaces             2501/65536        5002/131072   ( 3.8%) 
+leafbrushes            952/65536        1904/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            17615/512000      70460/2048000  ( 3.4%) 
+edges                11140/256000      44560/1024000  ( 4.4%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights        155/16384       13640/1441792  ( 0.9%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            135/131072       1350/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          3006/131072       6012/262144   ( 2.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/1024         1408/360448   ( 0.4%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      705708/0        ( 0.0%) 
+visdata               [variable]         727/16777216 ( 0.0%) 
+entdata               [variable]       38116/393216   ( 9.7%) 
+LDR ambient table      523/65536        2092/262144   ( 0.8%) 
+HDR ambient table      523/65536        2092/262144   ( 0.8%) 
+LDR leaf ambient       523/65536       14644/1835008  ( 0.8%) 
+HDR leaf ambient       903/65536       25284/1835008  ( 1.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3850     ( 0.0%) 
+pakfile               [variable]      368824/0        ( 0.0%) 
+physics               [variable]      275057/4194304  ( 6.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 5639
+Writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+10 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: F:\Shut up and take my money\steamapps\sourcemods\mapbase_episodic\materials
+Loading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 280 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (264185 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 480 texinfos to 273
+Reduced 46 texdatas to 33 (1378 bytes to 824)
+Writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.prt
+  40 portalclusters
+  60 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1066
+Average clusters visible: 26
+Building PAS...
+Average clusters audible: 40
+visdatasize:727  compressed from 640
+writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[97 texlights parsed from 'lights.rad']
+
+[Reading texlights from 'other.rad']
+Warning: Redundant 'lights/light_recessedcool001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_recessedcool002' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_green001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_orange001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white007' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white008' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white009' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white010' def in 'lights.rad' AND 'other.rad'!
+Warning: Overriding 'lights/white011' from 'lights.rad' with 'other.rad'!
+Warning: Overriding 'lights/light_panel_cool' from 'lights.rad' with 'other.rad'!
+Warning: Redundant 'lights/light_panel_warm' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_panel_neutral' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'cs_assault/windowBrightness_illum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'windows/hr_w/inferno/stained_glass_a_selfillum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/hr_single_pane_illum_ambient' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/hr_single_pane_illum_sun' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'de_nuke/nukwindowb_illum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'metal/metalwall102a' def in 'lights.rad' AND 'other.rad'!
+[21 texlights parsed from 'other.rad']
+
+Loading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+1933 faces
+46535 square feet [6701127.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1933 patches before subdivision
+8327 patches after subdivision
+136 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1695815, max 815
+transfer lists:  12.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(23473, 41529, 34493)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3315, 7439, 5757)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(611, 1773, 1315)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(112, 425, 312)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(22, 109, 79)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 28, 20)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 7, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0028 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+84 of 116 (72% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  30/4096         1440/196608   ( 0.7%) 
+brushes                646/32768        7752/393216   ( 2.0%) 
+brushsides            5247/65536       41976/524288   ( 8.0%) 
+planes                2970/65536       59400/1310720  ( 4.5%) 
+vertexes              3251/65536       39012/786432   ( 5.0%) 
+nodes                  492/65536       15744/2097152  ( 0.8%) 
+texinfos               273/12288       19656/884736   ( 2.2%) 
+texdata                 33/2048         1056/65536    ( 1.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1933/65536      108248/3670016  ( 2.9%) 
+hdr faces             1933/65536      108248/3670016  ( 2.9%) 
+origfaces             1837/65536      102872/3670016  ( 2.8%) 
+leaves                 523/65536       16736/2097152  ( 0.8%) 
+leaffaces             2432/65536        4864/131072   ( 3.7%) 
+leafbrushes            925/65536        1850/131072   ( 1.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            16983/512000      67932/2048000  ( 3.3%) 
+edges                10725/256000      42900/1024000  ( 4.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights        136/16384       11968/1441792  ( 0.8%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            126/131072       1260/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          2775/131072       5550/262144   ( 2.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/1024         1408/360448   ( 0.4%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      694588/0        ( 0.0%) 
+visdata               [variable]         727/16777216 ( 0.0%) 
+entdata               [variable]       40373/393216   (10.3%) 
+LDR ambient table      523/65536        2092/262144   ( 0.8%) 
+HDR ambient table      523/65536        2092/262144   ( 0.8%) 
+LDR leaf ambient       523/65536       14644/1835008  ( 0.8%) 
+HDR leaf ambient       934/65536       26152/1835008  ( 1.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4176     ( 0.0%) 
+pakfile               [variable]      376810/0        ( 0.0%) 
+physics               [variable]      264185/4194304  ( 6.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 5436
+Writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+11 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: F:\Shut up and take my money\steamapps\sourcemods\mapbase_episodic\materials
+Loading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 330 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (271353 bytes)
+Placing static props...
+Error loading studio model ""!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 485 texinfos to 277
+Reduced 48 texdatas to 35 (1420 bytes to 866)
+Writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.prt
+  42 portalclusters
+  64 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1136
+Average clusters visible: 27
+Building PAS...
+Average clusters audible: 42
+visdatasize:845  compressed from 672
+writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[97 texlights parsed from 'lights.rad']
+
+[Reading texlights from 'other.rad']
+Warning: Redundant 'lights/light_recessedcool001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_recessedcool002' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_green001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_orange001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white007' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white008' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white009' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white010' def in 'lights.rad' AND 'other.rad'!
+Warning: Overriding 'lights/white011' from 'lights.rad' with 'other.rad'!
+Warning: Overriding 'lights/light_panel_cool' from 'lights.rad' with 'other.rad'!
+Warning: Redundant 'lights/light_panel_warm' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_panel_neutral' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'cs_assault/windowBrightness_illum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'windows/hr_w/inferno/stained_glass_a_selfillum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/hr_single_pane_illum_ambient' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/hr_single_pane_illum_sun' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'de_nuke/nukwindowb_illum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'metal/metalwall102a' def in 'lights.rad' AND 'other.rad'!
+[21 texlights parsed from 'other.rad']
+
+Loading c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+2006 faces
+46900 square feet [6753739.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2006 patches before subdivision
+9530 patches after subdivision
+142 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1774311, max 821
+transfer lists:  13.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(28371, 48971, 42480)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3858, 8488, 6917)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(673, 1933, 1500)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(119, 451, 343)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(23, 113, 85)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 29, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 7, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0024 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+84 of 118 (71% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  30/4096         1440/196608   ( 0.7%) 
+brushes                664/32768        7968/393216   ( 2.0%) 
+brushsides            5365/65536       42920/524288   ( 8.2%) 
+planes                3024/65536       60480/1310720  ( 4.6%) 
+vertexes              3427/65536       41124/786432   ( 5.2%) 
+nodes                  498/65536       15936/2097152  ( 0.8%) 
+texinfos               277/12288       19944/884736   ( 2.3%) 
+texdata                 35/2048         1120/65536    ( 1.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2006/65536      112336/3670016  ( 3.1%) 
+hdr faces             2006/65536      112336/3670016  ( 3.1%) 
+origfaces             1889/65536      105784/3670016  ( 2.9%) 
+leaves                 529/65536       16928/2097152  ( 0.8%) 
+leaffaces             2515/65536        5030/131072   ( 3.8%) 
+leafbrushes            947/65536        1894/131072   ( 1.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            17617/512000      70468/2048000  ( 3.4%) 
+edges                11154/256000      44616/1024000  ( 4.4%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights        142/16384       12496/1441792  ( 0.9%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            135/131072       1350/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          3021/131072       6042/262144   ( 2.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/1024         1408/360448   ( 0.4%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      786340/0        ( 0.0%) 
+visdata               [variable]         845/16777216 ( 0.0%) 
+entdata               [variable]       43478/393216   (11.1%) 
+LDR ambient table      529/65536        2116/262144   ( 0.8%) 
+HDR ambient table      529/65536        2116/262144   ( 0.8%) 
+LDR leaf ambient       529/65536       14812/1835008  ( 0.8%) 
+HDR leaf ambient       948/65536       26544/1835008  ( 1.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4706     ( 0.0%) 
+pakfile               [variable]      440910/0        ( 0.0%) 
+physics               [variable]      271353/4194304  ( 6.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 5700
+Writing c:\users\pc\documents\github\op_cometcage_vmf\rp_humangmi_v2.bsp
+12 seconds elapsed

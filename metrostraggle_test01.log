@@ -1,0 +1,1624 @@
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.vmf
+Could not locate GameData file bin/EntropyZero2.fgd
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (0.00 -60.00 0.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7680.0 0.0 -3472.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8192.0 -512.0 -3472.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (6656.0 0.0 -3472.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 -512.0 -3832.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 -512.0 -3096.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5632.0 0.0 -3472.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8192.0 -1536.0 -3472.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8192.0 -2560.0 -3472.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 342 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (399330 bytes)
+Error loading studio model ""!
+Error! prop_static using model "models/props_interiors/vendingmachinesoda01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_interiors/vendingmachinesoda01a.mdl"!
+Static prop models/props_c17/light_domelight02_on.mdl outside the map (-191.24, 0.00, 206.00)
+Static prop models/props_trainstation/traincar_bars002.mdl outside the map (-190.00, -33.00, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (-255.72, -47.72, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (-257.72, 47.72, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (-127.72, -47.72, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (-129.72, 47.72, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (0.00, 47.72, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (128.28, -47.72, 72.28)
+Static prop models/props_trainstation/traincar_bars001.mdl outside the map (0.28, 33.00, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (126.28, 47.72, 72.28)
+Static prop models/props_trainstation/traincar_bars003.mdl outside the map (190.00, -33.00, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (256.28, -47.72, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (254.28, 47.72, 72.28)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (-127.72, 50.72, 181.00)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (-253.72, 50.72, 181.00)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (-255.72, -50.67, 181.00)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (-127.72, -50.69, 181.00)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (0.28, 50.67, 181.00)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (128.28, 50.71, 181.00)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (128.28, -50.69, 181.00)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (256.28, -50.72, 181.00)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (256.28, 50.70, 181.00)
+Static prop models/props_c17/light_domelight02_on.mdl outside the map (192.00, 0.00, 206.00)
+Static prop models/props_c17/light_domelight02_on.mdl outside the map (64.19, -1.00, 206.00)
+Static prop models/props_c17/light_domelight02_on.mdl outside the map (-64.24, 0.00, 206.00)
+Static prop models/props_c17/light_domelight02_on.mdl outside the map (-191.24, 0.00, 206.00)
+Static prop models/props_trainstation/traincar_bars002.mdl outside the map (-190.00, -33.00, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (-255.72, -47.72, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (-257.72, 47.72, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (-127.72, -47.72, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (-129.72, 47.72, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (0.00, 47.72, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (128.28, -47.72, 72.28)
+Static prop models/props_trainstation/traincar_bars001.mdl outside the map (0.28, 33.00, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (126.28, 47.72, 72.28)
+Static prop models/props_trainstation/traincar_bars003.mdl outside the map (190.00, -33.00, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (256.28, -47.72, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (254.28, 47.72, 72.28)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (-127.72, 50.72, 181.00)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (-253.72, 50.72, 181.00)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (-255.72, -50.67, 181.00)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (-127.72, -50.69, 181.00)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (0.28, 50.67, 181.00)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (128.28, 50.71, 181.00)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (128.28, -50.69, 181.00)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (256.28, -50.72, 181.00)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (256.28, 50.70, 181.00)
+Static prop models/props_c17/light_domelight02_on.mdl outside the map (192.00, 0.00, 206.00)
+Static prop models/props_c17/light_domelight02_on.mdl outside the map (64.19, -1.00, 206.00)
+Static prop models/props_c17/light_domelight02_on.mdl outside the map (-64.24, 0.00, 206.00)
+Static prop models/props_c17/light_domelight02_on.mdl outside the map (-191.24, 0.00, 206.00)
+Static prop models/props_trainstation/traincar_bars002.mdl outside the map (-190.00, -33.00, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (-255.72, -47.72, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (-257.72, 47.72, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (-127.72, -47.72, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (-129.72, 47.72, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (0.00, 47.72, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (128.28, -47.72, 72.28)
+Static prop models/props_trainstation/traincar_bars001.mdl outside the map (0.28, 33.00, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (126.28, 47.72, 72.28)
+Static prop models/props_trainstation/traincar_bars003.mdl outside the map (190.00, -33.00, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (256.28, -47.72, 72.28)
+Static prop models/props_trainstation/traincar_seats001.mdl outside the map (254.28, 47.72, 72.28)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (-127.72, 50.72, 181.00)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (-253.72, 50.72, 181.00)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (-255.72, -50.67, 181.00)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (-127.72, -50.69, 181.00)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (0.28, 50.67, 181.00)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (128.28, 50.71, 181.00)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (128.28, -50.69, 181.00)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (256.28, -50.72, 181.00)
+Static prop models/props_trainstation/traincar_rack001.mdl outside the map (256.28, 50.70, 181.00)
+Static prop models/props_c17/light_domelight02_on.mdl outside the map (192.00, 0.00, 206.00)
+Static prop models/props_c17/light_domelight02_on.mdl outside the map (64.19, -1.00, 206.00)
+Static prop models/props_c17/light_domelight02_on.mdl outside the map (-64.24, 0.00, 206.00)
+Error! prop_static using model "models/props/cs_office/tv_plasma.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props/cs_office/tv_plasma.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1249 texinfos to 482
+Reduced 72 texdatas to 66 (1808 bytes to 1560)
+Writing C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.bsp
+6 seconds elapsed
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.prt
+LoadPortals: couldn't read c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.prt
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file bin/EntropyZero2.fgd
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (0.00 -60.00 0.00) leaked!
+--- MAP LEAKED ---
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.prt
+LoadPortals: couldn't read c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file bin/EntropyZero2.fgd
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 120 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (288708 bytes)
+Placing static props...
+Error loading studio model ""!
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file bin/EntropyZero2.fgd
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (0.00 -60.00 0.00) leaked!
+--- MAP LEAKED ---
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.prt
+LoadPortals: couldn't read c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+No vis information, direct lighting only.
+Loaded alpha texture materials\Dev\dev_measuregeneric_glass01a.vtf
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file bin/EntropyZero2.fgd
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity logic_relay (100.00 -16.00 0.00) leaked!
+--- MAP LEAKED ---
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.prt
+LoadPortals: couldn't read c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file bin/EntropyZero2.fgd
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (0.00 -60.00 0.00) leaked!
+--- MAP LEAKED ---
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.prt
+LoadPortals: couldn't read c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file bin/EntropyZero2.fgd
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (0.00 -60.00 0.00) leaked!
+--- MAP LEAKED ---
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.prt
+LoadPortals: couldn't read c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+No vis information, direct lighting only.
+Loaded alpha texture materials\Dev\dev_measuregeneric_glass01a.vtf
+Loaded alpha texture materials\Vehicle\metaltrainglass001a.vtf
+Loaded alpha texture materials\Vehicle\metaltrainglass001b.vtf
+Loaded alpha texture materials\Vehicle\metaltrainglass002b.vtf
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file bin/EntropyZero2.fgd
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-127.72 -50.69 181.00) leaked!
+--- MAP LEAKED ---
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.prt
+LoadPortals: couldn't read c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+No vis information, direct lighting only.
+Loaded alpha texture materials\Dev\dev_measuregeneric_glass01a.vtf
+Loaded alpha texture materials\Vehicle\metaltrainglass001a.vtf
+Loaded alpha texture materials\Vehicle\metaltrainglass001b.vtf
+Loaded alpha texture materials\Vehicle\metaltrainglass002b.vtf
+Loaded alpha texture materials\Vehicle\metaltrainglass002a.vtf
+Loaded alpha texture materials\Metal\metalgrate013a.vtf
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file bin/EntropyZero2.fgd
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 336 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (398226 bytes)
+Placing static props...
+Error loading studio model ""!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 988 texinfos to 471
+Reduced 77 texdatas to 66 (2083 bytes to 1560)
+Writing C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.bsp
+3 seconds elapsed
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.prt
+ 145 portalclusters
+ 303 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 16 visible clusters (0.00%)
+Total clusters visible: 4105
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 47
+visdatasize:4719  compressed from 6960
+writing c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+Loaded alpha texture materials\Dev\dev_measuregeneric_glass01a.vtf
+Loaded alpha texture materials\Vehicle\metaltrainglass002a.vtf
+Loaded alpha texture materials\Vehicle\metaltrainglass001b.vtf
+Loaded alpha texture materials\Vehicle\metaltrainglass001a.vtf
+Loaded alpha texture materials\Vehicle\metaltrainglass002b.vtf
+Loaded alpha texture materials\Metal\metalgrate013a.vtf
+Loaded alpha texture materials\glass\combineglass001a.vtf
+Loaded alpha texture materials\Glass\glasswindow007a.vtf
+2881 faces
+12 degenerate faces
+194959 square feet [28074140.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2869 patches before subdivision
+35991 patches after subdivision
+44 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3239055, max 443
+transfer lists:  24.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4578, 9746, 10935)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2620, 5984, 6302)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1649, 3785, 3762)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1125, 2565, 2361)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(756, 1707, 1461)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(517, 1156, 915)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(351, 777, 570)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(240, 525, 356)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(163, 354, 222)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(111, 239, 139)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(76, 161, 87)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(52, 109, 54)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(35, 73, 34)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(24, 50, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(16, 33, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(11, 23, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(8, 15, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(5, 10, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(4, 7, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(2, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(2, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #22 added RGB(1, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #23 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #24 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0134 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  12/4096          576/196608   ( 0.3%) 
+brushes               1178/32768       14136/393216   ( 3.6%) 
+brushsides           10097/65536       80776/524288   (15.4%) 
+planes                7312/65536      146240/1310720  (11.2%) 
+vertexes              4959/65536       59508/786432   ( 7.6%) 
+nodes                  719/65536       23008/2097152  ( 1.1%) 
+texinfos               471/12288       33912/884736   ( 3.8%) 
+texdata                 66/2048         2112/65536    ( 3.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2881/65536      161336/3670016  ( 4.4%) 
+hdr faces             2881/65536      161336/3670016  ( 4.4%) 
+origfaces             2432/65536      136192/3670016  ( 3.7%) 
+leaves                 732/65536       23424/2097152  ( 1.1%) 
+leaffaces             3213/65536        6426/131072   ( 4.9%) 
+leafbrushes           1428/65536        2856/131072   ( 2.2%) 
+areas                    9/1024           72/8192     ( 0.9%) 
+surfedges            25055/512000     100220/2048000  ( 4.9%) 
+edges                16986/256000      67944/1024000  ( 6.6%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights         44/16384        3872/1441792  ( 0.3%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            277/131072       2770/1310720  ( 0.2%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          9762/131072      19524/262144   ( 7.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 5/1024         1760/360448   ( 0.5%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1112436/0        ( 0.0%) 
+visdata               [variable]        4719/16777216 ( 0.0%) 
+entdata               [variable]       60095/393216   (15.3%) 
+LDR ambient table      732/65536        2928/262144   ( 1.1%) 
+HDR ambient table      732/65536        2928/262144   ( 1.1%) 
+LDR leaf ambient       732/65536       20496/1835008  ( 1.1%) 
+HDR leaf ambient       701/65536       19628/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11112    ( 0.0%) 
+pakfile               [variable]      615281/0        ( 0.0%) 
+physics               [variable]      398226/4194304  ( 9.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 9451
+Writing c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+27 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file bin/EntropyZero2.fgd
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 336 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (397676 bytes)
+Placing static props...
+Error loading studio model ""!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 982 texinfos to 468
+Reduced 77 texdatas to 66 (2083 bytes to 1560)
+Writing C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.bsp
+6 seconds elapsed
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.prt
+ 145 portalclusters
+ 303 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 16 visible clusters (0.00%)
+Total clusters visible: 4105
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 47
+visdatasize:4719  compressed from 6960
+writing c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+Loaded alpha texture materials\Dev\dev_measuregeneric_glass01a.vtf
+Loaded alpha texture materials\Vehicle\metaltrainglass001a.vtf
+Loaded alpha texture materials\Vehicle\metaltrainglass001b.vtf
+Loaded alpha texture materials\Vehicle\metaltrainglass002b.vtf
+Loaded alpha texture materials\Vehicle\metaltrainglass002a.vtf
+Loaded alpha texture materials\Metal\metalgrate013a.vtf
+Loaded alpha texture materials\glass\combineglass001a.vtf
+Loaded alpha texture materials\Glass\glasswindow007a.vtf
+2875 faces
+12 degenerate faces
+194942 square feet [28071720.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2863 patches before subdivision
+35999 patches after subdivision
+44 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3239798, max 443
+transfer lists:  24.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4585, 9764, 10955)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2624, 5992, 6310)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1652, 3791, 3768)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1126, 2569, 2364)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(757, 1710, 1463)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(518, 1158, 916)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(352, 778, 571)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(240, 526, 357)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(163, 355, 223)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(112, 239, 139)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(76, 161, 87)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(52, 109, 54)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(35, 74, 34)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(24, 50, 21)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(16, 33, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(11, 23, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(8, 15, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(5, 10, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(4, 7, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(2, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(2, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #22 added RGB(1, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #23 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #24 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0164 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/4096          528/196608   ( 0.3%) 
+brushes               1177/32768       14124/393216   ( 3.6%) 
+brushsides           10091/65536       80728/524288   (15.4%) 
+planes                7288/65536      145760/1310720  (11.1%) 
+vertexes              4951/65536       59412/786432   ( 7.6%) 
+nodes                  713/65536       22816/2097152  ( 1.1%) 
+texinfos               468/12288       33696/884736   ( 3.8%) 
+texdata                 66/2048         2112/65536    ( 3.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2875/65536      161000/3670016  ( 4.4%) 
+hdr faces             2875/65536      161000/3670016  ( 4.4%) 
+origfaces             2426/65536      135856/3670016  ( 3.7%) 
+leaves                 725/65536       23200/2097152  ( 1.1%) 
+leaffaces             3207/65536        6414/131072   ( 4.9%) 
+leafbrushes           1427/65536        2854/131072   ( 2.2%) 
+areas                    9/1024           72/8192     ( 0.9%) 
+surfedges            25005/512000     100020/2048000  ( 4.9%) 
+edges                16960/256000      67840/1024000  ( 6.6%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights         44/16384        3872/1441792  ( 0.3%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            277/131072       2770/1310720  ( 0.2%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          9762/131072      19524/262144   ( 7.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 5/1024         1760/360448   ( 0.5%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1112404/0        ( 0.0%) 
+visdata               [variable]        4719/16777216 ( 0.0%) 
+entdata               [variable]       57553/393216   (14.6%) 
+LDR ambient table      725/65536        2900/262144   ( 1.1%) 
+HDR ambient table      725/65536        2900/262144   ( 1.1%) 
+LDR leaf ambient       725/65536       20300/1835008  ( 1.1%) 
+HDR leaf ambient       695/65536       19460/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11112    ( 0.0%) 
+pakfile               [variable]      615281/0        ( 0.0%) 
+physics               [variable]      397676/4194304  ( 9.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 9439
+Writing c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+41 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.vmf
+Can't find surfaceprop sheetrock for material PLASTER/PLASTER_CEILING_01, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file bin/EntropyZero2.fgd
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity func_breakable (0.00 0.00 2.62) leaked!
+--- MAP LEAKED ---
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.prt
+LoadPortals: couldn't read c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+Loaded alpha texture materials\Metal\metalgrate013a.vtf
+2875 faces
+12 degenerate faces
+194942 square feet [28071720.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2863 patches before subdivision
+35999 patches after subdivision
+44 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3531104, max 475
+transfer lists:  26.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5212, 10803, 11982)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2837, 6394, 6680)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1746, 3975, 3933)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1174, 2660, 2439)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(782, 1755, 1497)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(530, 1179, 930)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(358, 787, 575)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(242, 528, 357)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(164, 353, 221)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(111, 237, 137)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(75, 159, 85)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(51, 106, 53)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(35, 71, 33)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(23, 48, 20)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(16, 32, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(11, 21, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(7, 14, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(5, 10, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(3, 6, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(2, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(2, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #22 added RGB(1, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #23 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #24 added RGB(0, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0110 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/4096          528/196608   ( 0.3%) 
+brushes               1177/32768       14124/393216   ( 3.6%) 
+brushsides           10091/65536       80728/524288   (15.4%) 
+planes                7288/65536      145760/1310720  (11.1%) 
+vertexes              4951/65536       59412/786432   ( 7.6%) 
+nodes                  713/65536       22816/2097152  ( 1.1%) 
+texinfos               468/12288       33696/884736   ( 3.8%) 
+texdata                 66/2048         2112/65536    ( 3.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2875/65536      161000/3670016  ( 4.4%) 
+hdr faces             2875/65536      161000/3670016  ( 4.4%) 
+origfaces             2426/65536      135856/3670016  ( 3.7%) 
+leaves                 725/65536       23200/2097152  ( 1.1%) 
+leaffaces             3207/65536        6414/131072   ( 4.9%) 
+leafbrushes           1427/65536        2854/131072   ( 2.2%) 
+areas                    9/1024           72/8192     ( 0.9%) 
+surfedges            25005/512000     100020/2048000  ( 4.9%) 
+edges                16960/256000      67840/1024000  ( 6.6%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights         44/16384        3872/1441792  ( 0.3%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            277/131072       2770/1310720  ( 0.2%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          9762/131072      19524/262144   ( 7.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 5/1024         1760/360448   ( 0.5%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1112404/0        ( 0.0%) 
+visdata               [variable]        4719/16777216 ( 0.0%) 
+entdata               [variable]       57553/393216   (14.6%) 
+LDR ambient table      725/65536        2900/262144   ( 1.1%) 
+HDR ambient table      725/65536        2900/262144   ( 1.1%) 
+LDR leaf ambient       725/65536       20300/1835008  ( 1.1%) 
+HDR leaf ambient       696/65536       19488/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11112    ( 0.0%) 
+pakfile               [variable]      615281/0        ( 0.0%) 
+physics               [variable]      397676/4194304  ( 9.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 9439
+Writing c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+28 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.vmf
+Can't find surfaceprop sheetrock for material PLASTER/PLASTER_CEILING_01, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file bin/EntropyZero2.fgd
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity func_breakable (0.00 0.00 2.62) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (7680.0 0.0 -3472.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8192.0 -512.0 -3472.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (6656.0 0.0 -3472.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 -512.0 -3832.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5120.0 -512.0 -3096.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (5632.0 0.0 -3472.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8192.0 -1536.0 -3472.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8192.0 -2560.0 -3472.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 418 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (528646 bytes)
+Placing static props...
+Error loading studio model ""!
+Static prop models/props/cs_office/fire_extinguisher.mdl outside the map (-4.00, 0.00, -8.08)
+Static prop models/props/cs_office/fire_extinguisher.mdl outside the map (-4.00, 0.00, -8.08)
+Static prop models/props/cs_office/fire_extinguisher.mdl outside the map (-4.00, 0.00, -8.08)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2035 texinfos to 802
+Reduced 260 texdatas to 204 (12702 bytes to 10600)
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.vmf
+Can't find surfaceprop sheetrock for material PLASTER/PLASTER_CEILING_01, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.vmf
+Can't find surfaceprop sheetrock for material PLASTER/PLASTER_CEILING_01, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file bin/EntropyZero2.fgd
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 418 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (529038 bytes)
+Placing static props...
+Error loading studio model ""!
+Static prop models/props/cs_office/fire_extinguisher.mdl outside the map (-4.00, 0.00, -8.08)
+Static prop models/props/cs_office/fire_extinguisher.mdl outside the map (-4.00, 0.00, -8.08)
+Static prop models/props/cs_office/fire_extinguisher.mdl outside the map (-4.00, 0.00, -8.08)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2035 texinfos to 796
+Reduced 260 texdatas to 204 (12702 bytes to 10600)
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.vmf
+Can't find surfaceprop sheetrock for material PLASTER/PLASTER_CEILING_01, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 418 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (529038 bytes)
+Placing static props...
+Error loading studio model ""!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2035 texinfos to 796
+Reduced 260 texdatas to 204 (12702 bytes to 10600)
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.vmf
+Can't find surfaceprop sheetrock for material PLASTER/PLASTER_CEILING_01, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 418 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (528646 bytes)
+Placing static props...
+Error loading studio model ""!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2035 texinfos to 796
+Reduced 260 texdatas to 204 (12702 bytes to 10600)
+Writing C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.bsp
+25 seconds elapsed
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.prt
+ 216 portalclusters
+ 483 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 35 visible clusters (0.00%)
+Total clusters visible: 7971
+Average clusters visible: 36
+Building PAS...
+Average clusters audible: 73
+visdatasize:8769  compressed from 13824
+writing c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+Loaded alpha texture materials\models\props_foliage\Mall_trees_branches01.vtf
+Loaded alpha texture materials\Metal\metalgrate013a.vtf
+3601 faces
+14 degenerate faces
+206127 square feet [29682332.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3587 patches before subdivision
+39117 patches after subdivision
+86 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3785512, max 475
+transfer lists:  28.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(51229, 64682, 47208)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(36198, 44893, 29518)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(24478, 29561, 17627)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(17588, 20831, 11288)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(12381, 14373, 7080)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(8901, 10157, 4560)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(6366, 7150, 2929)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(4593, 5087, 1906)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3314, 3626, 1245)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2403, 2600, 820)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1744, 1870, 544)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1270, 1352, 363)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(927, 980, 243)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(678, 713, 164)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(497, 521, 111)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(365, 381, 76)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(268, 280, 52)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(197, 206, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(146, 152, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(107, 112, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(79, 83, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #22 added RGB(59, 62, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #23 added RGB(44, 46, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #24 added RGB(32, 34, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #25 added RGB(24, 25, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #26 added RGB(18, 19, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #27 added RGB(13, 14, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #28 added RGB(10, 11, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #29 added RGB(7, 8, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #30 added RGB(5, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #31 added RGB(4, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #32 added RGB(3, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #33 added RGB(2, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #34 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #35 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #36 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #37 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0068 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/4096         1008/196608   ( 0.5%) 
+brushes               1532/32768       18384/393216   ( 4.7%) 
+brushsides           14241/65536      113928/524288   (21.7%) 
+planes               12774/65536      255480/1310720  (19.5%) 
+vertexes              6223/65536       74676/786432   ( 9.5%) 
+nodes                 1135/65536       36320/2097152  ( 1.7%) 
+texinfos               796/12288       57312/884736   ( 6.5%) 
+texdata                204/2048         6528/65536    (10.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3601/65536      201656/3670016  ( 5.5%) 
+hdr faces             3601/65536      201656/3670016  ( 5.5%) 
+origfaces             3100/65536      173600/3670016  ( 4.7%) 
+leaves                1157/65536       37024/2097152  ( 1.8%) 
+leaffaces             4116/65536        8232/131072   ( 6.3%) 
+leafbrushes           1899/65536        3798/131072   ( 2.9%) 
+areas                    9/1024           72/8192     ( 0.9%) 
+surfedges            31275/512000     125100/2048000  ( 6.1%) 
+edges                21238/256000      84952/1024000  ( 8.3%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights         86/16384        7568/1441792  ( 0.5%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            319/131072       3190/1310720  ( 0.2%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices         11547/131072      23094/262144   ( 8.8%) 
+cubemapsamples          11/1024          176/16384    ( 1.1%) 
+overlays                25/1024         8800/360448   ( 2.4%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1389552/0        ( 0.0%) 
+visdata               [variable]        8769/16777216 ( 0.1%) 
+entdata               [variable]      103529/393216   (26.3%) 
+LDR ambient table     1157/65536        4628/262144   ( 1.8%) 
+HDR ambient table     1157/65536        4628/262144   ( 1.8%) 
+LDR leaf ambient      1157/65536       32396/1835008  ( 1.8%) 
+HDR leaf ambient      1726/65536       48328/1835008  ( 2.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/24342    ( 0.0%) 
+pakfile               [variable]     1439651/0        ( 0.0%) 
+physics               [variable]      528646/4194304  (12.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 11568
+Writing c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+43 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.vmf
+Can't find surfaceprop sheetrock for material PLASTER/PLASTER_CEILING_01, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 418 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (528096 bytes)
+Placing static props...
+Error loading studio model ""!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2029 texinfos to 793
+Reduced 260 texdatas to 204 (12702 bytes to 10600)
+Writing C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.bsp
+25 seconds elapsed
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.prt
+ 212 portalclusters
+ 472 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 28 visible clusters (0.00%)
+Total clusters visible: 7700
+Average clusters visible: 36
+Building PAS...
+Average clusters audible: 71
+visdatasize:8727  compressed from 13568
+writing c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+Loaded alpha texture materials\models\props_foliage\Mall_trees_branches01.vtf
+Loaded alpha texture materials\Metal\metalgrate013a.vtf
+3595 faces
+14 degenerate faces
+206110 square feet [29679916.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3581 patches before subdivision
+39111 patches after subdivision
+86 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3785147, max 475
+transfer lists:  28.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(39514, 54733, 43835)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(27381, 37343, 27068)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(18292, 24240, 15999)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(13020, 16881, 10136)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(9088, 11509, 6291)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(6483, 8042, 4006)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4603, 5599, 2544)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(3298, 3941, 1637)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2365, 2780, 1057)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1704, 1974, 688)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1230, 1407, 451)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(891, 1008, 297)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(647, 725, 197)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(471, 523, 132)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(344, 379, 89)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(251, 276, 60)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(184, 201, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(135, 147, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(99, 108, 19)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(73, 80, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(54, 59, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #22 added RGB(40, 43, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #23 added RGB(29, 32, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #24 added RGB(22, 24, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #25 added RGB(16, 18, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #26 added RGB(12, 13, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #27 added RGB(9, 10, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #28 added RGB(7, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #29 added RGB(5, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #30 added RGB(4, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #31 added RGB(3, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #32 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #33 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #34 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #35 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0119 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  20/4096          960/196608   ( 0.5%) 
+brushes               1531/32768       18372/393216   ( 4.7%) 
+brushsides           14235/65536      113880/524288   (21.7%) 
+planes               12754/65536      255080/1310720  (19.5%) 
+vertexes              6215/65536       74580/786432   ( 9.5%) 
+nodes                 1125/65536       36000/2097152  ( 1.7%) 
+texinfos               793/12288       57096/884736   ( 6.5%) 
+texdata                204/2048         6528/65536    (10.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3595/65536      201320/3670016  ( 5.5%) 
+hdr faces             3595/65536      201320/3670016  ( 5.5%) 
+origfaces             3094/65536      173264/3670016  ( 4.7%) 
+leaves                1146/65536       36672/2097152  ( 1.7%) 
+leaffaces             4103/65536        8206/131072   ( 6.3%) 
+leafbrushes           1898/65536        3796/131072   ( 2.9%) 
+areas                    9/1024           72/8192     ( 0.9%) 
+surfedges            31227/512000     124908/2048000  ( 6.1%) 
+edges                21214/256000      84856/1024000  ( 8.3%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights         86/16384        7568/1441792  ( 0.5%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            319/131072       3190/1310720  ( 0.2%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices         11547/131072      23094/262144   ( 8.8%) 
+cubemapsamples          11/1024          176/16384    ( 1.1%) 
+overlays                25/1024         8800/360448   ( 2.4%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1389552/0        ( 0.0%) 
+visdata               [variable]        8727/16777216 ( 0.1%) 
+entdata               [variable]      100994/393216   (25.7%) 
+LDR ambient table     1146/65536        4584/262144   ( 1.7%) 
+HDR ambient table     1146/65536        4584/262144   ( 1.7%) 
+LDR leaf ambient      1146/65536       32088/1835008  ( 1.7%) 
+HDR leaf ambient      1717/65536       48076/1835008  ( 2.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/24342    ( 0.0%) 
+pakfile               [variable]     1439651/0        ( 0.0%) 
+physics               [variable]      528096/4194304  (12.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 11556
+Writing c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+48 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.vmf
+Can't find surfaceprop sheetrock for material PLASTER/PLASTER_CEILING_01, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_dynamic (4488.00 -2896.00 -3616.00) leaked!
+--- MAP LEAKED ---
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.prt
+LoadPortals: couldn't read c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+Loaded alpha texture materials\models\props_foliage\Mall_trees_branches01.vtf
+Loaded alpha texture materials\Dev\dev_measuregeneric_glass01a.vtf
+Loaded alpha texture materials\Metal\metalgrate013a.vtf
+3595 faces
+14 degenerate faces
+206110 square feet [29679916.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3581 patches before subdivision
+39111 patches after subdivision
+86 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3469090, max 443
+transfer lists:  26.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(38357, 53122, 42456)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(26733, 36491, 26454)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(17882, 23735, 15671)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(12734, 16554, 9953)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(8885, 11292, 6183)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(6336, 7895, 3942)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4497, 5497, 2506)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(3220, 3870, 1613)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2307, 2730, 1042)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1661, 1938, 679)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1198, 1381, 444)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(867, 989, 293)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(629, 711, 194)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(458, 513, 130)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(334, 371, 87)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(244, 270, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(178, 197, 40)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(131, 144, 27)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(96, 106, 19)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(71, 78, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(52, 57, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #22 added RGB(38, 42, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #23 added RGB(28, 31, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #24 added RGB(21, 23, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #25 added RGB(16, 17, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #26 added RGB(12, 13, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #27 added RGB(9, 10, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #28 added RGB(6, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #29 added RGB(5, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #30 added RGB(3, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #31 added RGB(3, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #32 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #33 added RGB(1, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #34 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #35 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0084 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  20/4096          960/196608   ( 0.5%) 
+brushes               1531/32768       18372/393216   ( 4.7%) 
+brushsides           14235/65536      113880/524288   (21.7%) 
+planes               12754/65536      255080/1310720  (19.5%) 
+vertexes              6215/65536       74580/786432   ( 9.5%) 
+nodes                 1125/65536       36000/2097152  ( 1.7%) 
+texinfos               793/12288       57096/884736   ( 6.5%) 
+texdata                204/2048         6528/65536    (10.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3595/65536      201320/3670016  ( 5.5%) 
+hdr faces             3595/65536      201320/3670016  ( 5.5%) 
+origfaces             3094/65536      173264/3670016  ( 4.7%) 
+leaves                1146/65536       36672/2097152  ( 1.7%) 
+leaffaces             4103/65536        8206/131072   ( 6.3%) 
+leafbrushes           1898/65536        3796/131072   ( 2.9%) 
+areas                    9/1024           72/8192     ( 0.9%) 
+surfedges            31227/512000     124908/2048000  ( 6.1%) 
+edges                21214/256000      84856/1024000  ( 8.3%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights         86/16384        7568/1441792  ( 0.5%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            319/131072       3190/1310720  ( 0.2%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices         11547/131072      23094/262144   ( 8.8%) 
+cubemapsamples          11/1024          176/16384    ( 1.1%) 
+overlays                25/1024         8800/360448   ( 2.4%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1389552/0        ( 0.0%) 
+visdata               [variable]        8727/16777216 ( 0.1%) 
+entdata               [variable]      100994/393216   (25.7%) 
+LDR ambient table     1146/65536        4584/262144   ( 1.7%) 
+HDR ambient table     1146/65536        4584/262144   ( 1.7%) 
+LDR leaf ambient      1146/65536       32088/1835008  ( 1.7%) 
+HDR leaf ambient      1715/65536       48020/1835008  ( 2.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/24342    ( 0.0%) 
+pakfile               [variable]     1439651/0        ( 0.0%) 
+physics               [variable]      528096/4194304  (12.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 11556
+Writing c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+1 minute, 2 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.vmf
+Can't find surfaceprop sheetrock for material PLASTER/PLASTER_CEILING_01, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 454 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (665211 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2259 texinfos to 911
+Reduced 291 texdatas to 230 (14050 bytes to 11760)
+Writing C:\Users\PC\Documents\GitHub\op_cometcage_vmf\metrostraggle_test01.bsp
+35 seconds elapsed
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.prt
+ 247 portalclusters
+ 526 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 35 visible clusters (0.00%)
+Total clusters visible: 10478
+Average clusters visible: 42
+Building PAS...
+Average clusters audible: 94
+visdatasize:11418  compressed from 15808
+writing c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+Loaded alpha texture materials\models\props_foliage\Mall_trees_branches01.vtf
+Loaded alpha texture materials\Metal\metalgrate013a.vtf
+4391 faces
+18 degenerate faces
+217275 square feet [31287702.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4373 patches before subdivision
+42109 patches after subdivision
+138 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3712565, max 452
+transfer lists:  28.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(60987, 87339, 69962)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(41052, 58589, 43122)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(26609, 37215, 25278)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(18166, 25034, 15635)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(12169, 16447, 9459)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(8298, 11029, 5837)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(5623, 7341, 3579)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(3836, 4927, 2213)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2613, 3301, 1368)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1785, 2221, 849)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1220, 1495, 528)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(835, 1009, 329)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(571, 681, 206)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(392, 461, 129)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(269, 312, 81)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(184, 212, 51)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(127, 144, 32)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(87, 98, 20)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(60, 67, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(41, 46, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(28, 31, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #22 added RGB(20, 21, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #23 added RGB(14, 15, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #24 added RGB(9, 10, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #25 added RGB(6, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #26 added RGB(4, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #27 added RGB(3, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #28 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #29 added RGB(1, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #30 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #31 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0134 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  28/4096         1344/196608   ( 0.7%) 
+brushes               1902/32768       22824/393216   ( 5.8%) 
+brushsides           18240/65536      145920/524288   (27.8%) 
+planes               18040/65536      360800/1310720  (27.5%) 
+vertexes              7574/65536       90888/786432   (11.6%) 
+nodes                 1498/65536       47936/2097152  ( 2.3%) 
+texinfos               911/12288       65592/884736   ( 7.4%) 
+texdata                230/2048         7360/65536    (11.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4391/65536      245896/3670016  ( 6.7%) 
+hdr faces             4391/65536      245896/3670016  ( 6.7%) 
+origfaces             3875/65536      217000/3670016  ( 5.9%) 
+leaves                1527/65536       48864/2097152  ( 2.3%) 
+leaffaces             4985/65536        9970/131072   ( 7.6%) 
+leafbrushes           2329/65536        4658/131072   ( 3.6%) 
+areas                    9/1024           72/8192     ( 0.9%) 
+surfedges            38309/512000     153236/2048000  ( 7.5%) 
+edges                26023/256000     104092/1024000  (10.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights        138/16384       12144/1441792  ( 0.8%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            389/131072       3890/1310720  ( 0.3%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices         13701/131072      27402/262144   (10.5%) 
+cubemapsamples          11/1024          176/16384    ( 1.1%) 
+overlays                43/1024        15136/360448   ( 4.2%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1843004/0        ( 0.0%) 
+visdata               [variable]       11418/16777216 ( 0.1%) 
+entdata               [variable]      145181/393216   (36.9%) 
+LDR ambient table     1527/65536        6108/262144   ( 2.3%) 
+HDR ambient table     1527/65536        6108/262144   ( 2.3%) 
+LDR leaf ambient      1527/65536       42756/1835008  ( 2.3%) 
+HDR leaf ambient      2799/65536       78372/1835008  ( 4.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/38512    ( 0.0%) 
+pakfile               [variable]     2430467/0        ( 0.0%) 
+physics               [variable]      665211/4194304  (15.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 13963
+Writing c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
+1 minute, 56 seconds elapsed

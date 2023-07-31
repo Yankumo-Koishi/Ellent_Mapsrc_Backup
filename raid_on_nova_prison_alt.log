@@ -1,0 +1,985 @@
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: F:\Shut up and take my money\steamapps\sourcemods\mapbase_episodic\materials
+Loading C:\Users\PC\Documents\GitHub\op_cometcage_vmf\raid_on_nova_prison_alt.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Cannot find parallax obb "prison_pcb_08" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Patching WVT material: maps/raid_on_nova_prison_alt/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 598 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\PC\Documents\GitHub\op_cometcage_vmf\raid_on_nova_prison_alt.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (957415 bytes)
+Placing static props...
+Error loading studio model ""!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2381 texinfos to 1377
+Reduced 436 texdatas to 360 (19756 bytes to 17030)
+Writing C:\Users\PC\Documents\GitHub\op_cometcage_vmf\raid_on_nova_prison_alt.bsp
+18 seconds elapsed
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\raid_on_nova_prison_alt.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\raid_on_nova_prison_alt.prt
+ 505 portalclusters
+ 963 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 149 visible clusters (0.00%)
+Total clusters visible: 27131
+Average clusters visible: 53
+Building PAS...
+Average clusters audible: 132
+visdatasize:30765  compressed from 64640
+writing c:\users\pc\documents\github\op_cometcage_vmf\raid_on_nova_prison_alt.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[97 texlights parsed from 'lights.rad']
+
+[Reading texlights from 'other.rad']
+Warning: Redundant 'lights/light_recessedcool001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_recessedcool002' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_green001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_orange001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white007' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white008' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white009' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white010' def in 'lights.rad' AND 'other.rad'!
+Warning: Overriding 'lights/white011' from 'lights.rad' with 'other.rad'!
+Warning: Overriding 'lights/light_panel_cool' from 'lights.rad' with 'other.rad'!
+Warning: Redundant 'lights/light_panel_warm' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_panel_neutral' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'cs_assault/windowBrightness_illum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'windows/hr_w/inferno/stained_glass_a_selfillum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/hr_single_pane_illum_ambient' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/hr_single_pane_illum_sun' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'de_nuke/nukwindowb_illum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'metal/metalwall102a' def in 'lights.rad' AND 'other.rad'!
+[21 texlights parsed from 'other.rad']
+
+Loading c:\users\pc\documents\github\op_cometcage_vmf\raid_on_nova_prison_alt.bsp
+Loaded alpha texture materials\Models\props_wasteland\fence_alpha.vtf
+Loaded alpha texture materials\models\props_foliage\tree_deciduous_01a_branches.vtf
+Loaded alpha texture materials\models\props_foliage\tree_deciduous_01a_leaves.vtf
+Loaded alpha texture materials\models\props_foliage\tree_deciduous_01a_branches.vtf
+Loaded alpha texture materials\models\props_foliage\tree_deciduous_01a_leaves.vtf
+Loaded alpha texture materials\Glass\glasswindow008d.vtf
+Loaded alpha texture materials\Metal\metalgrate014a.vtf
+Loaded alpha texture materials\Metal\metalfence007a.vtf
+Loaded alpha texture materials\Metal\metalgrate001a.vtf
+Loaded alpha texture materials\Metal\metalfence001a.vtf
+6973 faces
+572053 square feet [82375656.00 square inches]
+2 Displacements
+1934 Square Feet [278527.97 Square Inches]
+6973 patches before subdivision
+120075 patches after subdivision
+341 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11963587, max 657
+transfer lists:  91.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(87613, 85225, 61323)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(18892, 18733, 11543)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4816, 4667, 2401)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1361, 1260, 539)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(411, 357, 125)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(130, 105, 30)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(43, 32, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(15, 10, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(5, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0406 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+129 of 138 (93% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  55/4096         2640/196608   ( 1.3%) 
+brushes               2748/32768       32976/393216   ( 8.4%) 
+brushsides           19655/65536      157240/524288   (30.0%) 
+planes                6490/65536      129800/1310720  ( 9.9%) 
+vertexes             12107/65536      145284/786432   (18.5%) 
+nodes                 1879/65536       60128/2097152  ( 2.9%) 
+texinfos              1377/12288       99144/884736   (11.2%) 
+texdata                360/2048        11520/65536    (17.6%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_lmsamples        5152/0            5152/0        ( 0.0%) 
+faces                 6973/65536      390488/3670016  (10.6%) 
+hdr faces             6973/65536      390488/3670016  (10.6%) 
+origfaces             5567/65536      311752/3670016  ( 8.5%) 
+leaves                1935/65536       61920/2097152  ( 3.0%) 
+leaffaces             8138/65536       16276/131072   (12.4%) 
+leafbrushes           3930/65536        7860/131072   ( 6.0%) 
+areas                    8/1024           64/8192     ( 0.8%) 
+surfedges            59122/512000     236488/2048000  (11.5%) 
+edges                39093/256000     156372/1024000  (15.3%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights        341/16384       30008/1441792  ( 2.1%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1049/131072      10490/1310720  ( 0.8%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices         22533/131072      45066/262144   (17.2%) 
+cubemapsamples          68/1024         1088/16384    ( 6.6%) 
+overlays                72/1024        25344/360448   ( 7.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     5869068/0        ( 0.0%) 
+visdata               [variable]       30765/16777216 ( 0.2%) 
+entdata               [variable]      336587/393216   (85.6%) VERY FULL!
+LDR ambient table     1935/65536        7740/262144   ( 3.0%) 
+HDR ambient table     1935/65536        7740/262144   ( 3.0%) 
+LDR leaf ambient      1935/65536       54180/1835008  ( 3.0%) 
+HDR leaf ambient      7274/65536      203672/1835008  (11.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/88226    ( 0.0%) 
+pakfile               [variable]     6477675/0        ( 0.0%) 
+physics               [variable]      957415/4194304  (22.8%) 
+physics terrain       [variable]         108/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 22915
+Writing c:\users\pc\documents\github\op_cometcage_vmf\raid_on_nova_prison_alt.bsp
+1 minute, 18 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: F:\Shut up and take my money\steamapps\sourcemods\mapbase_episodic\materials
+Loading c:\users\pc\documents\github\op_cometcage_vmf\raid_on_nova_prison_alt.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 18)
+Placing static props...
+Error loading studio model ""!
+6 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: F:\Shut up and take my money\steamapps\sourcemods\mapbase_episodic\materials
+Loading c:\users\pc\documents\github\op_cometcage_vmf\raid_on_nova_prison_alt.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 18)
+Placing static props...
+Error loading studio model ""!
+6 seconds elapsed
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\raid_on_nova_prison_alt.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\raid_on_nova_prison_alt.prt
+LoadPortals: couldn't read c:\users\pc\documents\github\op_cometcage_vmf\raid_on_nova_prison_alt.prt
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: F:\Shut up and take my money\steamapps\sourcemods\mapbase_episodic\materials
+Loading c:\users\pc\documents\github\op_cometcage_vmf\raid_on_nova_prison_alt.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 8)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 3)
+Cannot find parallax obb "prison_pcb_01" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_06" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_07" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_08" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_03" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_02" (num_entities is 18)
+Cannot find parallax obb "prison_pcb_05" (num_entities is 18)
+Patching WVT material: maps/raid_on_nova_prison_alt/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 592 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing c:\users\pc\documents\github\op_cometcage_vmf\raid_on_nova_prison_alt.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (956695 bytes)
+Placing static props...
+Error loading studio model ""!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2383 texinfos to 1377
+Reduced 435 texdatas to 359 (19687 bytes to 16965)
+Writing c:\users\pc\documents\github\op_cometcage_vmf\raid_on_nova_prison_alt.bsp
+18 seconds elapsed
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\raid_on_nova_prison_alt.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\raid_on_nova_prison_alt.prt
+ 505 portalclusters
+ 963 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 150 visible clusters (0.00%)
+Total clusters visible: 27132
+Average clusters visible: 53
+Building PAS...
+Average clusters audible: 132
+visdatasize:30765  compressed from 64640
+writing c:\users\pc\documents\github\op_cometcage_vmf\raid_on_nova_prison_alt.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[97 texlights parsed from 'lights.rad']
+
+[Reading texlights from 'other.rad']
+Warning: Redundant 'lights/light_recessedcool001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_recessedcool002' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_green001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_orange001' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white007' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white008' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white009' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/white010' def in 'lights.rad' AND 'other.rad'!
+Warning: Overriding 'lights/white011' from 'lights.rad' with 'other.rad'!
+Warning: Overriding 'lights/light_panel_cool' from 'lights.rad' with 'other.rad'!
+Warning: Redundant 'lights/light_panel_warm' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/light_panel_neutral' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'cs_assault/windowBrightness_illum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'windows/hr_w/inferno/stained_glass_a_selfillum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/hr_single_pane_illum_ambient' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'lights/hr_single_pane_illum_sun' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'de_nuke/nukwindowb_illum' def in 'lights.rad' AND 'other.rad'!
+Warning: Redundant 'metal/metalwall102a' def in 'lights.rad' AND 'other.rad'!
+[21 texlights parsed from 'other.rad']
+
+Loading c:\users\pc\documents\github\op_cometcage_vmf\raid_on_nova_prison_alt.bsp
+Loaded alpha texture materials\Models\props_wasteland\fence_alpha.vtf
+Loaded alpha texture materials\models\props_foliage\tree_deciduous_01a_branches.vtf
+Loaded alpha texture materials\models\props_foliage\tree_deciduous_01a_leaves.vtf
+Loaded alpha texture materials\models\props_foliage\tree_deciduous_01a_branches.vtf
+Loaded alpha texture materials\models\props_foliage\tree_deciduous_01a_leaves.vtf
+Loaded alpha texture materials\Glass\glasswindow008d.vtf
+Loaded alpha texture materials\Metal\metalgrate014a.vtf
+Loaded alpha texture materials\Metal\metalfence007a.vtf
+Loaded alpha texture materials\Metal\metalgrate001a.vtf
+Loaded alpha texture materials\Metal\metalfence001a.vtf
+6971 faces
+572053 square feet [82375656.00 square inches]
+2 Displacements
+1934 Square Feet [278527.97 Square Inches]
+6971 patches before subdivision
+120071 patches after subdivision
+341 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11947858, max 657
+transfer lists:  91.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(104941, 101974, 73323)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(27166, 26925, 16584)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(8310, 8052, 4141)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2819, 2610, 1115)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1022, 887, 310)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(388, 313, 89)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(153, 113, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(62, 42, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(26, 16, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(11, 6, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(5, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0353 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+129 of 138 (93% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  55/4096         2640/196608   ( 1.3%) 
+brushes               2748/32768       32976/393216   ( 8.4%) 
+brushsides           19651/65536      157208/524288   (30.0%) 
+planes                6506/65536      130120/1310720  ( 9.9%) 
+vertexes             12106/65536      145272/786432   (18.5%) 
+nodes                 1879/65536       60128/2097152  ( 2.9%) 
+texinfos              1377/12288       99144/884736   (11.2%) 
+texdata                359/2048        11488/65536    (17.5%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_lmsamples        5152/0            5152/0        ( 0.0%) 
+faces                 6971/65536      390376/3670016  (10.6%) 
+hdr faces             6971/65536      390376/3670016  (10.6%) 
+origfaces             5565/65536      311640/3670016  ( 8.5%) 
+leaves                1935/65536       61920/2097152  ( 3.0%) 
+leaffaces             8142/65536       16284/131072   (12.4%) 
+leafbrushes           3930/65536        7860/131072   ( 6.0%) 
+areas                    8/1024           64/8192     ( 0.8%) 
+surfedges            59067/512000     236268/2048000  (11.5%) 
+edges                39084/256000     156336/1024000  (15.3%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights        341/16384       30008/1441792  ( 2.1%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1044/131072      10440/1310720  ( 0.8%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices         22464/131072      44928/262144   (17.1%) 
+cubemapsamples          68/1024         1088/16384    ( 6.6%) 
+overlays                72/1024        25344/360448   ( 7.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     5870404/0        ( 0.0%) 
+visdata               [variable]       30765/16777216 ( 0.2%) 
+entdata               [variable]      336549/393216   (85.6%) VERY FULL!
+LDR ambient table     1935/65536        7740/262144   ( 3.0%) 
+HDR ambient table     1935/65536        7740/262144   ( 3.0%) 
+LDR leaf ambient      1935/65536       54180/1835008  ( 3.0%) 
+HDR leaf ambient      7302/65536      204456/1835008  (11.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/88226    ( 0.0%) 
+pakfile               [variable]     6479437/0        ( 0.0%) 
+physics               [variable]      956695/4194304  (22.8%) 
+physics terrain       [variable]         108/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 22907
+Writing c:\users\pc\documents\github\op_cometcage_vmf\raid_on_nova_prison_alt.bsp
+1 minute, 19 seconds elapsed

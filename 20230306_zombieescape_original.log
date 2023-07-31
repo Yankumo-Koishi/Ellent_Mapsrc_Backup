@@ -1,0 +1,211 @@
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\op_cometcage_vmf\20230306_zombieescape_original.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/20230306_zombieescape_original/nature/red_grass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 360 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\PC\Documents\GitHub\op_cometcage_vmf\20230306_zombieescape_original.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (532401 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2768 texinfos to 1496
+Reduced 136 texdatas to 98 (6226 bytes to 4980)
+Writing C:\Users\PC\Documents\GitHub\op_cometcage_vmf\20230306_zombieescape_original.bsp
+12 seconds elapsed
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\20230306_zombieescape_original.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\20230306_zombieescape_original.prt
+1315 portalclusters
+3655 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\op_cometcage_vmf\20230306_zombieescape_original.vmf
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\op_cometcage_vmf\20230306_zombieescape_original.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/20230306_zombieescape_original/nature/red_grass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+Patching WVT material: maps/20230306_zombieescape_original/nature/red_grass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 400 detail faces...done (0)
+Merging details...0done (0)
+FixTjuncs...
+...1...2...3...4...5...6...7..PruneNodes...
+WriteBSP...
+.8...done (1)
+writing C:\Users\PC\Documents\GitHub\op_cometcage_vmf\20230306_zombieescape_original.prt...9...10Building visibility clusters...
+done (0)
+0Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 400 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+done (0) (526161 bytes)
+Placing static props...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\PC\Documents\GitHub\op_cometcage_vmf\20230306_zombieescape_original.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (526161 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2710 texinfos to 1475
+Reduced 125 texdatas to 92 (5536 bytes to 4490)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2710 texinfos to 1475
+Reduced 125 texdatas to 92 (5536 bytes to 4490)
+Writing C:\Users\PC\Documents\GitHub\op_cometcage_vmf\20230306_zombieescape_original.bsp
+9 seconds elapsed
+Writing C:\Users\PC\Documents\GitHub\op_cometcage_vmf\20230306_zombieescape_original.bsp
+10 seconds elapsed
+
+
+
+4 threads
+reading c:\users\pc\documents\github\op_cometcage_vmf\20230306_zombieescape_original.bsp
+reading c:\users\pc\documents\github\op_cometcage_vmf\20230306_zombieescape_original.prt
+1078 portalclusters
+2968 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3015 visible clusters (0.00%)
+Total clusters visible: 422327
+Average clusters visible: 391
+Building PAS...
+Average clusters audible: 1061
+visdatasize:272220  compressed from 293216
+writing c:\users\pc\documents\github\op_cometcage_vmf\20230306_zombieescape_original.bsp
+14 minutes, 39 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+[Reading texlights from 'other.rad']
+[11 texlights parsed from 'other.rad']
+
+Loading c:\users\pc\documents\github\op_cometcage_vmf\20230306_zombieescape_original.bsp
+5357 faces
+846914 square feet [121955744.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+5357 patches before subdivision
+45091 patches after subdivision
+32 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 6856683, max 1204
+transfer lists:  52.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(120890, 48485, 23703)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(29910, 11253, 4776)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(8565, 3042, 1142)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2779, 949, 324)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(940, 311, 98)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(334, 108, 32)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(121, 38, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(45, 14, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(17, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0231 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 4 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  53/4096         2544/196608   ( 1.3%) 
+brushes               1503/32768       18036/393216   ( 4.6%) 
+brushsides            9749/65536       77992/524288   (14.9%) 
+planes                3256/65536       65120/1310720  ( 5.0%) 
+vertexes              9749/65536      116988/786432   (14.9%) 
+nodes                 2677/65536       85664/2097152  ( 4.1%) 
+texinfos              1475/12288      106200/884736   (12.0%) 
+texdata                 92/2048         2944/65536    ( 4.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 5357/65536      299992/3670016  ( 8.2%) 
+hdr faces             5357/65536      299992/3670016  ( 8.2%) 
+origfaces             3772/65536      211232/3670016  ( 5.8%) 
+leaves                2731/65536       87392/2097152  ( 4.2%) 
+leaffaces             5852/65536       11704/131072   ( 8.9%) 
+leafbrushes           2532/65536        5064/131072   ( 3.9%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            40405/512000     161620/2048000  ( 7.9%) 
+edges                25614/256000     102456/1024000  (10.0%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights         32/16384        2816/1441792  ( 0.2%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            612/131072       6120/1310720  ( 0.5%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices         11694/131072      23388/262144   ( 8.9%) 
+cubemapsamples           6/1024           96/16384    ( 0.6%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1685680/0        ( 0.0%) 
+visdata               [variable]      272220/16777216 ( 1.6%) 
+entdata               [variable]      469120/393216   (119.3%) VERY FULL!
+LDR ambient table     2731/65536       10924/262144   ( 4.2%) 
+HDR ambient table     2731/65536       10924/262144   ( 4.2%) 
+LDR leaf ambient      2731/65536       76468/1835008  ( 4.2%) 
+HDR leaf ambient     12339/65536      345492/1835008  (18.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/8904     ( 0.0%) 
+pakfile               [variable]      505985/0        ( 0.0%) 
+physics               [variable]      526161/4194304  (12.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 14851
+Writing c:\users\pc\documents\github\op_cometcage_vmf\20230306_zombieescape_original.bsp
+36 seconds elapsed
