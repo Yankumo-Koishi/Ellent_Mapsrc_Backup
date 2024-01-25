@@ -1622,3 +1622,642 @@ Level flags = 2
 Total triangle count: 13963
 Writing c:\users\pc\documents\github\op_cometcage_vmf\metrostraggle_test01.bsp
 1 minute, 56 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\Ellent_Mapsrc_Backup\metrostraggle_test01.vmf
+Can't find surfaceprop sheetrock for material PLASTER/PLASTER_CEILING_01, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "props/paperposter002a" not found.
+Material not found!: PROPS/PAPERPOSTER002A
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file bin/EntropyZero2.fgd
+fixing up env_cubemap materials on brush sides...
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\Ellent_Mapsrc_Backup\metrostraggle_test01.vmf
+Can't find surfaceprop sheetrock for material PLASTER/PLASTER_CEILING_01, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "props/paperposter002a" not found.
+Material not found!: PROPS/PAPERPOSTER002A
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file bin/EntropyZero2.fgd
+fixing up env_cubemap materials on brush sides...
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\Ellent_Mapsrc_Backup\metrostraggle_test01.vmf
+Can't find surfaceprop sheetrock for material PLASTER/PLASTER_CEILING_01, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "props/paperposter002a" not found.
+Material not found!: PROPS/PAPERPOSTER002A
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 492 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\PC\Documents\GitHub\Ellent_Mapsrc_Backup\metrostraggle_test01.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (794625 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2413 texinfos to 977
+Reduced 303 texdatas to 241 (14449 bytes to 12139)
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\Ellent_Mapsrc_Backup\metrostraggle_test01.vmf
+Can't find surfaceprop sheetrock for material PLASTER/PLASTER_CEILING_01, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "props/paperposter002a" not found.
+Material not found!: PROPS/PAPERPOSTER002A
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 492 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\PC\Documents\GitHub\Ellent_Mapsrc_Backup\metrostraggle_test01.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (794625 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2413 texinfos to 977
+Reduced 303 texdatas to 241 (14449 bytes to 12139)
+Writing C:\Users\PC\Documents\GitHub\Ellent_Mapsrc_Backup\metrostraggle_test01.bsp
+1 minute, 3 seconds elapsed
+
+
+
+4 threads
+reading c:\users\pc\documents\github\ellent_mapsrc_backup\metrostraggle_test01.bsp
+reading c:\users\pc\documents\github\ellent_mapsrc_backup\metrostraggle_test01.prt
+ 316 portalclusters
+ 633 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 64 visible clusters (0.00%)
+Total clusters visible: 15504
+Average clusters visible: 49
+Building PAS...
+Average clusters audible: 123
+visdatasize:17326  compressed from 25280
+writing c:\users\pc\documents\github\ellent_mapsrc_backup\metrostraggle_test01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+[Reading texlights from 'other.rad']
+[11 texlights parsed from 'other.rad']
+
+Loading c:\users\pc\documents\github\ellent_mapsrc_backup\metrostraggle_test01.bsp
+Loaded alpha texture materials\models\props_foliage\Mall_trees_branches01.vtf
+Loaded alpha texture materials\Metal\metalgrate013a.vtf
+4978 faces
+20 degenerate faces
+225454 square feet [32465486.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4958 patches before subdivision
+43324 patches after subdivision
+166 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4145402, max 475
+transfer lists:  31.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(84341, 111052, 87076)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(56554, 73229, 52750)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(37595, 46484, 30825)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(26731, 31675, 19271)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(18779, 21093, 11752)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(13509, 14455, 7386)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(9719, 9867, 4620)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(7077, 6836, 2938)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(5176, 4752, 1876)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3816, 3337, 1212)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2829, 2357, 789)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2111, 1679, 519)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1583, 1204, 344)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1194, 870, 230)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(905, 632, 155)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(688, 463, 106)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(526, 341, 73)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(403, 252, 50)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(310, 188, 35)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(240, 140, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(185, 105, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #22 added RGB(144, 80, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #23 added RGB(112, 60, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #24 added RGB(87, 46, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #25 added RGB(68, 35, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #26 added RGB(53, 27, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #27 added RGB(42, 20, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #28 added RGB(33, 16, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #29 added RGB(26, 12, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #30 added RGB(20, 9, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #31 added RGB(16, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #32 added RGB(12, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #33 added RGB(10, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #34 added RGB(8, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #35 added RGB(6, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #36 added RGB(5, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #37 added RGB(4, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #38 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #39 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #40 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #41 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #42 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #43 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0097 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  34/4096         1632/196608   ( 0.8%) 
+brushes               2216/32768       26592/393216   ( 6.8%) 
+brushsides           21693/65536      173544/524288   (33.1%) 
+planes               21870/65536      437400/1310720  (33.4%) 
+vertexes              8872/65536      106464/786432   (13.5%) 
+nodes                 1950/65536       62400/2097152  ( 3.0%) 
+texinfos               977/12288       70344/884736   ( 8.0%) 
+texdata                241/2048         7712/65536    (11.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4978/65536      278768/3670016  ( 7.6%) 
+hdr faces             4978/65536      278768/3670016  ( 7.6%) 
+origfaces             4402/65536      246512/3670016  ( 6.7%) 
+leaves                1985/65536       63520/2097152  ( 3.0%) 
+leaffaces             5648/65536       11296/131072   ( 8.6%) 
+leafbrushes           2743/65536        5486/131072   ( 4.2%) 
+areas                    8/1024           64/8192     ( 0.8%) 
+surfedges            43405/512000     173620/2048000  ( 8.5%) 
+edges                29573/256000     118292/1024000  (11.6%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights        166/16384       14608/1441792  ( 1.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            466/131072       4660/1310720  ( 0.4%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices         15588/131072      31176/262144   (11.9%) 
+cubemapsamples          11/1024          176/16384    ( 1.1%) 
+overlays                60/1024        21120/360448   ( 5.9%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     2074328/0        ( 0.0%) 
+visdata               [variable]       17326/16777216 ( 0.1%) 
+entdata               [variable]      182914/393216   (46.5%) 
+LDR ambient table     1985/65536        7940/262144   ( 3.0%) 
+HDR ambient table     1985/65536        7940/262144   ( 3.0%) 
+LDR leaf ambient      1985/65536       55580/1835008  ( 3.0%) 
+HDR leaf ambient      4036/65536      113008/1835008  ( 6.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/47402    ( 0.0%) 
+pakfile               [variable]     2928611/0        ( 0.0%) 
+physics               [variable]      794625/4194304  (18.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 15753
+Writing c:\users\pc\documents\github\ellent_mapsrc_backup\metrostraggle_test01.bsp
+35 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\Ellent_Mapsrc_Backup\metrostraggle_test01.vmf
+material "tile/tilewall001b" not found.
+Material not found!: TILE/TILEWALL001B
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "tile/tilewall007a" not found.
+Material not found!: TILE/TILEWALL007A
+material "plaster/plaster_ceiling_01" not found.
+Material not found!: PLASTER/PLASTER_CEILING_01
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "props/metalpanel012a" not found.
+Material not found!: PROPS/METALPANEL012A
+material "metal/metalhull009b" not found.
+Material not found!: METAL/METALHULL009B
+material "tile/tilewall001a" not found.
+Material not found!: TILE/TILEWALL001A
+material "props/metalsign001d" not found.
+Material not found!: PROPS/METALSIGN001D
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\Ellent_Mapsrc_Backup\metrostraggle_test01.vmf
+Can't find surfaceprop sheetrock for material PLASTER/PLASTER_CEILING_01, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "props/paperposter002a" not found.
+Material not found!: PROPS/PAPERPOSTER002A
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 492 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\PC\Documents\GitHub\Ellent_Mapsrc_Backup\metrostraggle_test01.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (794625 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2413 texinfos to 977
+Reduced 303 texdatas to 241 (14449 bytes to 12139)
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\Ellent_Mapsrc_Backup\metrostraggle_test01.vmf
+Can't find surfaceprop sheetrock for material PLASTER/PLASTER_CEILING_01, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "props/paperposter002a" not found.
+Material not found!: PROPS/PAPERPOSTER002A
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 492 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\PC\Documents\GitHub\Ellent_Mapsrc_Backup\metrostraggle_test01.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (794625 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2413 texinfos to 977
+Reduced 303 texdatas to 241 (14449 bytes to 12139)
+Writing C:\Users\PC\Documents\GitHub\Ellent_Mapsrc_Backup\metrostraggle_test01.bsp
+48 seconds elapsed
+
+
+
+4 threads
+reading c:\users\pc\documents\github\ellent_mapsrc_backup\metrostraggle_test01.bsp
+reading c:\users\pc\documents\github\ellent_mapsrc_backup\metrostraggle_test01.prt
+ 316 portalclusters
+ 633 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 66 visible clusters (0.00%)
+Total clusters visible: 15506
+Average clusters visible: 49
+Building PAS...
+Average clusters audible: 123
+visdatasize:17326  compressed from 25280
+writing c:\users\pc\documents\github\ellent_mapsrc_backup\metrostraggle_test01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+[Reading texlights from 'other.rad']
+[11 texlights parsed from 'other.rad']
+
+Loading c:\users\pc\documents\github\ellent_mapsrc_backup\metrostraggle_test01.bsp
+Loaded alpha texture materials\models\props_foliage\Mall_trees_branches01.vtf
+Loaded alpha texture materials\Metal\metalgrate013a.vtf
+4978 faces
+20 degenerate faces
+225454 square feet [32465486.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4958 patches before subdivision
+43324 patches after subdivision
+166 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4145402, max 475
+transfer lists:  31.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(84342, 111053, 87077)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(56554, 73230, 52750)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(37595, 46484, 30825)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(26732, 31675, 19271)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(18779, 21093, 11752)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(13510, 14456, 7386)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(9719, 9867, 4620)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(7077, 6836, 2938)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(5176, 4752, 1876)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3816, 3337, 1212)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2829, 2357, 789)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2111, 1679, 519)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1583, 1204, 344)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1194, 870, 230)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(905, 632, 155)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(688, 463, 106)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(526, 341, 73)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(403, 252, 50)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(310, 188, 35)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(240, 140, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(185, 105, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #22 added RGB(144, 80, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #23 added RGB(112, 60, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #24 added RGB(87, 46, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #25 added RGB(68, 35, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #26 added RGB(53, 27, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #27 added RGB(42, 20, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #28 added RGB(33, 16, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #29 added RGB(26, 12, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #30 added RGB(20, 9, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #31 added RGB(16, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #32 added RGB(12, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #33 added RGB(10, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #34 added RGB(8, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #35 added RGB(6, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #36 added RGB(5, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #37 added RGB(4, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #38 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #39 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #40 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #41 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #42 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #43 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0126 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  34/4096         1632/196608   ( 0.8%) 
+brushes               2216/32768       26592/393216   ( 6.8%) 
+brushsides           21693/65536      173544/524288   (33.1%) 
+planes               21870/65536      437400/1310720  (33.4%) 
+vertexes              8872/65536      106464/786432   (13.5%) 
+nodes                 1950/65536       62400/2097152  ( 3.0%) 
+texinfos               977/12288       70344/884736   ( 8.0%) 
+texdata                241/2048         7712/65536    (11.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4978/65536      278768/3670016  ( 7.6%) 
+hdr faces             4978/65536      278768/3670016  ( 7.6%) 
+origfaces             4402/65536      246512/3670016  ( 6.7%) 
+leaves                1985/65536       63520/2097152  ( 3.0%) 
+leaffaces             5648/65536       11296/131072   ( 8.6%) 
+leafbrushes           2743/65536        5486/131072   ( 4.2%) 
+areas                    8/1024           64/8192     ( 0.8%) 
+surfedges            43405/512000     173620/2048000  ( 8.5%) 
+edges                29573/256000     118292/1024000  (11.6%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights        166/16384       14608/1441792  ( 1.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            466/131072       4660/1310720  ( 0.4%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices         15588/131072      31176/262144   (11.9%) 
+cubemapsamples          11/1024          176/16384    ( 1.1%) 
+overlays                60/1024        21120/360448   ( 5.9%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     2074328/0        ( 0.0%) 
+visdata               [variable]       17326/16777216 ( 0.1%) 
+entdata               [variable]      182914/393216   (46.5%) 
+LDR ambient table     1985/65536        7940/262144   ( 3.0%) 
+HDR ambient table     1985/65536        7940/262144   ( 3.0%) 
+LDR leaf ambient      1985/65536       55580/1835008  ( 3.0%) 
+HDR leaf ambient      4036/65536      113008/1835008  ( 6.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/47402    ( 0.0%) 
+pakfile               [variable]     2928611/0        ( 0.0%) 
+physics               [variable]      794625/4194304  (18.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 15753
+Writing c:\users\pc\documents\github\ellent_mapsrc_backup\metrostraggle_test01.bsp
+37 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\EntropyZero2\entropyzero2\materials
+Loading C:\Users\PC\Documents\GitHub\Ellent_Mapsrc_Backup\metrostraggle_test01.vmf
+Can't find surfaceprop sheetrock for material PLASTER/PLASTER_CEILING_01, using default
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "props/paperposter002a" not found.
+Material not found!: PROPS/PAPERPOSTER002A
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 492 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\PC\Documents\GitHub\Ellent_Mapsrc_Backup\metrostraggle_test01.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (794625 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2413 texinfos to 977
+Reduced 303 texdatas to 241 (14449 bytes to 12139)
+Writing C:\Users\PC\Documents\GitHub\Ellent_Mapsrc_Backup\metrostraggle_test01.bsp
+52 seconds elapsed
+
+
+
+4 threads
+reading c:\users\pc\documents\github\ellent_mapsrc_backup\metrostraggle_test01.bsp
+reading c:\users\pc\documents\github\ellent_mapsrc_backup\metrostraggle_test01.prt
+ 316 portalclusters
+ 633 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 66 visible clusters (0.00%)
+Total clusters visible: 15506
+Average clusters visible: 49
+Building PAS...
+Average clusters audible: 123
+visdatasize:17326  compressed from 25280
+writing c:\users\pc\documents\github\ellent_mapsrc_backup\metrostraggle_test01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+[Reading texlights from 'other.rad']
+[11 texlights parsed from 'other.rad']
+
+Loading c:\users\pc\documents\github\ellent_mapsrc_backup\metrostraggle_test01.bsp
+Loaded alpha texture materials\models\props_foliage\Mall_trees_branches01.vtf
+Loaded alpha texture materials\Metal\metalgrate013a.vtf
+4978 faces
+20 degenerate faces
+225454 square feet [32465486.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4958 patches before subdivision
+43324 patches after subdivision
+166 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4145402, max 475
+transfer lists:  31.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(84342, 111052, 87077)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(56554, 73230, 52750)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(37595, 46484, 30825)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(26732, 31675, 19271)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(18779, 21093, 11752)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(13509, 14456, 7386)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(9719, 9867, 4620)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(7077, 6836, 2938)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(5176, 4752, 1876)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3816, 3337, 1212)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2829, 2357, 789)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2111, 1679, 519)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1583, 1204, 344)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1194, 870, 230)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(905, 632, 155)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(688, 463, 106)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(526, 341, 73)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(403, 252, 50)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(310, 188, 35)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(240, 140, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(185, 105, 17)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #22 added RGB(144, 80, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #23 added RGB(112, 60, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #24 added RGB(87, 46, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #25 added RGB(68, 35, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #26 added RGB(53, 27, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #27 added RGB(42, 20, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #28 added RGB(33, 16, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #29 added RGB(26, 12, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #30 added RGB(20, 9, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #31 added RGB(16, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #32 added RGB(12, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #33 added RGB(10, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #34 added RGB(8, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #35 added RGB(6, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #36 added RGB(5, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #37 added RGB(4, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #38 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #39 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #40 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #41 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #42 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #43 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0117 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  34/4096         1632/196608   ( 0.8%) 
+brushes               2216/32768       26592/393216   ( 6.8%) 
+brushsides           21693/65536      173544/524288   (33.1%) 
+planes               21870/65536      437400/1310720  (33.4%) 
+vertexes              8872/65536      106464/786432   (13.5%) 
+nodes                 1950/65536       62400/2097152  ( 3.0%) 
+texinfos               977/12288       70344/884736   ( 8.0%) 
+texdata                241/2048         7712/65536    (11.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4978/65536      278768/3670016  ( 7.6%) 
+hdr faces             4978/65536      278768/3670016  ( 7.6%) 
+origfaces             4402/65536      246512/3670016  ( 6.7%) 
+leaves                1985/65536       63520/2097152  ( 3.0%) 
+leaffaces             5648/65536       11296/131072   ( 8.6%) 
+leafbrushes           2743/65536        5486/131072   ( 4.2%) 
+areas                    8/1024           64/8192     ( 0.8%) 
+surfedges            43405/512000     173620/2048000  ( 8.5%) 
+edges                29573/256000     118292/1024000  (11.6%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights        166/16384       14608/1441792  ( 1.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            466/131072       4660/1310720  ( 0.4%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices         15588/131072      31176/262144   (11.9%) 
+cubemapsamples          11/1024          176/16384    ( 1.1%) 
+overlays                60/1024        21120/360448   ( 5.9%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     2074328/0        ( 0.0%) 
+visdata               [variable]       17326/16777216 ( 0.1%) 
+entdata               [variable]      186814/393216   (47.5%) 
+LDR ambient table     1985/65536        7940/262144   ( 3.0%) 
+HDR ambient table     1985/65536        7940/262144   ( 3.0%) 
+LDR leaf ambient      1985/65536       55580/1835008  ( 3.0%) 
+HDR leaf ambient      4036/65536      113008/1835008  ( 6.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/47402    ( 0.0%) 
+pakfile               [variable]     2928611/0        ( 0.0%) 
+physics               [variable]      794625/4194304  (18.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 15753
+Writing c:\users\pc\documents\github\ellent_mapsrc_backup\metrostraggle_test01.bsp
+36 seconds elapsed

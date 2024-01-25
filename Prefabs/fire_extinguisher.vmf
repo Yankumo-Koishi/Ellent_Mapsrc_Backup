@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8863"
-	"mapversion" "16"
+	"editorbuild" "8864"
+	"mapversion" "17"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "16"
+	"mapversion" "17"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -85,7 +85,7 @@ entity
 {
 	"id" "368"
 	"classname" "trigger_hurt"
-	"damage" "20"
+	"damage" "10"
 	"damagecap" "20"
 	"damagemodel" "0"
 	"damageor" "0"
@@ -431,6 +431,8 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/props/cs_office/fire_extinguisher.mdl"
 	"skin" "1"
 	"solid" "6"

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "12"
+	"mapversion" "13"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "12"
+	"mapversion" "13"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -347,7 +347,7 @@ entity
 	"classname" "light"
 	"_constant_attn" "0"
 	"_fifty_percent_distance" "0"
-	"_light" "147 255 231 25"
+	"_light" "147 255 231 7"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
@@ -368,7 +368,7 @@ entity
 	"classname" "light"
 	"_constant_attn" "0"
 	"_fifty_percent_distance" "0"
-	"_light" "147 255 231 25"
+	"_light" "147 255 231 7"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"

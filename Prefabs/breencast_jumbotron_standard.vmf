@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "19"
+	"mapversion" "26"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "19"
+	"mapversion" "26"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -98,8 +98,8 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "0"
-	"target" "#camera"
-	"targetname" "breencast_jumbotron_&i"
+	"target" "cmb_camera_$camera"
+	"targetname" "cmb_monitor_$monitor"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -1680,8 +1680,8 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "0"
-	"target" "#camera"
-	"targetname" "breencast_jumbotron_&i"
+	"target" "cmb_camera_$camera"
+	"targetname" "cmb_monitor_$monitor"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -3231,7 +3231,7 @@ entity
 	"classname" "info_target"
 	"angles" "0 0 0"
 	"spawnflags" "0"
-	"targetname" "breencast_jumbotron_mic_target_&i"
+	"targetname" "cmb_monitor_$monitor_mictarget"
 	"origin" "80 0 0"
 	editor
 	{
@@ -3246,15 +3246,15 @@ entity
 	"id" "259"
 	"classname" "env_microphone"
 	"channel" "6"
-	"ListenFilter" "breencast_jumbotron_filter_&i"
+	"ListenFilter" "cmb_monitor_$monitor_filter"
 	"MaxRange" "672"
 	"PitchScale" "1.0"
 	"Sensitivity" "1"
 	"spawnflags" "0"
 	"speaker_dsp_preset" "55"
-	"SpeakerName" "breencast_jumbotron_mic_target_&i"
-	"target" "#micphone_src"
-	"targetname" "breencast_jumbotron_microphone_&i"
+	"SpeakerName" "cmb_monitor_$monitor_mictarget"
+	"target" "$actor"
+	"targetname" "cmb_monitor_$monitor_mic"
 	"VolumeScale" "1.0"
 	"origin" "96 0 0"
 	editor
@@ -3269,9 +3269,9 @@ entity
 {
 	"id" "262"
 	"classname" "filter_activator_name"
-	"filtername" "Breen"
+	"filtername" "$actor"
 	"Negated" "Allow entities that match criteria"
-	"targetname" "breencast_jumbotron_filter_&i"
+	"targetname" "cmb_monitor_$monitor_filter"
 	"origin" "64 0 0"
 	editor
 	{
@@ -3298,8 +3298,8 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "0"
-	"target" "#camera"
-	"targetname" "breencast_jumbotron_&i"
+	"target" "cmb_camera_$camera"
+	"targetname" "cmb_monitor_$monitor"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -4860,8 +4860,8 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "0"
-	"target" "#camera"
-	"targetname" "breencast_jumbotron_&i"
+	"target" "cmb_camera_$camera"
+	"targetname" "cmb_monitor_$monitor"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -6422,8 +6422,8 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "0"
-	"target" "#camera"
-	"targetname" "breencast_jumbotron_&i"
+	"target" "cmb_camera_$camera"
+	"targetname" "cmb_monitor_$monitor"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -7984,8 +7984,8 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "0"
-	"target" "#camera"
-	"targetname" "breencast_jumbotron_&i"
+	"target" "cmb_camera_$camera"
+	"targetname" "cmb_monitor_$monitor"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{

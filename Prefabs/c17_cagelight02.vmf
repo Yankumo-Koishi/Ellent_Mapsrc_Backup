@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "10"
+	"mapversion" "11"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "10"
+	"mapversion" "11"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -114,7 +114,7 @@ entity
 	"_hardfalloff" "0"
 	"_inner_cone" "30"
 	"_light" "181 216 251 300"
-	"_lightHDR" "181 216 251 250"
+	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "5"
 	"_quadratic_attn" "10"
@@ -139,6 +139,8 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/props_c17/light_cagelight02_on.mdl"
 	"skin" "0"
 	"solid" "6"
@@ -155,12 +157,12 @@ entity
 {
 	"id" "17"
 	"classname" "light"
-	"_constant_attn" "2"
-	"_light" "181 216 251 30"
-	"_lightHDR" "181 216 251 25"
+	"_constant_attn" "0"
+	"_light" "181 216 251 15"
+	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
-	"_linear_attn" "2.5"
-	"_quadratic_attn" "5"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
 	"origin" "28 0 -16"
 	editor
 	{
