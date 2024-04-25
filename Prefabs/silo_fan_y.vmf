@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "7"
+	"mapversion" "9"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "7"
+	"mapversion" "9"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -93,7 +93,7 @@ entity
 	"fanfriction" "20"
 	"maxpitch" "100"
 	"maxspeed" "$speed"
-	"message" "ambient/machines/city_ventpump_loop1.wav"
+	"message" "$sound"
 	"minpitch" "30"
 	"origin" "0 10 0"
 	"renderamt" "255"
@@ -291,6 +291,21 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "17"
+	"classname" "func_instance_parms"
+	"parm1" "$speed integer"
+	"parm2" "$sound sound"
+	"origin" "0 4 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras

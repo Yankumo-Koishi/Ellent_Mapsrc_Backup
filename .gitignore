@@ -3,3 +3,5 @@
 *.lin
 *.log
 *.bsp
+*.vpk
+*.unpacked

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "29"
+	"mapversion" "32"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -78,7 +78,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "29"
+	"mapversion" "32"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -117,9 +117,8 @@ entity
 {
 	"id" "16"
 	"classname" "trigger_once"
-	"filtername" "$trigger_filter"
 	"origin" "0 0 24"
-	"spawnflags" "3"
+	"spawnflags" "1"
 	"StartDisabled" "0"
 	connections
 	{
@@ -363,6 +362,20 @@ hidden
 			"visgroupautoshown" "1"
 			"logicalpos" "[0 500]"
 		}
+	}
+}
+entity
+{
+	"id" "469"
+	"classname" "func_instance_parms"
+	"parm1" "$hintgroup string"
+	"origin" "0 0 56"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras

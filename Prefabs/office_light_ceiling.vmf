@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "2"
+	"mapversion" "4"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "4"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -150,13 +150,13 @@ entity
 	"id" "12"
 	"classname" "env_sprite"
 	"framerate" "10.0"
-	"GlowProxySize" "4"
+	"GlowProxySize" "$glowproxy"
 	"HDRColorScale" "1.0"
 	"model" "sprites/light_glow02.vmt"
-	"renderamt" "125"
-	"rendercolor" "255 255 255"
+	"renderamt" "$fx"
+	"rendercolor" "$color"
 	"rendermode" "9"
-	"scale" "1.5"
+	"scale" "$scale"
 	"origin" "0 20 15.5"
 	editor
 	{
@@ -172,13 +172,13 @@ entity
 	"id" "20"
 	"classname" "env_sprite"
 	"framerate" "10.0"
-	"GlowProxySize" "4"
+	"GlowProxySize" "$glowproxy"
 	"HDRColorScale" "1.0"
 	"model" "sprites/light_glow02.vmt"
-	"renderamt" "125"
-	"rendercolor" "255 255 255"
+	"renderamt" "$fx"
+	"rendercolor" "$color"
 	"rendermode" "9"
-	"scale" "1.5"
+	"scale" "$scale"
 	"origin" "0 -20 15.5"
 	editor
 	{
@@ -191,10 +191,32 @@ entity
 }
 entity
 {
+	"id" "24"
+	"classname" "light_spot"
+	"_cone" "45"
+	"_exponent" "1"
+	"_inner_cone" "30"
+	"_light" "$light_spot_color"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"angles" "-90 0 0"
+	"pitch" "-90"
+	"origin" "0 0 12"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
 	"id" "32"
 	"classname" "light"
 	"_fifty_percent_distance" "64"
-	"_light" "255 255 255 100"
+	"_light" "$light_color"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
@@ -210,24 +232,21 @@ entity
 }
 entity
 {
-	"id" "24"
-	"classname" "light_spot"
-	"_cone" "45"
-	"_exponent" "1"
-	"_inner_cone" "30"
-	"_light" "255 255 255 200"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"_quadratic_attn" "1"
-	"angles" "-90 0 0"
-	"pitch" "-90"
-	"origin" "0 0 12"
+	"id" "66"
+	"classname" "func_instance_parms"
+	"parm1" "$glowproxy float"
+	"parm2" "$fx float"
+	"parm3" "$color color255"
+	"parm4" "$scale float"
+	"parm5" "$light_spot_color color255"
+	"parm6" "$light_color color255"
+	"origin" "-0 0 20.25"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 5500]"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras

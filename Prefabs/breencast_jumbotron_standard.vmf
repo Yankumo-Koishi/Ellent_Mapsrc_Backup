@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "26"
+	"mapversion" "29"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "32"
+	"nGridSpacing" "8"
 }
 palette_plus
 {
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "26"
+	"mapversion" "29"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -98,7 +98,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "0"
-	"target" "cmb_camera_$camera"
+	"target" "$camera"
 	"targetname" "cmb_monitor_$monitor"
 	"vrad_brush_cast_shadows" "0"
 	solid
@@ -1680,7 +1680,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "0"
-	"target" "cmb_camera_$camera"
+	"target" "$camera"
 	"targetname" "cmb_monitor_$monitor"
 	"vrad_brush_cast_shadows" "0"
 	solid
@@ -3298,7 +3298,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "0"
-	"target" "cmb_camera_$camera"
+	"target" "$camera"
 	"targetname" "cmb_monitor_$monitor"
 	"vrad_brush_cast_shadows" "0"
 	solid
@@ -4860,7 +4860,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "0"
-	"target" "cmb_camera_$camera"
+	"target" "$camera"
 	"targetname" "cmb_monitor_$monitor"
 	"vrad_brush_cast_shadows" "0"
 	solid
@@ -6422,7 +6422,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "0"
-	"target" "cmb_camera_$camera"
+	"target" "$camera"
 	"targetname" "cmb_monitor_$monitor"
 	"vrad_brush_cast_shadows" "0"
 	solid
@@ -7984,7 +7984,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "0"
-	"target" "cmb_camera_$camera"
+	"target" "$camera"
 	"targetname" "cmb_monitor_$monitor"
 	"vrad_brush_cast_shadows" "0"
 	solid
@@ -9527,6 +9527,24 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "2007"
+	"classname" "func_instance_parms"
+	"parm1" "$camera target_destination"
+	"parm2" "$monitor string"
+	"parm3" "$monitor_mictarget string"
+	"parm4" "$monitor_filter string"
+	"parm5" "$actor target_destination"
+	"origin" "128 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras

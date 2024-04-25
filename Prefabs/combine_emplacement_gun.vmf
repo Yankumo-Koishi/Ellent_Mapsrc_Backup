@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8860"
-	"mapversion" "18"
+	"editorbuild" "8864"
+	"mapversion" "23"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -11,7 +11,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "4"
 }
 palette_plus
 {
@@ -69,7 +69,7 @@ bgimages_plus
 world
 {
 	"id" "940"
-	"mapversion" "18"
+	"mapversion" "23"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -83,19 +83,19 @@ entity
 	"id" "961"
 	"classname" "func_tank"
 	"ammo_count" "-1"
+	"ammotype" "AR2"
 	"angles" "0 180 0"
 	"barrel" "31"
 	"barrely" "0"
 	"barrelz" "8"
-	"bullet" "3"
 	"bullet_damage" "20"
 	"bullet_damage_vs_player" "5"
 	"control_volume" "emplacement_gun_control_area"
 	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disableshadows" "1"
 	"DontHitController" "1"
 	"effecthandling" "1"
-	"firerate" "17"
+	"firerate" "15"
 	"firespread" "0"
 	"gun_barrel_attach" "muzzle"
 	"gun_base_attach" "aimrotation"
@@ -107,8 +107,8 @@ entity
 	"LeadTarget" "No"
 	"maxRange" "2048"
 	"minRange" "0"
-	"npc_man_point" "emplacement_manpoint_&i"
-	"origin" "-10 8 53"
+	"npc_man_point" "emplacement_gun_manpoint"
+	"origin" "-10 0 48"
 	"parentname" "emplacement_gun_model"
 	"persistence" "3"
 	"persistence2" "0"
@@ -147,13 +147,13 @@ entity
 		side
 		{
 			"id" "6"
-			"plane" "(-18 0 56.3438) (-18 0 40.3438) (-18 16 40.3438)"
+			"plane" "(-18 -8 56.3423) (-18 -8 40.3423) (-18 8 40.3423)"
 			vertices_plus
 			{
-				"v" "-18 0 56.3423"
-				"v" "-18 0 40.3423"
-				"v" "-18 16 40.3423"
-				"v" "-18 16 56.3423"
+				"v" "-18 -8 56.3423"
+				"v" "-18 -8 40.3423"
+				"v" "-18 8 40.3423"
+				"v" "-18 8 56.3423"
 			}
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[0 -1 0 0] 0.25"
@@ -165,13 +165,13 @@ entity
 		side
 		{
 			"id" "5"
-			"plane" "(-2 16 56.3438) (-2 16 40.3438) (-2 0 40.3438)"
+			"plane" "(-2 8 56.3423) (-2 8 40.3423) (-2 -8 40.3423)"
 			vertices_plus
 			{
-				"v" "-2 16 56.3423"
-				"v" "-2 16 40.3423"
-				"v" "-2 0 40.3423"
-				"v" "-2 0 56.3423"
+				"v" "-2 8 56.3423"
+				"v" "-2 8 40.3423"
+				"v" "-2 -8 40.3423"
+				"v" "-2 -8 56.3423"
 			}
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -183,13 +183,13 @@ entity
 		side
 		{
 			"id" "4"
-			"plane" "(-2 0 56.3438) (-2 0 40.3438) (-18 0 40.3438)"
+			"plane" "(-2 -8 56.3423) (-2 -8 40.3423) (-18 -8 40.3423)"
 			vertices_plus
 			{
-				"v" "-2 0 56.3423"
-				"v" "-2 0 40.3423"
-				"v" "-18 0 40.3423"
-				"v" "-18 0 56.3423"
+				"v" "-2 -8 56.3423"
+				"v" "-2 -8 40.3423"
+				"v" "-18 -8 40.3423"
+				"v" "-18 -8 56.3423"
 			}
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -201,13 +201,13 @@ entity
 		side
 		{
 			"id" "3"
-			"plane" "(-18 16 56.3438) (-18 16 40.3438) (-2 16 40.3438)"
+			"plane" "(-18 8 56.3423) (-18 8 40.3423) (-2 8 40.3423)"
 			vertices_plus
 			{
-				"v" "-18 16 56.3423"
-				"v" "-18 16 40.3423"
-				"v" "-2 16 40.3423"
-				"v" "-2 16 56.3423"
+				"v" "-18 8 56.3423"
+				"v" "-18 8 40.3423"
+				"v" "-2 8 40.3423"
+				"v" "-2 8 56.3423"
 			}
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[-1 0 0 0] 0.25"
@@ -219,13 +219,13 @@ entity
 		side
 		{
 			"id" "2"
-			"plane" "(-18 16 40.3423) (-18 0 40.3423) (-2 0 40.3423)"
+			"plane" "(-18 8 40.3423) (-18 -8 40.3423) (-2 -8 40.3423)"
 			vertices_plus
 			{
-				"v" "-18 16 40.3423"
-				"v" "-18 0 40.3423"
-				"v" "-2 0 40.3423"
-				"v" "-2 16 40.3423"
+				"v" "-18 8 40.3423"
+				"v" "-18 -8 40.3423"
+				"v" "-2 -8 40.3423"
+				"v" "-2 8 40.3423"
 			}
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[-1 0 0 0] 0.25"
@@ -237,13 +237,13 @@ entity
 		side
 		{
 			"id" "1"
-			"plane" "(-18 0 56.3423) (-18 16 56.3423) (-2 16 56.3423)"
+			"plane" "(-18 -8 56.3423) (-18 8 56.3423) (-2 8 56.3423)"
 			vertices_plus
 			{
-				"v" "-18 0 56.3423"
-				"v" "-18 16 56.3423"
-				"v" "-2 16 56.3423"
-				"v" "-2 0 56.3423"
+				"v" "-18 -8 56.3423"
+				"v" "-18 8 56.3423"
+				"v" "-2 8 56.3423"
+				"v" "-2 -8 56.3423"
 			}
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -273,7 +273,7 @@ entity
 	"classname" "info_target"
 	"angles" "0 0 0"
 	"targetname" "emplacement_gun_manpoint"
-	"origin" "29.9299 3.64014 18.3424"
+	"origin" "29.9299 0 8"
 	editor
 	{
 		"color" "220 30 220"
@@ -286,7 +286,7 @@ entity
 {
 	"id" "946"
 	"classname" "trigger_multiple"
-	"origin" "163.99 4 37.36"
+	"origin" "44 -0 58.18"
 	"spawnflags" "1"
 	"StartDisabled" "0"
 	"targetname" "emplacement_gun_control_area"
@@ -297,13 +297,13 @@ entity
 		side
 		{
 			"id" "78"
-			"plane" "(8 -56 81.0039) (8 -56 1) (8 64 1.00391)"
+			"plane" "(8 -64 128) (8 -64 0) (8 64 0)"
 			vertices_plus
 			{
-				"v" "8 -56 81"
-				"v" "8 -56 1"
-				"v" "8 64 1"
-				"v" "8 64 81"
+				"v" "8 -64 128"
+				"v" "8 -64 0"
+				"v" "8 64 0"
+				"v" "8 64 128"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 32] 0.25"
@@ -315,13 +315,13 @@ entity
 		side
 		{
 			"id" "77"
-			"plane" "(80 64 81.0039) (80 64 1) (80 -56 1.00391)"
+			"plane" "(80 64 128) (80 64 0) (80 -64 0)"
 			vertices_plus
 			{
-				"v" "80 64 81"
-				"v" "80 64 1"
-				"v" "80 -56 1"
-				"v" "80 -56 81"
+				"v" "80 64 128"
+				"v" "80 64 0"
+				"v" "80 -64 0"
+				"v" "80 -64 128"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 32] 0.25"
@@ -333,13 +333,13 @@ entity
 		side
 		{
 			"id" "76"
-			"plane" "(80 -56 81.0039) (80 -56 1) (8 -56 1.00391)"
+			"plane" "(80 -64 128) (80 -64 0) (8 -64 0)"
 			vertices_plus
 			{
-				"v" "80 -56 81"
-				"v" "80 -56 1"
-				"v" "8 -56 1"
-				"v" "8 -56 81"
+				"v" "80 -64 128"
+				"v" "80 -64 0"
+				"v" "8 -64 0"
+				"v" "8 -64 128"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -351,13 +351,13 @@ entity
 		side
 		{
 			"id" "75"
-			"plane" "(8 64 81.0039) (8 64 1) (80 64 1.00391)"
+			"plane" "(8 64 128) (8 64 0) (80 64 0)"
 			vertices_plus
 			{
-				"v" "8 64 81"
-				"v" "8 64 1"
-				"v" "80 64 1"
-				"v" "80 64 81"
+				"v" "8 64 128"
+				"v" "8 64 0"
+				"v" "80 64 0"
+				"v" "80 64 128"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -369,13 +369,13 @@ entity
 		side
 		{
 			"id" "74"
-			"plane" "(8 64 1.0024) (8 -56 1.0024) (80 -56 1.0024)"
+			"plane" "(8 64 0) (8 -64 0) (80 -64 0)"
 			vertices_plus
 			{
-				"v" "8 64 1"
-				"v" "8 -56 1"
-				"v" "80 -56 1"
-				"v" "80 64 1"
+				"v" "8 64 0"
+				"v" "8 -64 0"
+				"v" "80 -64 0"
+				"v" "80 64 0"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -387,13 +387,13 @@ entity
 		side
 		{
 			"id" "73"
-			"plane" "(8 -56 81.0023) (8 64 81.0023) (80 64 81.0023)"
+			"plane" "(8 -64 128) (8 64 128) (80 64 128)"
 			vertices_plus
 			{
-				"v" "8 -56 81"
-				"v" "8 64 81"
-				"v" "80 64 81"
-				"v" "80 -56 81"
+				"v" "8 -64 128"
+				"v" "8 64 128"
+				"v" "80 64 128"
+				"v" "80 -64 128"
 			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -445,7 +445,7 @@ entity
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "emplacement_gun_model"
-	"origin" "-12 8 40.3423"
+	"origin" "-12 0 40.3423"
 	editor
 	{
 		"color" "220 30 220"
