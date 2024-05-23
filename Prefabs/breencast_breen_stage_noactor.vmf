@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8864"
-	"mapversion" "392"
+	"editorbuild" "8865"
+	"mapversion" "393"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -69,7 +69,7 @@ bgimages_plus
 world
 {
 	"id" "31091"
-	"mapversion" "392"
+	"mapversion" "393"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -813,7 +813,7 @@ entity
 	"id" "31148"
 	"classname" "info_target"
 	"angles" "0 0 0"
-	"targetname" "target_breen_micsamplepoint"
+	"targetname" "cmb_monitor_micsrc"
 	"origin" "17 104 -32"
 	editor
 	{

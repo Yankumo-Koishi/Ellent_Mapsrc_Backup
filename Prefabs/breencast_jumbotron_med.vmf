@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8864"
-	"mapversion" "27"
+	"editorbuild" "8865"
+	"mapversion" "30"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "668465"
-	"mapversion" "27"
+	"mapversion" "30"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -322,7 +322,7 @@ entity
 	"id" "2475"
 	"classname" "info_target"
 	"angles" "0 0 0"
-	"targetname" "speaker_breencast_jumbotron&i"
+	"targetname" "cmb_monitor_micspeak_$num"
 	"origin" "-82 0 0.404999"
 	editor
 	{
@@ -343,10 +343,10 @@ entity
 	"SmoothFactor" "0"
 	"spawnflags" "0"
 	"speaker_dsp_preset" "50"
-	"SpeakerName" "speaker_breencast_jumbotron&i"
+	"SpeakerName" "cmb_monitor_micspeak_$num"
 	"StartDisabled" "0"
-	"target" "target_breen_micsamplepoint"
-	"targetname" "mic_breencast_jumbotron&i"
+	"target" "cmb_monitor_micsrc"
+	"targetname" "cmb_monitor_mic_$num"
 	"VolumeScale" "1.0"
 	"origin" "-82 -24 0.404999"
 	editor
@@ -8314,7 +8314,7 @@ entity
 			"plane" "(-53.5281 50.9164 95.4456) (-54.5006 50.9121 95.1865) (-50.6214 57.991 96.2216)"
 			vertices_plus
 			{
-				"v" "-50.6205 57.99 96.2223"
+				"v" "-50.6205 58 96.2223"
 				"v" "-49.6596 58 96.4781"
 				"v" "-53.5283 50.9164 95.4457"
 				"v" "-54.5006 50.9121 95.1866"
@@ -9734,8 +9734,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-162.85 45.8161 31.1281]"
-		"look" "[152.172 -75.2459 73.7613]"
+		"position" "[-124.767 -105.864 -40.3232]"
+		"look" "[100.184 140.6 25.7462]"
 	}
 }
 cordons
