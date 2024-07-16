@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8860"
-	"mapversion" "0"
+	"editorbuild" "8866"
+	"mapversion" "1"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -64,7 +64,24 @@ light_plus
 	"soften_cosine" "0"
 	"debug" "0"
 	"cubemap" "1"
-	"hdr" "0"
+}
+postprocess_plus
+{
+	"enable" "1"
+	"copied_from_controller" "1"
+	"bloom_scale" "1"
+	"bloom_exponent" "2.5"
+	"bloom_saturation" "1"
+	"auto_exposure_min" "0.5"
+	"auto_exposure_max" "2"
+	"tonemap_percent_target" "60"
+	"tonemap_percent_bright_pixels" "2"
+	"tonemap_min_avg_luminance" "3"
+	"tonemap_rate" "1"
+	"vignette_enable" "0"
+	"vignette_start" "1"
+	"vignette_end" "2"
+	"vignette_blur" "0"
 }
 bgimages_plus
 {
@@ -72,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "0"
+	"mapversion" "1"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -202,17 +219,6 @@ world
 	}
 	group
 	{
-		"id" "50"
-		editor
-		{
-			"color" "157 206 0"
-			"groupid" "49"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
 		"id" "51"
 		editor
 		{
@@ -257,17 +263,6 @@ world
 	}
 	group
 	{
-		"id" "55"
-		editor
-		{
-			"color" "157 206 0"
-			"groupid" "54"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
 		"id" "56"
 		editor
 		{
@@ -289,39 +284,42 @@ world
 		}
 	}
 }
-entity
+hidden
 {
-	"id" "9"
-	"classname" "prop_dynamic"
-	"angles" "0 180 0"
-	"disableshadows" "1"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
-	"fademaxdist" "0"
-	"fademindist" "0"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"MinAnimTime" "5"
-	"model" "models/props_combine/combine_generator01.mdl"
-	"modelscale" "1.0"
-	"parentname" "train_stalker_tilt"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetBodyGroup" "0"
-	"solid" "6"
-	"spawnflags" "0"
-	"StartDisabled" "0"
-	"origin" "-6.01 264 24"
-	editor
+	entity
 	{
-		"color" "157 206 0"
-		"groupid" "8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
+		"id" "9"
+		"classname" "prop_dynamic"
+		"angles" "0 180 0"
+		"disableshadows" "1"
+		"ExplodeDamage" "0"
+		"ExplodeRadius" "0"
+		"fademaxdist" "0"
+		"fademindist" "0"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"MinAnimTime" "5"
+		"model" "models/props_combine/combine_generator01.mdl"
+		"modelscale" "1.0"
+		"parentname" "train_stalker_tilt"
+		"PerformanceMode" "0"
+		"pressuredelay" "0"
+		"RandomAnimation" "0"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"SetBodyGroup" "0"
+		"solid" "6"
+		"spawnflags" "0"
+		"StartDisabled" "0"
+		"origin" "-6.01 264 24"
+		editor
+		{
+			"color" "157 206 0"
+			"groupid" "8"
+			"visgroupshown" "1"
+			"visgroupautoshown" "0"
+			"logicalpos" "[0 1000]"
+		}
 	}
 }
 entity
@@ -2124,170 +2122,185 @@ entity
 		"logicalpos" "[7000 -1768]"
 	}
 }
-entity
+hidden
 {
-	"id" "30"
-	"classname" "prop_dynamic"
-	"angles" "90 90 0"
-	"disableshadows" "1"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
-	"fademaxdist" "0"
-	"fademindist" "0"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"MinAnimTime" "5"
-	"model" "models/props_combine/combine_generator01.mdl"
-	"modelscale" "1.0"
-	"parentname" "train_stalker_tilt"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetBodyGroup" "0"
-	"solid" "6"
-	"StartDisabled" "0"
-	"origin" "55 -12 -46"
-	editor
+	entity
 	{
-		"color" "157 206 0"
-		"groupid" "8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3000]"
+		"id" "30"
+		"classname" "prop_dynamic"
+		"angles" "90 90 0"
+		"disableshadows" "1"
+		"ExplodeDamage" "0"
+		"ExplodeRadius" "0"
+		"fademaxdist" "0"
+		"fademindist" "0"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"MinAnimTime" "5"
+		"model" "models/props_combine/combine_generator01.mdl"
+		"modelscale" "1.0"
+		"parentname" "train_stalker_tilt"
+		"PerformanceMode" "0"
+		"pressuredelay" "0"
+		"RandomAnimation" "0"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"SetBodyGroup" "0"
+		"solid" "6"
+		"StartDisabled" "0"
+		"origin" "55 -12 -46"
+		editor
+		{
+			"color" "157 206 0"
+			"groupid" "8"
+			"visgroupshown" "1"
+			"visgroupautoshown" "0"
+			"logicalpos" "[0 3000]"
+		}
 	}
 }
-entity
+hidden
 {
-	"id" "34"
-	"classname" "prop_dynamic"
-	"angles" "-90 90 0"
-	"disableshadows" "1"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
-	"fademaxdist" "0"
-	"fademindist" "0"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"MinAnimTime" "5"
-	"model" "models/props_combine/combine_generator01.mdl"
-	"modelscale" "1.0"
-	"parentname" "train_stalker_tilt"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetBodyGroup" "0"
-	"solid" "0"
-	"StartDisabled" "0"
-	"origin" "55 -140 -20"
-	editor
+	entity
 	{
-		"color" "157 206 0"
-		"groupid" "8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[7000 11500]"
+		"id" "34"
+		"classname" "prop_dynamic"
+		"angles" "-90 90 0"
+		"disableshadows" "1"
+		"ExplodeDamage" "0"
+		"ExplodeRadius" "0"
+		"fademaxdist" "0"
+		"fademindist" "0"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"MinAnimTime" "5"
+		"model" "models/props_combine/combine_generator01.mdl"
+		"modelscale" "1.0"
+		"parentname" "train_stalker_tilt"
+		"PerformanceMode" "0"
+		"pressuredelay" "0"
+		"RandomAnimation" "0"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"SetBodyGroup" "0"
+		"solid" "0"
+		"StartDisabled" "0"
+		"origin" "55 -140 -20"
+		editor
+		{
+			"color" "157 206 0"
+			"groupid" "8"
+			"visgroupshown" "1"
+			"visgroupautoshown" "0"
+			"logicalpos" "[7000 11500]"
+		}
 	}
 }
-entity
+hidden
 {
-	"id" "38"
-	"classname" "prop_dynamic"
-	"angles" "0 180 0"
-	"disableshadows" "1"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"maxdxlevel" "0"
-	"MinAnimTime" "5"
-	"mindxlevel" "0"
-	"model" "models/props_combine/breenconsole.mdl"
-	"modelscale" "1.0"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetBodyGroup" "0"
-	"skin" "0"
-	"solid" "6"
-	"StartDisabled" "0"
-	"origin" "-2 -274 -62.42"
-	editor
+	entity
 	{
-		"color" "157 206 0"
-		"groupid" "8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 14500]"
+		"id" "38"
+		"classname" "prop_dynamic"
+		"angles" "0 180 0"
+		"disableshadows" "1"
+		"ExplodeDamage" "0"
+		"ExplodeRadius" "0"
+		"fademaxdist" "0"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"maxdxlevel" "0"
+		"MinAnimTime" "5"
+		"mindxlevel" "0"
+		"model" "models/props_combine/breenconsole.mdl"
+		"modelscale" "1.0"
+		"PerformanceMode" "0"
+		"pressuredelay" "0"
+		"RandomAnimation" "0"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"SetBodyGroup" "0"
+		"skin" "0"
+		"solid" "6"
+		"StartDisabled" "0"
+		"origin" "-2 -274 -62.42"
+		editor
+		{
+			"color" "157 206 0"
+			"groupid" "8"
+			"visgroupshown" "1"
+			"visgroupautoshown" "0"
+			"logicalpos" "[0 14500]"
+		}
 	}
 }
-entity
+hidden
 {
-	"id" "42"
-	"classname" "prop_dynamic"
-	"angles" "29 90 0"
-	"disableshadows" "1"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"maxdxlevel" "0"
-	"MinAnimTime" "5"
-	"mindxlevel" "0"
-	"model" "models/props_combine/combine_emitter01.mdl"
-	"modelscale" "1.0"
-	"parentname" "train_stalker_tilt"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetBodyGroup" "0"
-	"skin" "0"
-	"solid" "6"
-	"StartDisabled" "0"
-	"origin" "-36 -278 -20.43"
-	editor
+	entity
 	{
-		"color" "157 206 0"
-		"groupid" "8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 14000]"
+		"id" "42"
+		"classname" "prop_dynamic"
+		"angles" "29 90 0"
+		"disableshadows" "1"
+		"ExplodeDamage" "0"
+		"ExplodeRadius" "0"
+		"fademaxdist" "0"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"maxdxlevel" "0"
+		"MinAnimTime" "5"
+		"mindxlevel" "0"
+		"model" "models/props_combine/combine_emitter01.mdl"
+		"modelscale" "1.0"
+		"parentname" "train_stalker_tilt"
+		"PerformanceMode" "0"
+		"pressuredelay" "0"
+		"RandomAnimation" "0"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"SetBodyGroup" "0"
+		"skin" "0"
+		"solid" "6"
+		"StartDisabled" "0"
+		"origin" "-36 -278 -20.43"
+		editor
+		{
+			"color" "157 206 0"
+			"groupid" "8"
+			"visgroupshown" "1"
+			"visgroupautoshown" "0"
+			"logicalpos" "[0 14000]"
+		}
 	}
 }
-entity
+hidden
 {
-	"id" "58"
-	"classname" "prop_dynamic"
-	"angles" "2.5 88 -180"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"MinAnimTime" "5"
-	"model" "models/props_combine/combine_light002a.mdl"
-	"modelscale" "1.0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "48.111 55.66 109.3"
-	editor
+	entity
 	{
-		"color" "157 206 0"
-		"groupid" "57"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
+		"id" "58"
+		"classname" "prop_dynamic"
+		"angles" "2.5 88 -180"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"MinAnimTime" "5"
+		"model" "models/props_combine/combine_light002a.mdl"
+		"modelscale" "1.0"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"skin" "0"
+		"solid" "6"
+		"origin" "48.111 55.66 109.3"
+		editor
+		{
+			"color" "157 206 0"
+			"groupid" "57"
+			"visgroupshown" "1"
+			"visgroupautoshown" "0"
+			"logicalpos" "[0 0]"
+		}
 	}
 }
 entity
@@ -17505,42 +17518,45 @@ entity
 		"logicalpos" "[0 0]"
 	}
 }
-entity
+hidden
 {
-	"id" "193"
-	"classname" "prop_dynamic"
-	"angles" "0 270 0"
-	"disableshadows" "1"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"maxdxlevel" "0"
-	"MinAnimTime" "5"
-	"mindxlevel" "0"
-	"model" "models/props_c17/light_cagelight01_off.mdl"
-	"modelscale" "1.0"
-	"parentname" "train_stalker_tilt"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetBodyGroup" "0"
-	"skin" "0"
-	"solid" "6"
-	"StartDisabled" "1"
-	"targetname" "prop_stalkerlight_red_on"
-	"origin" "-29 282 72"
-	editor
+	entity
 	{
-		"color" "157 206 0"
-		"groupid" "6"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1500]"
+		"id" "193"
+		"classname" "prop_dynamic"
+		"angles" "0 270 0"
+		"disableshadows" "1"
+		"ExplodeDamage" "0"
+		"ExplodeRadius" "0"
+		"fademaxdist" "0"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"maxdxlevel" "0"
+		"MinAnimTime" "5"
+		"mindxlevel" "0"
+		"model" "models/props_c17/light_cagelight01_off.mdl"
+		"modelscale" "1.0"
+		"parentname" "train_stalker_tilt"
+		"PerformanceMode" "0"
+		"pressuredelay" "0"
+		"RandomAnimation" "0"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"SetBodyGroup" "0"
+		"skin" "0"
+		"solid" "6"
+		"StartDisabled" "1"
+		"targetname" "prop_stalkerlight_red_on"
+		"origin" "-29 282 72"
+		editor
+		{
+			"color" "157 206 0"
+			"groupid" "6"
+			"visgroupshown" "1"
+			"visgroupautoshown" "0"
+			"logicalpos" "[0 1500]"
+		}
 	}
 }
 entity
@@ -17558,115 +17574,124 @@ entity
 		"logicalpos" "[0 2000]"
 	}
 }
-entity
+hidden
 {
-	"id" "200"
-	"classname" "prop_dynamic"
-	"angles" "-30 0 -90"
-	"disableshadows" "1"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"maxdxlevel" "0"
-	"MinAnimTime" "5"
-	"mindxlevel" "0"
-	"model" "models/combine_room/combine_monitor001temp.mdl"
-	"modelscale" "1.0"
-	"parentname" "train_stalker_tilt"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetBodyGroup" "0"
-	"skin" "0"
-	"solid" "0"
-	"StartDisabled" "0"
-	"origin" "-45.99 -130 57.99"
-	editor
+	entity
 	{
-		"color" "157 206 0"
-		"groupid" "6"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 10000]"
+		"id" "200"
+		"classname" "prop_dynamic"
+		"angles" "-30 0 -90"
+		"disableshadows" "1"
+		"ExplodeDamage" "0"
+		"ExplodeRadius" "0"
+		"fademaxdist" "0"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"maxdxlevel" "0"
+		"MinAnimTime" "5"
+		"mindxlevel" "0"
+		"model" "models/combine_room/combine_monitor001temp.mdl"
+		"modelscale" "1.0"
+		"parentname" "train_stalker_tilt"
+		"PerformanceMode" "0"
+		"pressuredelay" "0"
+		"RandomAnimation" "0"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"SetBodyGroup" "0"
+		"skin" "0"
+		"solid" "0"
+		"StartDisabled" "0"
+		"origin" "-45.99 -130 57.99"
+		editor
+		{
+			"color" "157 206 0"
+			"groupid" "6"
+			"visgroupshown" "1"
+			"visgroupautoshown" "0"
+			"logicalpos" "[0 10000]"
+		}
 	}
 }
-entity
+hidden
 {
-	"id" "204"
-	"classname" "prop_dynamic"
-	"angles" "-30 0 -90"
-	"disableshadows" "1"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"maxdxlevel" "0"
-	"MinAnimTime" "5"
-	"mindxlevel" "0"
-	"model" "models/combine_room/combine_monitor001temp.mdl"
-	"modelscale" "1.0"
-	"parentname" "train_stalker_tilt"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetBodyGroup" "0"
-	"skin" "0"
-	"solid" "0"
-	"StartDisabled" "0"
-	"origin" "-47.82 -46.1 58"
-	editor
+	entity
 	{
-		"color" "157 206 0"
-		"groupid" "6"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 6500]"
+		"id" "204"
+		"classname" "prop_dynamic"
+		"angles" "-30 0 -90"
+		"disableshadows" "1"
+		"ExplodeDamage" "0"
+		"ExplodeRadius" "0"
+		"fademaxdist" "0"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"maxdxlevel" "0"
+		"MinAnimTime" "5"
+		"mindxlevel" "0"
+		"model" "models/combine_room/combine_monitor001temp.mdl"
+		"modelscale" "1.0"
+		"parentname" "train_stalker_tilt"
+		"PerformanceMode" "0"
+		"pressuredelay" "0"
+		"RandomAnimation" "0"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"SetBodyGroup" "0"
+		"skin" "0"
+		"solid" "0"
+		"StartDisabled" "0"
+		"origin" "-47.82 -46.1 58"
+		editor
+		{
+			"color" "157 206 0"
+			"groupid" "6"
+			"visgroupshown" "1"
+			"visgroupautoshown" "0"
+			"logicalpos" "[0 6500]"
+		}
 	}
 }
-entity
+hidden
 {
-	"id" "208"
-	"classname" "prop_dynamic"
-	"angles" "-30 0 -90"
-	"disableshadows" "1"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"maxdxlevel" "0"
-	"MinAnimTime" "5"
-	"mindxlevel" "0"
-	"model" "models/combine_room/combine_monitor001temp.mdl"
-	"modelscale" "1.0"
-	"parentname" "train_stalker_tilt"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetBodyGroup" "0"
-	"skin" "0"
-	"solid" "0"
-	"StartDisabled" "0"
-	"origin" "-44 158 58"
-	editor
+	entity
 	{
-		"color" "157 206 0"
-		"groupid" "6"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2500]"
+		"id" "208"
+		"classname" "prop_dynamic"
+		"angles" "-30 0 -90"
+		"disableshadows" "1"
+		"ExplodeDamage" "0"
+		"ExplodeRadius" "0"
+		"fademaxdist" "0"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"MaxAnimTime" "10"
+		"maxdxlevel" "0"
+		"MinAnimTime" "5"
+		"mindxlevel" "0"
+		"model" "models/combine_room/combine_monitor001temp.mdl"
+		"modelscale" "1.0"
+		"parentname" "train_stalker_tilt"
+		"PerformanceMode" "0"
+		"pressuredelay" "0"
+		"RandomAnimation" "0"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"SetBodyGroup" "0"
+		"skin" "0"
+		"solid" "0"
+		"StartDisabled" "0"
+		"origin" "-44 158 58"
+		editor
+		{
+			"color" "157 206 0"
+			"groupid" "6"
+			"visgroupshown" "1"
+			"visgroupautoshown" "0"
+			"logicalpos" "[0 2500]"
+		}
 	}
 }
 entity
