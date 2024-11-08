@@ -1,0 +1,214 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "5454"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "1"
+}
+world
+{
+	"id" "2639"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_l4d_rural02_hdr"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"musicpostfix" "Waterfront"
+}
+entity
+{
+	"id" "2640"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "1"
+	"disablevertexlighting" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props/cs_militia/table_shed.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -2768]"
+	}
+}
+entity
+{
+	"id" "2644"
+	"classname" "weapon_first_aid_kit_spawn"
+	"angles" "90 135 0"
+	"solid" "6"
+	"spawnflags" "2"
+	"origin" "16 -36 12"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -2268]"
+	}
+}
+entity
+{
+	"id" "2646"
+	"classname" "weapon_first_aid_kit_spawn"
+	"angles" "90 210 0"
+	"solid" "6"
+	"spawnflags" "2"
+	"origin" "20 -20 12"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -1768]"
+	}
+}
+entity
+{
+	"id" "2648"
+	"classname" "weapon_first_aid_kit_spawn"
+	"angles" "90 120 0"
+	"solid" "6"
+	"spawnflags" "2"
+	"origin" "16 -12 12"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -1768]"
+	}
+}
+entity
+{
+	"id" "2650"
+	"classname" "weapon_first_aid_kit_spawn"
+	"angles" "90 270 0"
+	"solid" "6"
+	"spawnflags" "2"
+	"origin" "16 8 12"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -1768]"
+	}
+}
+entity
+{
+	"id" "2652"
+	"classname" "weapon_smg_silenced_spawn"
+	"angles" "0 300 -90"
+	"count" "1"
+	"model" "models/w_models/weapons/w_smg_a.mdl"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "2"
+	"origin" "15 32 11"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -1268]"
+	}
+}
+entity
+{
+	"id" "2654"
+	"classname" "weapon_smg_silenced_spawn"
+	"angles" "0 270 -90"
+	"count" "1"
+	"model" "models/w_models/weapons/w_smg_a.mdl"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "2"
+	"origin" "18 41 36"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -1268]"
+	}
+}
+entity
+{
+	"id" "2656"
+	"classname" "weapon_pumpshotgun_spawn"
+	"angles" "0 30 90"
+	"count" "1"
+	"solid" "6"
+	"spawnflags" "2"
+	"origin" "-13 -39 36"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -768]"
+	}
+}
+entity
+{
+	"id" "2658"
+	"classname" "weapon_pumpshotgun_spawn"
+	"angles" "0 210 90"
+	"count" "1"
+	"solid" "6"
+	"spawnflags" "2"
+	"origin" "12 -22 36"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -768]"
+	}
+}
+entity
+{
+	"id" "2660"
+	"classname" "weapon_pumpshotgun_spawn"
+	"angles" "0 75 -90"
+	"count" "1"
+	"solid" "6"
+	"spawnflags" "2"
+	"origin" "13 -6 37"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 0]"
+	}
+}
+entity
+{
+	"id" "2662"
+	"classname" "weapon_ammo_spawn"
+	"angles" "0 0 0"
+	"count" "5"
+	"model" "models/props/terror/ammo_stack.mdl"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "2"
+	"origin" "-8 4 36"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 500]"
+	}
+}

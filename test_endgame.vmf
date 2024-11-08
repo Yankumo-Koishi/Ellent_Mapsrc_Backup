@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8865"
-	"mapversion" "51"
+	"editorbuild" "10000"
+	"mapversion" "54"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -15,68 +15,46 @@ viewsettings
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
 	"nGridSpacing" "8"
-}
-palette_plus
-{
-	"color0" "255 255 255"
-	"color1" "255 255 255"
-	"color2" "255 255 255"
-	"color3" "255 255 255"
-	"color4" "255 255 255"
-	"color5" "255 255 255"
-	"color6" "255 255 255"
-	"color7" "255 255 255"
-	"color8" "255 255 255"
-	"color9" "255 255 255"
-	"color10" "255 255 255"
-	"color11" "255 255 255"
-	"color12" "255 255 255"
-	"color13" "255 255 255"
-	"color14" "255 255 255"
-	"color15" "255 255 255"
-}
-colorcorrection_plus
-{
-	"name0" ""
-	"weight0" "1"
-	"name1" ""
-	"weight1" "1"
-	"name2" ""
-	"weight2" "1"
-	"name3" ""
-	"weight3" "1"
-}
-light_plus
-{
-	"samples_sun" "6"
-	"samples_ambient" "40"
-	"samples_vis" "256"
-	"texlight" ""
-	"incremental_delay" "0"
-	"bake_dist" "1024"
-	"radius_scale" "1"
-	"brightness_scale" "1"
-	"ao_scale" "0"
-	"bounced" "1"
-	"incremental" "1"
-	"supersample" "0"
-	"bleed_hack" "1"
-	"soften_cosine" "0"
-	"debug" "0"
-	"cubemap" "1"
-	"hdr" "0"
-}
-bgimages_plus
-{
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(306.866 346.589 111.908)"
+			"angle" "[5.19999 32.7999 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(151.72 534.572 0)"
+			"zoom" "0.216828"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "51"
+	"mapversion" "54"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_day01_01"
 	"vscriptlanguage_client" "-2"
@@ -86,13 +64,14 @@ world
 		side
 		{
 			"id" "1"
-			"plane" "(0 768 0) (768 768 0) (768 0 0)"
-			vertices_plus
+			"plane" "(0 0 0) (0 768 0) (768 768 0)"
+			point_data
 			{
-				"v" "0 768 0"
-				"v" "768 768 0"
-				"v" "768 0 0"
-				"v" "0 0 0"
+				"numpts" "4"
+				"point" "0 0 0 0"
+				"point" "1 0 768 0"
+				"point" "2 768 768 0"
+				"point" "3 768 0 0"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -104,13 +83,14 @@ world
 		side
 		{
 			"id" "2"
-			"plane" "(0 0 -64) (768 0 -64) (768 768 -64)"
-			vertices_plus
+			"plane" "(0 768 -64) (0 0 -64) (768 0 -64)"
+			point_data
 			{
-				"v" "0 0 -64"
-				"v" "768 0 -64"
-				"v" "768 768 -64"
-				"v" "0 768 -64"
+				"numpts" "4"
+				"point" "0 0 768 -64"
+				"point" "1 0 0 -64"
+				"point" "2 768 0 -64"
+				"point" "3 768 768 -64"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -122,13 +102,14 @@ world
 		side
 		{
 			"id" "3"
-			"plane" "(0 768 0) (0 0 0) (0 0 -64)"
-			vertices_plus
+			"plane" "(0 0 -64) (0 768 -64) (0 768 0)"
+			point_data
 			{
-				"v" "0 768 0"
-				"v" "0 0 0"
-				"v" "0 0 -64"
-				"v" "0 768 -64"
+				"numpts" "4"
+				"point" "0 0 0 -64"
+				"point" "1 0 768 -64"
+				"point" "2 0 768 0"
+				"point" "3 0 0 0"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -141,12 +122,13 @@ world
 		{
 			"id" "4"
 			"plane" "(768 768 -64) (768 0 -64) (768 0 0)"
-			vertices_plus
+			point_data
 			{
-				"v" "768 768 -64"
-				"v" "768 0 -64"
-				"v" "768 0 0"
-				"v" "768 768 0"
+				"numpts" "4"
+				"point" "0 768 768 -64"
+				"point" "1 768 0 -64"
+				"point" "2 768 0 0"
+				"point" "3 768 768 0"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -158,13 +140,14 @@ world
 		side
 		{
 			"id" "5"
-			"plane" "(768 768 0) (0 768 0) (0 768 -64)"
-			vertices_plus
+			"plane" "(0 768 -64) (768 768 -64) (768 768 0)"
+			point_data
 			{
-				"v" "768 768 0"
-				"v" "0 768 0"
-				"v" "0 768 -64"
-				"v" "768 768 -64"
+				"numpts" "4"
+				"point" "0 0 768 -64"
+				"point" "1 768 768 -64"
+				"point" "2 768 768 0"
+				"point" "3 0 768 0"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -177,12 +160,13 @@ world
 		{
 			"id" "6"
 			"plane" "(768 0 -64) (0 0 -64) (0 0 0)"
-			vertices_plus
+			point_data
 			{
-				"v" "768 0 -64"
-				"v" "0 0 -64"
-				"v" "0 0 0"
-				"v" "768 0 0"
+				"numpts" "4"
+				"point" "0 768 0 -64"
+				"point" "1 0 0 -64"
+				"point" "2 0 0 0"
+				"point" "3 768 0 0"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -204,13 +188,14 @@ world
 		side
 		{
 			"id" "7"
-			"plane" "(-1.11901e-05 0 -3.05176e-05) (-2.23802e-05 0 256) (-2.23802e-05 -64 256)"
-			vertices_plus
+			"plane" "(-0 -64 -0) (-0 0 -0) (-0 0 256)"
+			point_data
 			{
-				"v" "-0 0 -0"
-				"v" "-0 0 256"
-				"v" "-0 -64 256"
-				"v" "-0 -64 -0"
+				"numpts" "4"
+				"point" "0 -0 -64 -0"
+				"point" "1 -0 0 -0"
+				"point" "2 -0 0 256"
+				"point" "3 -0 -64 256"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -222,13 +207,14 @@ world
 		side
 		{
 			"id" "8"
-			"plane" "(768 -64 1.52588e-05) (768 -64 256) (768 0 256)"
-			vertices_plus
+			"plane" "(768 0 0) (768 -64 0) (768 -64 256)"
+			point_data
 			{
-				"v" "768 -64 0"
-				"v" "768 -64 256"
-				"v" "768 0 256"
-				"v" "768 0 0"
+				"numpts" "4"
+				"point" "0 768 0 0"
+				"point" "1 768 -64 0"
+				"point" "2 768 -64 256"
+				"point" "3 768 0 256"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -240,13 +226,14 @@ world
 		side
 		{
 			"id" "9"
-			"plane" "(-1.11901e-05 0 -3.05176e-05) (-1.11901e-05 -64 -3.05176e-05) (768 -64 1.52588e-05)"
-			vertices_plus
+			"plane" "(-0 0 -0) (-0 -64 -0) (768 -64 0)"
+			point_data
 			{
-				"v" "-0 0 -0"
-				"v" "-0 -64 -0"
-				"v" "768 -64 0"
-				"v" "768 0 0"
+				"numpts" "4"
+				"point" "0 -0 0 -0"
+				"point" "1 -0 -64 -0"
+				"point" "2 768 -64 0"
+				"point" "3 768 0 0"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -258,13 +245,14 @@ world
 		side
 		{
 			"id" "10"
-			"plane" "(768 0 256) (768 -64 256) (-2.23802e-05 -64 256)"
-			vertices_plus
+			"plane" "(-0 -64 256) (-0 0 256) (768 0 256)"
+			point_data
 			{
-				"v" "768 0 256"
-				"v" "768 -64 256"
-				"v" "-0 -64 256"
-				"v" "-0 0 256"
+				"numpts" "4"
+				"point" "0 -0 -64 256"
+				"point" "1 -0 0 256"
+				"point" "2 768 0 256"
+				"point" "3 768 -64 256"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -276,13 +264,14 @@ world
 		side
 		{
 			"id" "11"
-			"plane" "(-2.23802e-05 0 256) (-1.11901e-05 0 -3.05176e-05) (768 0 1.52588e-05)"
-			vertices_plus
+			"plane" "(-0 0 256) (-0 0 -0) (768 0 0)"
+			point_data
 			{
-				"v" "-0 0 256"
-				"v" "-0 0 -0"
-				"v" "768 0 0"
-				"v" "768 0 256"
+				"numpts" "4"
+				"point" "0 -0 0 256"
+				"point" "1 -0 0 -0"
+				"point" "2 768 0 0"
+				"point" "3 768 0 256"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -294,13 +283,14 @@ world
 		side
 		{
 			"id" "12"
-			"plane" "(768 -64 256) (768 -64 1.52588e-05) (-1.11901e-05 -64 -3.05176e-05)"
-			vertices_plus
+			"plane" "(768 -64 256) (768 -64 0) (-0 -64 -0)"
+			point_data
 			{
-				"v" "768 -64 256"
-				"v" "768 -64 0"
-				"v" "-0 -64 -0"
-				"v" "-0 -64 256"
+				"numpts" "4"
+				"point" "0 768 -64 256"
+				"point" "1 768 -64 0"
+				"point" "2 -0 -64 -0"
+				"point" "3 -0 -64 256"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -322,13 +312,14 @@ world
 		side
 		{
 			"id" "13"
-			"plane" "(-1.11901e-05 832 -3.05176e-05) (-2.23802e-05 832 256) (-2.23802e-05 768 256)"
-			vertices_plus
+			"plane" "(-0 768 -0) (-0 832 -0) (-0 832 256)"
+			point_data
 			{
-				"v" "-0 832 -0"
-				"v" "-0 832 256"
-				"v" "-0 768 256"
-				"v" "-0 768 -0"
+				"numpts" "4"
+				"point" "0 -0 768 -0"
+				"point" "1 -0 832 -0"
+				"point" "2 -0 832 256"
+				"point" "3 -0 768 256"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -340,13 +331,14 @@ world
 		side
 		{
 			"id" "14"
-			"plane" "(768 768 1.52588e-05) (768 768 256) (768 832 256)"
-			vertices_plus
+			"plane" "(768 832 0) (768 768 0) (768 768 256)"
+			point_data
 			{
-				"v" "768 768 0"
-				"v" "768 768 256"
-				"v" "768 832 256"
-				"v" "768 832 0"
+				"numpts" "4"
+				"point" "0 768 832 0"
+				"point" "1 768 768 0"
+				"point" "2 768 768 256"
+				"point" "3 768 832 256"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -358,13 +350,14 @@ world
 		side
 		{
 			"id" "15"
-			"plane" "(-1.11901e-05 832 -3.05176e-05) (-1.11901e-05 768 -3.05176e-05) (768 768 1.52588e-05)"
-			vertices_plus
+			"plane" "(-0 832 -0) (-0 768 -0) (768 768 0)"
+			point_data
 			{
-				"v" "-0 832 -0"
-				"v" "-0 768 -0"
-				"v" "768 768 0"
-				"v" "768 832 0"
+				"numpts" "4"
+				"point" "0 -0 832 -0"
+				"point" "1 -0 768 -0"
+				"point" "2 768 768 0"
+				"point" "3 768 832 0"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -376,13 +369,14 @@ world
 		side
 		{
 			"id" "16"
-			"plane" "(768 832 256) (768 768 256) (-2.23802e-05 768 256)"
-			vertices_plus
+			"plane" "(-0 768 256) (-0 832 256) (768 832 256)"
+			point_data
 			{
-				"v" "768 832 256"
-				"v" "768 768 256"
-				"v" "-0 768 256"
-				"v" "-0 832 256"
+				"numpts" "4"
+				"point" "0 -0 768 256"
+				"point" "1 -0 832 256"
+				"point" "2 768 832 256"
+				"point" "3 768 768 256"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -394,13 +388,14 @@ world
 		side
 		{
 			"id" "17"
-			"plane" "(-2.23802e-05 832 256) (-1.11901e-05 832 -3.05176e-05) (768 832 1.52588e-05)"
-			vertices_plus
+			"plane" "(-0 832 256) (-0 832 -0) (768 832 0)"
+			point_data
 			{
-				"v" "-0 832 256"
-				"v" "-0 832 -0"
-				"v" "768 832 0"
-				"v" "768 832 256"
+				"numpts" "4"
+				"point" "0 -0 832 256"
+				"point" "1 -0 832 -0"
+				"point" "2 768 832 0"
+				"point" "3 768 832 256"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -412,13 +407,14 @@ world
 		side
 		{
 			"id" "18"
-			"plane" "(768 768 256) (768 768 1.52588e-05) (-1.11901e-05 768 -3.05176e-05)"
-			vertices_plus
+			"plane" "(768 768 256) (768 768 0) (-0 768 -0)"
+			point_data
 			{
-				"v" "768 768 256"
-				"v" "768 768 0"
-				"v" "-0 768 -0"
-				"v" "-0 768 256"
+				"numpts" "4"
+				"point" "0 768 768 256"
+				"point" "1 768 768 0"
+				"point" "2 -0 768 -0"
+				"point" "3 -0 768 256"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -440,13 +436,14 @@ world
 		side
 		{
 			"id" "19"
-			"plane" "(-64 0 256) (0 0 256) (0 0 0)"
-			vertices_plus
+			"plane" "(0 0 256) (0 0 0) (-64 0 0)"
+			point_data
 			{
-				"v" "-64 0 256"
-				"v" "0 0 256"
-				"v" "0 0 0"
-				"v" "-64 0 0"
+				"numpts" "4"
+				"point" "0 0 0 256"
+				"point" "1 0 0 0"
+				"point" "2 -64 0 0"
+				"point" "3 -64 0 256"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -458,13 +455,14 @@ world
 		side
 		{
 			"id" "20"
-			"plane" "(-64 768 0) (0 768 0) (0 767.999 256)"
-			vertices_plus
+			"plane" "(-64 768 256) (-64 768 0) (0 768 0)"
+			point_data
 			{
-				"v" "-64 768 0"
-				"v" "0 768 0"
-				"v" "0 768 256"
-				"v" "-64 768 256"
+				"numpts" "4"
+				"point" "0 -64 768 256"
+				"point" "1 -64 768 0"
+				"point" "2 0 768 0"
+				"point" "3 0 768 256"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -477,12 +475,13 @@ world
 		{
 			"id" "21"
 			"plane" "(-64 0 256) (-64 0 0) (-64 768 0)"
-			vertices_plus
+			point_data
 			{
-				"v" "-64 0 256"
-				"v" "-64 0 0"
-				"v" "-64 768 0"
-				"v" "-64 768 256"
+				"numpts" "4"
+				"point" "0 -64 0 256"
+				"point" "1 -64 0 0"
+				"point" "2 -64 768 0"
+				"point" "3 -64 768 256"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -494,13 +493,14 @@ world
 		side
 		{
 			"id" "22"
-			"plane" "(0 767.999 256) (0 768 0) (0 0 0)"
-			vertices_plus
+			"plane" "(0 768 256) (0 768 0) (0 0 0)"
+			point_data
 			{
-				"v" "0 768 256"
-				"v" "0 768 0"
-				"v" "0 0 0"
-				"v" "0 0 256"
+				"numpts" "4"
+				"point" "0 0 768 256"
+				"point" "1 0 768 0"
+				"point" "2 0 0 0"
+				"point" "3 0 0 256"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -512,13 +512,14 @@ world
 		side
 		{
 			"id" "23"
-			"plane" "(0 0 256) (-64 0 256) (-64 767.999 256)"
-			vertices_plus
+			"plane" "(0 0 256) (-64 0 256) (-64 768 256)"
+			point_data
 			{
-				"v" "0 0 256"
-				"v" "-64 0 256"
-				"v" "-64 768 256"
-				"v" "0 768 256"
+				"numpts" "4"
+				"point" "0 0 0 256"
+				"point" "1 -64 0 256"
+				"point" "2 -64 768 256"
+				"point" "3 0 768 256"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -531,12 +532,13 @@ world
 		{
 			"id" "24"
 			"plane" "(0 768 0) (-64 768 0) (-64 0 0)"
-			vertices_plus
+			point_data
 			{
-				"v" "0 768 0"
-				"v" "-64 768 0"
-				"v" "-64 0 0"
-				"v" "0 0 0"
+				"numpts" "4"
+				"point" "0 0 768 0"
+				"point" "1 -64 768 0"
+				"point" "2 -64 0 0"
+				"point" "3 0 0 0"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -558,13 +560,14 @@ world
 		side
 		{
 			"id" "25"
-			"plane" "(768 0 256) (832 0 256) (832 0 0)"
-			vertices_plus
+			"plane" "(832 0 256) (832 0 0) (768 0 0)"
+			point_data
 			{
-				"v" "768 0 256"
-				"v" "832 0 256"
-				"v" "832 0 0"
-				"v" "768 0 0"
+				"numpts" "4"
+				"point" "0 832 0 256"
+				"point" "1 832 0 0"
+				"point" "2 768 0 0"
+				"point" "3 768 0 256"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -576,13 +579,14 @@ world
 		side
 		{
 			"id" "26"
-			"plane" "(768 768 0) (832 768 0) (832 767.999 256)"
-			vertices_plus
+			"plane" "(768 768 256) (768 768 0) (832 768 0)"
+			point_data
 			{
-				"v" "768 768 0"
-				"v" "832 768 0"
-				"v" "832 768 256"
-				"v" "768 768 256"
+				"numpts" "4"
+				"point" "0 768 768 256"
+				"point" "1 768 768 0"
+				"point" "2 832 768 0"
+				"point" "3 832 768 256"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -595,12 +599,13 @@ world
 		{
 			"id" "27"
 			"plane" "(768 0 256) (768 0 0) (768 768 0)"
-			vertices_plus
+			point_data
 			{
-				"v" "768 0 256"
-				"v" "768 0 0"
-				"v" "768 768 0"
-				"v" "768 768 256"
+				"numpts" "4"
+				"point" "0 768 0 256"
+				"point" "1 768 0 0"
+				"point" "2 768 768 0"
+				"point" "3 768 768 256"
 			}
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -612,13 +617,14 @@ world
 		side
 		{
 			"id" "28"
-			"plane" "(832 767.999 256) (832 768 0) (832 0 0)"
-			vertices_plus
+			"plane" "(832 768 256) (832 768 0) (832 0 0)"
+			point_data
 			{
-				"v" "832 768 256"
-				"v" "832 768 0"
-				"v" "832 0 0"
-				"v" "832 0 256"
+				"numpts" "4"
+				"point" "0 832 768 256"
+				"point" "1 832 768 0"
+				"point" "2 832 0 0"
+				"point" "3 832 0 256"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -630,13 +636,14 @@ world
 		side
 		{
 			"id" "29"
-			"plane" "(832 0 256) (768 0 256) (768 767.999 256)"
-			vertices_plus
+			"plane" "(832 0 256) (768 0 256) (768 768 256)"
+			point_data
 			{
-				"v" "832 0 256"
-				"v" "768 0 256"
-				"v" "768 768 256"
-				"v" "832 768 256"
+				"numpts" "4"
+				"point" "0 832 0 256"
+				"point" "1 768 0 256"
+				"point" "2 768 768 256"
+				"point" "3 832 768 256"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -649,12 +656,13 @@ world
 		{
 			"id" "30"
 			"plane" "(832 768 0) (768 768 0) (768 0 0)"
-			vertices_plus
+			point_data
 			{
-				"v" "832 768 0"
-				"v" "768 768 0"
-				"v" "768 0 0"
-				"v" "832 0 0"
+				"numpts" "4"
+				"point" "0 832 768 0"
+				"point" "1 768 768 0"
+				"point" "2 768 0 0"
+				"point" "3 832 0 0"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -676,13 +684,14 @@ world
 		side
 		{
 			"id" "31"
-			"plane" "(0 0 320) (768 0 320) (768 0 256)"
-			vertices_plus
+			"plane" "(768 0 320) (768 0 256) (0 0 256)"
+			point_data
 			{
-				"v" "0 0 320"
-				"v" "768 0 320"
-				"v" "768 0 256"
-				"v" "0 0 256"
+				"numpts" "4"
+				"point" "0 768 0 320"
+				"point" "1 768 0 256"
+				"point" "2 0 0 256"
+				"point" "3 0 0 320"
 			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -694,13 +703,14 @@ world
 		side
 		{
 			"id" "32"
-			"plane" "(0 768 256) (768 768 256) (768 768 320)"
-			vertices_plus
+			"plane" "(0 768 320) (0 768 256) (768 768 256)"
+			point_data
 			{
-				"v" "0 768 256"
-				"v" "768 768 256"
-				"v" "768 768 320"
-				"v" "0 768 320"
+				"numpts" "4"
+				"point" "0 0 768 320"
+				"point" "1 0 768 256"
+				"point" "2 768 768 256"
+				"point" "3 768 768 320"
 			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -713,12 +723,13 @@ world
 		{
 			"id" "33"
 			"plane" "(0 0 320) (0 0 256) (0 768 256)"
-			vertices_plus
+			point_data
 			{
-				"v" "0 0 320"
-				"v" "0 0 256"
-				"v" "0 768 256"
-				"v" "0 768 320"
+				"numpts" "4"
+				"point" "0 0 0 320"
+				"point" "1 0 0 256"
+				"point" "2 0 768 256"
+				"point" "3 0 768 320"
 			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -731,12 +742,13 @@ world
 		{
 			"id" "34"
 			"plane" "(768 768 320) (768 768 256) (768 0 256)"
-			vertices_plus
+			point_data
 			{
-				"v" "768 768 320"
-				"v" "768 768 256"
-				"v" "768 0 256"
-				"v" "768 0 320"
+				"numpts" "4"
+				"point" "0 768 768 320"
+				"point" "1 768 768 256"
+				"point" "2 768 0 256"
+				"point" "3 768 0 320"
 			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -749,12 +761,13 @@ world
 		{
 			"id" "35"
 			"plane" "(768 0 320) (0 0 320) (0 768 320)"
-			vertices_plus
+			point_data
 			{
-				"v" "768 0 320"
-				"v" "0 0 320"
-				"v" "0 768 320"
-				"v" "768 768 320"
+				"numpts" "4"
+				"point" "0 768 0 320"
+				"point" "1 0 0 320"
+				"point" "2 0 768 320"
+				"point" "3 768 768 320"
 			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -767,12 +780,13 @@ world
 		{
 			"id" "36"
 			"plane" "(768 768 256) (0 768 256) (0 0 256)"
-			vertices_plus
+			point_data
 			{
-				"v" "768 768 256"
-				"v" "0 768 256"
-				"v" "0 0 256"
-				"v" "768 0 256"
+				"numpts" "4"
+				"point" "0 768 768 256"
+				"point" "1 0 768 256"
+				"point" "2 0 0 256"
+				"point" "3 768 0 256"
 			}
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -787,6 +801,75 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "494"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"animateeveryframe" "1"
+	"body" "0"
+	"disablebonefollowers" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"effects" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "0"
+	"holdanimation" "0"
+	"maxanimtime" "10"
+	"minanimtime" "5"
+	"minhealthdmg" "0"
+	"performancemode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"randomanimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"setbodygroup" "0"
+	"shadowcastdist" "0"
+	"shadowdepthnocache" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"startdisabled" "0"
+	"suppressanimsounds" "0"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "42.405 323.779 9"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "438"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "244.17 280.459 9"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -815,6 +898,9 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"gmod_allowphysgun" "1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
 	"origin" "172 224 20"
 	editor
 	{
@@ -1000,6 +1086,9 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"gmod_allowphysgun" "1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
 	"origin" "172 224 28.3806"
 	editor
 	{
@@ -1147,18 +1236,21 @@ entity
 {
 	"id" "373"
 	"classname" "func_button"
+	"angles" "0 0 0"
 	"disablereceiveshadows" "0"
 	"gmod_allowphysgun" "1"
 	"health" "0"
 	"lip" "0"
 	"locked_sentence" "0"
 	"locked_sound" "0"
+	"min_use_angle" "0.8"
 	"movedir" "0 0 0"
 	"origin" "4 448 128"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
+	"solid" "6"
 	"sounds" "0"
 	"spawnflags" "1024"
 	"speed" "5"
@@ -1167,8 +1259,8 @@ entity
 	"wait" "3"
 	connections
 	{
-		"OnPressed" "tr_endchange,EndSection,,0,-1"
-		"OnPressed" "end_game,EndGame,,0,-1"
+		"OnPressed" "tr_endchangeEndSection0-1"
+		"OnPressed" "end_gameEndGame0-1"
 	}
 	solid
 	{
@@ -1176,13 +1268,14 @@ entity
 		side
 		{
 			"id" "54"
-			"plane" "(0 512 256) (8 512 256) (8 384 256)"
-			vertices_plus
+			"plane" "(0 384 256) (0 512 256) (8 512 256)"
+			point_data
 			{
-				"v" "0 512 256"
-				"v" "8 512 256"
-				"v" "8 384 256"
-				"v" "0 384 256"
+				"numpts" "4"
+				"point" "0 0 384 256"
+				"point" "1 0 512 256"
+				"point" "2 8 512 256"
+				"point" "3 8 384 256"
 			}
 			"material" "DEV/DEV_MEASURECOLORSCALE01"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -1194,13 +1287,14 @@ entity
 		side
 		{
 			"id" "53"
-			"plane" "(0 384 0) (8 384 0) (8 512 0)"
-			vertices_plus
+			"plane" "(0 512 0) (0 384 0) (8 384 0)"
+			point_data
 			{
-				"v" "0 384 0"
-				"v" "8 384 0"
-				"v" "8 512 0"
-				"v" "0 512 0"
+				"numpts" "4"
+				"point" "0 0 512 0"
+				"point" "1 0 384 0"
+				"point" "2 8 384 0"
+				"point" "3 8 512 0"
 			}
 			"material" "DEV/DEV_MEASURECOLORSCALE01"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -1212,13 +1306,14 @@ entity
 		side
 		{
 			"id" "52"
-			"plane" "(0 512 256) (0 384 256) (0 384 0)"
-			vertices_plus
+			"plane" "(0 384 0) (0 512 0) (0 512 256)"
+			point_data
 			{
-				"v" "0 512 256"
-				"v" "0 384 256"
-				"v" "0 384 0"
-				"v" "0 512 0"
+				"numpts" "4"
+				"point" "0 0 384 0"
+				"point" "1 0 512 0"
+				"point" "2 0 512 256"
+				"point" "3 0 384 256"
 			}
 			"material" "DEV/DEV_MEASURECOLORSCALE01"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -1231,12 +1326,13 @@ entity
 		{
 			"id" "51"
 			"plane" "(8 512 0) (8 384 0) (8 384 256)"
-			vertices_plus
+			point_data
 			{
-				"v" "8 512 0"
-				"v" "8 384 0"
-				"v" "8 384 256"
-				"v" "8 512 256"
+				"numpts" "4"
+				"point" "0 8 512 0"
+				"point" "1 8 384 0"
+				"point" "2 8 384 256"
+				"point" "3 8 512 256"
 			}
 			"material" "DEV/DEV_MEASURECOLORSCALE01"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -1248,13 +1344,14 @@ entity
 		side
 		{
 			"id" "50"
-			"plane" "(8 512 256) (0 512 256) (0 512 0)"
-			vertices_plus
+			"plane" "(0 512 0) (8 512 0) (8 512 256)"
+			point_data
 			{
-				"v" "8 512 256"
-				"v" "0 512 256"
-				"v" "0 512 0"
-				"v" "8 512 0"
+				"numpts" "4"
+				"point" "0 0 512 0"
+				"point" "1 8 512 0"
+				"point" "2 8 512 256"
+				"point" "3 0 512 256"
 			}
 			"material" "DEV/DEV_MEASURECOLORSCALE01"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -1267,12 +1364,13 @@ entity
 		{
 			"id" "49"
 			"plane" "(8 384 0) (0 384 0) (0 384 256)"
-			vertices_plus
+			point_data
 			{
-				"v" "8 384 0"
-				"v" "0 384 0"
-				"v" "0 384 256"
-				"v" "8 384 256"
+				"numpts" "4"
+				"point" "0 8 384 0"
+				"point" "1 0 384 0"
+				"point" "2 0 384 256"
+				"point" "3 8 384 256"
 			}
 			"material" "DEV/DEV_MEASURECOLORSCALE01"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -1300,6 +1398,7 @@ entity
 {
 	"id" "403"
 	"classname" "game_end"
+	"angles" "0 0 0"
 	"targetname" "end_game"
 	"origin" "8 344 8"
 	editor
@@ -1315,8 +1414,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[66.3599 332.507 46.2608]"
-		"look" "[65.7172 332.947 45.6341]"
+		"position" "[306.866 346.589 111.908]"
+		"look" "[307.406 347.426 111.817]"
 	}
 }
 cordons

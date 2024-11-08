@@ -1,0 +1,967 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "4865"
+	"mapversion" "7"
+	"formatversion" "100"
+	"prefab" "1"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "1"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "275"
+	"mapversion" "7"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"musicpostfix" "Waterfront"
+	"skyname" "sky_l4d_rural02_hdr"
+}
+entity
+{
+	"id" "276"
+	"classname" "info_gamemode"
+	"angles" "0 0 0"
+	"targetname" "Gamemode"
+	connections
+	{
+		"OnSurvivalPostIO" "Weapon_TemplateForceSpawn0-1"
+		"OnScavengePostIO" "Weapon_TemplateForceSpawn0-1"
+		"OnVersusPostIO" "Weapon_TemplateForceSpawn0-1"
+	}
+	"origin" "28.0119 8.34545 10"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "278"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "Weapon_Template"
+	"Template01" "Weapon"
+	"origin" "59.4423 11.5843 10"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "280"
+	"classname" "weapon_rifle_ak47_spawn"
+	"angles" "0 0 0"
+	"count" "1"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "192 80 8.46103"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "282"
+	"classname" "weapon_pistol_magnum_spawn"
+	"angles" "0 0 0"
+	"count" "1"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "192 32 7.16987"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "284"
+	"classname" "weapon_pipe_bomb_spawn"
+	"angles" "0 0 0"
+	"count" "1"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "64 144 6.90144"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "286"
+	"classname" "weapon_pipe_bomb_spawn"
+	"angles" "0 0 0"
+	"count" "1"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "80 144 6.90144"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "288"
+	"classname" "weapon_pipe_bomb_spawn"
+	"angles" "0 0 0"
+	"count" "1"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "96 144 6.90144"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "290"
+	"classname" "weapon_pipe_bomb_spawn"
+	"angles" "0 0 0"
+	"count" "1"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "112 144 6.90144"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "292"
+	"classname" "weapon_pipe_bomb_spawn"
+	"angles" "0 0 0"
+	"count" "1"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "128 144 6.90144"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "294"
+	"classname" "weapon_pipe_bomb_spawn"
+	"angles" "0 0 0"
+	"count" "1"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "144 144 6.90144"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7000]"
+	}
+}
+entity
+{
+	"id" "296"
+	"classname" "weapon_molotov_spawn"
+	"angles" "0 0 0"
+	"count" "1"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "64 128 7.25154"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "298"
+	"classname" "weapon_molotov_spawn"
+	"angles" "0 0 0"
+	"count" "1"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "80 128 7.25154"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8000]"
+	}
+}
+entity
+{
+	"id" "300"
+	"classname" "weapon_molotov_spawn"
+	"angles" "0 0 0"
+	"count" "1"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "96 128 7.25154"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8500]"
+	}
+}
+entity
+{
+	"id" "302"
+	"classname" "weapon_molotov_spawn"
+	"angles" "0 0 0"
+	"count" "1"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "112 128 7.25154"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9000]"
+	}
+}
+entity
+{
+	"id" "304"
+	"classname" "weapon_molotov_spawn"
+	"angles" "0 0 0"
+	"count" "1"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "128 128 7.25154"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "306"
+	"classname" "weapon_molotov_spawn"
+	"angles" "0 0 0"
+	"count" "1"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "144 128 7.25154"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
+	}
+}
+entity
+{
+	"id" "308"
+	"classname" "weapon_adrenaline_spawn"
+	"angles" "0 0 0"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "176 112 2.45927"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10500]"
+	}
+}
+entity
+{
+	"id" "310"
+	"classname" "weapon_adrenaline_spawn"
+	"angles" "0 0 0"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "192 112 2.45927"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11000]"
+	}
+}
+entity
+{
+	"id" "312"
+	"classname" "weapon_adrenaline_spawn"
+	"angles" "0 0 0"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "208 112 2.45927"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11500]"
+	}
+}
+entity
+{
+	"id" "314"
+	"classname" "weapon_adrenaline_spawn"
+	"angles" "0 0 0"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "224 112 2.45927"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 12000]"
+	}
+}
+entity
+{
+	"id" "316"
+	"classname" "weapon_adrenaline_spawn"
+	"angles" "0 0 0"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "240 112 2.45927"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 12500]"
+	}
+}
+entity
+{
+	"id" "318"
+	"classname" "weapon_adrenaline_spawn"
+	"angles" "0 0 0"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "256 112 2.45927"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "320"
+	"classname" "weapon_first_aid_kit_spawn"
+	"angles" "0 0 0"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "336 80 2.18299"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13500]"
+	}
+}
+entity
+{
+	"id" "322"
+	"classname" "weapon_first_aid_kit_spawn"
+	"angles" "0 0 0"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "352 80 2.18299"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14000]"
+	}
+}
+entity
+{
+	"id" "324"
+	"classname" "weapon_first_aid_kit_spawn"
+	"angles" "0 0 0"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "368 80 2.18299"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14500]"
+	}
+}
+entity
+{
+	"id" "326"
+	"classname" "weapon_first_aid_kit_spawn"
+	"angles" "0 0 0"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "384 80 2.18299"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15000]"
+	}
+}
+entity
+{
+	"id" "328"
+	"classname" "weapon_first_aid_kit_spawn"
+	"angles" "0 0 0"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "416 80 2.18299"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15500]"
+	}
+}
+entity
+{
+	"id" "330"
+	"classname" "weapon_first_aid_kit_spawn"
+	"angles" "0 0 0"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "400 80 2.18299"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 16000]"
+	}
+}
+entity
+{
+	"id" "332"
+	"classname" "weapon_defibrillator_spawn"
+	"angles" "0 0 0"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "320 128 2.25"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -16268]"
+	}
+}
+entity
+{
+	"id" "334"
+	"classname" "weapon_chainsaw_spawn"
+	"angles" "0 0 0"
+	"count" "1"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "368 128 6.33495"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -15768]"
+	}
+}
+entity
+{
+	"id" "336"
+	"classname" "weapon_melee_spawn"
+	"angles" "0 0 0"
+	"count" "1"
+	"melee_weapon" "fireaxe"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "256 176 14.1244"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -15268]"
+	}
+}
+entity
+{
+	"id" "338"
+	"classname" "weapon_melee_spawn"
+	"angles" "0 0 0"
+	"count" "1"
+	"melee_weapon" "fireaxe"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "288 176 13.1244"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -15268]"
+	}
+}
+entity
+{
+	"id" "340"
+	"classname" "weapon_melee_spawn"
+	"angles" "0 0 0"
+	"count" "1"
+	"melee_weapon" "fireaxe"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "320 176 13.1244"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -15268]"
+	}
+}
+entity
+{
+	"id" "342"
+	"classname" "weapon_melee_spawn"
+	"angles" "0 0 0"
+	"count" "1"
+	"melee_weapon" "fireaxe"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "352 176 13.1244"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -15268]"
+	}
+}
+entity
+{
+	"id" "344"
+	"classname" "weapon_shotgun_spas_spawn"
+	"angles" "0 0 0"
+	"count" "1"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "176 64 5.76239"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "346"
+	"classname" "weapon_sniper_military_spawn"
+	"angles" "0 0 0"
+	"count" "1"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "192 48 5.0388"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14268]"
+	}
+}
+entity
+{
+	"id" "348"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "0"
+	"item3" "0"
+	"item4" "0"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "-16 64 10"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13768]"
+	}
+}
+entity
+{
+	"id" "350"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "0"
+	"item3" "0"
+	"item4" "0"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "16 64 9"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13768]"
+	}
+}
+entity
+{
+	"id" "352"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "0"
+	"item3" "0"
+	"item4" "0"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "48 64 9"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13768]"
+	}
+}
+entity
+{
+	"id" "354"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "0"
+	"item3" "0"
+	"item4" "0"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "80 64 9"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13768]"
+	}
+}
+entity
+{
+	"id" "534"
+	"classname" "weapon_ammo_spawn"
+	"angles" "0 0 0"
+	"count" "1"
+	"model" "models/props/terror/ammo_stack.mdl"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "256 55.4845 0"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "559"
+	"classname" "upgrade_spawn"
+	"laser_sight" "1"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"upgradepack_explosive" "0"
+	"upgradepack_incendiary" "0"
+	"origin" "185.579 -0.427053 9"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "565"
+	"classname" "weapon_smg_silenced_spawn"
+	"angles" "0 0 0"
+	"count" "1"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "128 80 6.60137"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "569"
+	"classname" "weapon_smg_silenced_spawn"
+	"angles" "0 0 0"
+	"count" "1"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "128 64 6.60137"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "577"
+	"classname" "weapon_upgradepack_incendiary_spawn"
+	"angles" "0 0 0"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "256 0 1.25132"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "579"
+	"classname" "weapon_upgradepack_explosive_spawn"
+	"angles" "0 0 0"
+	"solid" "6"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "272 0 1.25132"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "597"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "0"
+	"item3" "0"
+	"item4" "0"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "-16 96 9"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13768]"
+	}
+}
+entity
+{
+	"id" "599"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "0"
+	"item3" "0"
+	"item4" "0"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "16 96 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13768]"
+	}
+}
+entity
+{
+	"id" "601"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "0"
+	"item3" "0"
+	"item4" "0"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "48 96 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13768]"
+	}
+}
+entity
+{
+	"id" "603"
+	"classname" "weapon_item_spawn"
+	"angles" "0 0 0"
+	"item1" "0"
+	"item11" "0"
+	"item3" "0"
+	"item4" "0"
+	"item5" "0"
+	"item6" "1"
+	"item7" "1"
+	"item8" "1"
+	"spawnflags" "1"
+	"targetname" "Weapon"
+	"origin" "80 96 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -13768]"
+	}
+}

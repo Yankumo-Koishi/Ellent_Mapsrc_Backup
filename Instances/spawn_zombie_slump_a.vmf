@@ -140,6 +140,7 @@ entity
 	connections
 	{
 		"OnStartTouch" "zombie_busy_$postfix,DisableHint,,0.01,1"
+		"OnStartTouch" "zombie_busy_$postfix,Kill,,0.5,1"
 	}
 	solid
 	{

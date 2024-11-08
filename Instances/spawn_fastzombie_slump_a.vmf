@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8868"
-	"mapversion" "29"
+	"mapversion" "30"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -95,7 +95,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "29"
+	"mapversion" "30"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -139,7 +139,8 @@ entity
 	"StartDisabled" "0"
 	connections
 	{
-		"OnStartTouch" "zombie_busy,Kill,,0.01,1"
+		"OnStartTouch" "zombie_busy,Disable,,0.01,1"
+		"OnStartTouch" "zombie_busy,Kill,,0.5,1"
 	}
 	solid
 	{
