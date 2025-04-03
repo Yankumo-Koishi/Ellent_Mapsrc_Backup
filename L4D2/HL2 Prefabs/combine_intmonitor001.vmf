@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8869"
-	"mapversion" "10"
+	"mapversion" "11"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "10"
+	"mapversion" "11"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -168,10 +168,11 @@ entity
 	"GlowProxySize" "4"
 	"HDRColorScale" "1.0"
 	"model" "sprites/light_glow02.vmt"
-	"renderamt" "255"
+	"renderamt" "125"
 	"rendercolor" "110 180 245"
 	"rendermode" "9"
 	"scale" "1.25"
+	"spawnflags" "1"
 	"origin" "-4 0 -4"
 	editor
 	{
