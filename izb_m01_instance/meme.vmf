@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8869"
-	"mapversion" "9"
+	"mapversion" "10"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -68,7 +68,7 @@ light_plus
 postprocess_plus
 {
 	"enable" "1"
-	"copied_from_controller" "0"
+	"copied_from_controller" "1"
 	"bloom_scale" "1"
 	"bloom_exponent" "2.5"
 	"bloom_saturation" "1"
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "9"
+	"mapversion" "10"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -111,7 +111,7 @@ world
 				"v" "864 -288 320"
 				"v" "-544 -288 320"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -147,7 +147,7 @@ world
 				"v" "-544 -288 256"
 				"v" "-544 288 256"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
@@ -183,7 +183,7 @@ world
 				"v" "-544 288 256"
 				"v" "864 288 256"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
@@ -201,7 +201,7 @@ world
 				"v" "-544 -288 320"
 				"v" "864 -288 320"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
@@ -301,7 +301,7 @@ world
 				"v" "-544 288 192"
 				"v" "-544 288 64"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 -0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -319,7 +319,7 @@ world
 				"v" "-544 288 192"
 				"v" "864 288 192"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -419,7 +419,7 @@ world
 				"v" "864 -288 192"
 				"v" "864 -288 64"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -537,7 +537,7 @@ world
 				"v" "864 -288 192"
 				"v" "-544 -288 192"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -0] 0.25"
 			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
@@ -583,7 +583,7 @@ world
 				"v" "-544 -288 192"
 				"v" "-544 -288 64"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 -0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -673,7 +673,7 @@ world
 				"v" "-544 288 192"
 				"v" "-512 256 192"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -719,7 +719,7 @@ world
 				"v" "-544 -288 256"
 				"v" "-544 -288 192"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 -0] 0.25"
 			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
@@ -3115,7 +3115,7 @@ world
 				"v" "-544 288 192"
 				"v" "-448 288 192"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 -0] 0.25"
 			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
@@ -3215,7 +3215,7 @@ world
 				"v" "-96 288 256"
 				"v" "-320 288 256"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 -0] 0.25"
 			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
@@ -3333,7 +3333,7 @@ world
 				"v" "256 288 256"
 				"v" "32 288 256"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 -0] 0.25"
 			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
@@ -3451,7 +3451,7 @@ world
 				"v" "608 288 256"
 				"v" "384 288 256"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 -0] 0.25"
 			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
@@ -3587,7 +3587,7 @@ world
 				"v" "864 288 256"
 				"v" "736 288 256"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 -0] 0.25"
 			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
@@ -3623,7 +3623,7 @@ world
 				"v" "736 256 256"
 				"v" "736 256 192"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3669,7 +3669,7 @@ world
 				"v" "384 288 224"
 				"v" "256 288 224"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 -0] 0.25"
 			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
@@ -3723,7 +3723,7 @@ world
 				"v" "256 287 224"
 				"v" "256 287 192"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -3787,7 +3787,7 @@ world
 				"v" "736 288 224"
 				"v" "608 288 224"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 -0] 0.25"
 			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
@@ -3905,7 +3905,7 @@ world
 				"v" "32 288 224"
 				"v" "-96 288 224"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 -0] 0.25"
 			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
@@ -4023,7 +4023,7 @@ world
 				"v" "-320 288 224"
 				"v" "-448 288 224"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 -0] 0.25"
 			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
@@ -4549,7 +4549,7 @@ world
 				"v" "608 288 256"
 				"v" "608 288 224"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -5339,7 +5339,7 @@ world
 				"v" "-544 -224 64"
 				"v" "-544 -288 64"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
@@ -5375,7 +5375,7 @@ world
 				"v" "-544 -288 64"
 				"v" "864 -288 64"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
@@ -5457,7 +5457,7 @@ world
 				"v" "-544 288 64"
 				"v" "-544 224 64"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
@@ -5493,7 +5493,7 @@ world
 				"v" "864 288 64"
 				"v" "-544 288 64"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
@@ -7345,7 +7345,7 @@ world
 				"v" "-544 192 64"
 				"v" "-544 64 64"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
@@ -7699,7 +7699,7 @@ world
 				"v" "-544 64 64"
 				"v" "-544 -64 64"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
@@ -7935,7 +7935,7 @@ world
 				"v" "-544 -64 64"
 				"v" "-544 -192 64"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
@@ -8289,7 +8289,7 @@ world
 				"v" "-544 -192 64"
 				"v" "-544 -224 64"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
@@ -8525,7 +8525,7 @@ world
 				"v" "-544 224 64"
 				"v" "-544 192 64"
 			}
-			"material" "DEV/DEV_MEASUREGENERIC_BLACK01"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -0] 0.25"
 			"rotation" "0"
@@ -24771,7 +24771,7 @@ entity
 	"origin" "-96 -210.931 110"
 	editor
 	{
-		"color" "165 170 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[7000 4500]"
@@ -24801,7 +24801,7 @@ entity
 	"origin" "48 -210.931 110"
 	editor
 	{
-		"color" "165 170 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[7000 3000]"
@@ -24827,7 +24827,7 @@ entity
 	"origin" "-97.7 -200 140"
 	editor
 	{
-		"color" "165 170 0"
+		"color" "20 140 20"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 8500]"
@@ -24853,7 +24853,7 @@ entity
 	"origin" "0.300049 -204.931 141"
 	editor
 	{
-		"color" "165 170 0"
+		"color" "20 140 20"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 9000]"
@@ -24883,7 +24883,7 @@ entity
 	"origin" "0 -214.931 110"
 	editor
 	{
-		"color" "165 170 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[7000 3500]"
@@ -24909,7 +24909,7 @@ entity
 	"origin" "47.3 -200 141"
 	editor
 	{
-		"color" "165 170 0"
+		"color" "20 140 20"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 10000]"
@@ -24939,7 +24939,7 @@ entity
 	"origin" "256 -210.931 110"
 	editor
 	{
-		"color" "165 170 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[7000 4500]"
@@ -24969,7 +24969,7 @@ entity
 	"origin" "400 -210.931 110"
 	editor
 	{
-		"color" "165 170 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[7000 3000]"
@@ -24995,7 +24995,7 @@ entity
 	"origin" "254.3 -200.931 140"
 	editor
 	{
-		"color" "165 170 0"
+		"color" "20 140 20"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 8500]"
@@ -25021,7 +25021,7 @@ entity
 	"origin" "352.3 -200.931 141"
 	editor
 	{
-		"color" "165 170 0"
+		"color" "20 140 20"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 9000]"
@@ -25051,7 +25051,7 @@ entity
 	"origin" "352 -210.931 110"
 	editor
 	{
-		"color" "165 170 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[7000 3500]"
@@ -25077,7 +25077,7 @@ entity
 	"origin" "399.3 -200.931 141"
 	editor
 	{
-		"color" "165 170 0"
+		"color" "20 140 20"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 10000]"
@@ -25107,7 +25107,7 @@ entity
 	"origin" "-56.3 -216 110"
 	editor
 	{
-		"color" "165 170 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[7000 3500]"
@@ -25133,7 +25133,7 @@ entity
 	"origin" "-56 -206 141"
 	editor
 	{
-		"color" "165 170 0"
+		"color" "20 140 20"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 9000]"
@@ -25163,7 +25163,7 @@ entity
 	"origin" "297.386 -210.931 110"
 	editor
 	{
-		"color" "165 170 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[7000 3500]"
@@ -25189,7 +25189,7 @@ entity
 	"origin" "297.686 -200.931 141"
 	editor
 	{
-		"color" "165 170 0"
+		"color" "20 140 20"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 9000]"

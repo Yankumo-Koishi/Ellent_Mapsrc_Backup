@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8864"
-	"mapversion" "4"
+	"editorbuild" "8869"
+	"mapversion" "8"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -64,7 +64,24 @@ light_plus
 	"soften_cosine" "0"
 	"debug" "0"
 	"cubemap" "1"
-	"hdr" "0"
+}
+postprocess_plus
+{
+	"enable" "1"
+	"copied_from_controller" "1"
+	"bloom_scale" "1"
+	"bloom_exponent" "2.5"
+	"bloom_saturation" "1"
+	"auto_exposure_min" "0.5"
+	"auto_exposure_max" "2"
+	"tonemap_percent_target" "60"
+	"tonemap_percent_bright_pixels" "2"
+	"tonemap_min_avg_luminance" "3"
+	"tonemap_rate" "1"
+	"vignette_enable" "0"
+	"vignette_start" "1"
+	"vignette_end" "2"
+	"vignette_blur" "0"
 }
 bgimages_plus
 {
@@ -72,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "4"
+	"mapversion" "8"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -150,13 +167,14 @@ entity
 	"id" "12"
 	"classname" "env_sprite"
 	"framerate" "10.0"
-	"GlowProxySize" "$glowproxy"
+	"GlowProxySize" "4"
 	"HDRColorScale" "1.0"
 	"model" "sprites/light_glow02.vmt"
-	"renderamt" "$fx"
+	"renderamt" "125"
 	"rendercolor" "$color"
 	"rendermode" "9"
-	"scale" "$scale"
+	"scale" "1.5"
+	"spawnflags" "1"
 	"origin" "0 20 15.5"
 	editor
 	{
@@ -172,13 +190,14 @@ entity
 	"id" "20"
 	"classname" "env_sprite"
 	"framerate" "10.0"
-	"GlowProxySize" "$glowproxy"
+	"GlowProxySize" "4"
 	"HDRColorScale" "1.0"
 	"model" "sprites/light_glow02.vmt"
-	"renderamt" "$fx"
+	"renderamt" "125"
 	"rendercolor" "$color"
 	"rendermode" "9"
-	"scale" "$scale"
+	"scale" "1.5"
+	"spawnflags" "1"
 	"origin" "0 -20 15.5"
 	editor
 	{
@@ -196,7 +215,7 @@ entity
 	"_cone" "45"
 	"_exponent" "1"
 	"_inner_cone" "30"
-	"_light" "$light_spot_color"
+	"_light" "255 255 255 200"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
@@ -215,12 +234,12 @@ entity
 {
 	"id" "32"
 	"classname" "light"
-	"_fifty_percent_distance" "64"
-	"_light" "$light_color"
+	"_fifty_percent_distance" "256"
+	"_light" "255 255 255 10"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
-	"_zero_percent_distance" "128"
+	"_zero_percent_distance" "512"
 	"origin" "0 0 -12"
 	editor
 	{
@@ -228,25 +247,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 5500]"
-	}
-}
-entity
-{
-	"id" "66"
-	"classname" "func_instance_parms"
-	"parm1" "$glowproxy float"
-	"parm2" "$fx float"
-	"parm3" "$color color255"
-	"parm4" "$scale float"
-	"parm5" "$light_spot_color color255"
-	"parm6" "$light_color color255"
-	"origin" "-0 0 20.25"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
 	}
 }
 cameras
