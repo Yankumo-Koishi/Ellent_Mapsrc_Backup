@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8869"
-	"mapversion" "98"
+	"mapversion" "101"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "98"
+	"mapversion" "101"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -4351,13 +4351,123 @@ entity
 		"logicalpos" "[0 -6268]"
 	}
 }
+entity
+{
+	"id" "1310"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"solid" "6"
+	"origin" "616 164 8"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1314"
+	"classname" "npc_combine_s"
+	"additionalequipment" "weapon_smg1"
+	"angles" "0 0 0"
+	"BaseSpeedModifier" "1.0"
+	"CanOrderSurrender" "2"
+	"CanPlayerGive" "2"
+	"DontPickupWeapons" "1"
+	"FriendlyFireOverride" "2"
+	"model" "models/combine_soldier.mdl"
+	"NumGrenades" "5"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"SetDynamicInteractions" "2"
+	"SetLookForItems" "1"
+	"SetProficiencyOverride" "-1"
+	"spawnflags" "1573380"
+	"vscripts" "soldier_randomize.nut"
+	"waitingtorappel" "No"
+	"origin" "644 248 7.62939e-06"
+	editor
+	{
+		"color" "0 200 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "1319"
+	"classname" "npc_combine_s"
+	"additionalequipment" "weapon_smg1"
+	"angles" "0 0 0"
+	"BaseSpeedModifier" "1.0"
+	"CanOrderSurrender" "2"
+	"CanPlayerGive" "2"
+	"DontPickupWeapons" "1"
+	"FriendlyFireOverride" "2"
+	"model" "models/combine_soldier.mdl"
+	"NumGrenades" "5"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"SetDynamicInteractions" "2"
+	"SetLookForItems" "1"
+	"SetProficiencyOverride" "-1"
+	"spawnflags" "1573380"
+	"vscripts" "soldier_randomize.nut"
+	"waitingtorappel" "No"
+	"origin" "592.748 321.82 0"
+	editor
+	{
+		"color" "0 200 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "1321"
+	"classname" "npc_combine_s"
+	"additionalequipment" "weapon_smg1"
+	"angles" "0 0 0"
+	"BaseSpeedModifier" "1.0"
+	"CanOrderSurrender" "2"
+	"CanPlayerGive" "2"
+	"DontPickupWeapons" "1"
+	"FriendlyFireOverride" "2"
+	"model" "models/combine_soldier.mdl"
+	"NumGrenades" "5"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"SetDynamicInteractions" "2"
+	"SetLookForItems" "1"
+	"SetProficiencyOverride" "-1"
+	"spawnflags" "1573380"
+	"vscripts" "soldier_randomize.nut"
+	"waitingtorappel" "No"
+	"origin" "645.677 379.033 0"
+	editor
+	{
+		"color" "0 200 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[114.086 212.036 54.3489]"
-		"look" "[114.479 211.26 53.8547]"
+		"position" "[532.885 111.083 132.147]"
+		"look" "[533.22 111.81 131.548]"
 	}
 }
 cordons
