@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8869"
-	"mapversion" "527"
+	"mapversion" "530"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "527"
+	"mapversion" "530"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -69555,21 +69555,6 @@ entity
 }
 entity
 {
-	"id" "22991"
-	"classname" "env_global"
-	"globalstate" "player_has_xen_grenade"
-	"targetname" "global_xen_grenade"
-	"origin" "136 184 8"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 1000]"
-	}
-}
-entity
-{
 	"id" "22993"
 	"classname" "env_tonemap_controller"
 	"AutoExposureMax" "4"
@@ -74772,6 +74757,69 @@ entity
 		"logicalpos" "[0 1500]"
 	}
 }
+entity
+{
+	"id" "30166"
+	"classname" "logic_auto"
+	"globalstate" "player_has_xen_grenade"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "dynamic_supply_with_hopwire,BecomeMaster,,0,-1"
+	}
+	"origin" "184 184 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 12000]"
+	}
+}
+entity
+{
+	"id" "30170"
+	"classname" "env_global"
+	"globalstate" "player_has_xen_grenade"
+	"targetname" "global_xen_grenade"
+	"origin" "184 200 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 1000]"
+	}
+}
+entity
+{
+	"id" "30192"
+	"classname" "item_dynamic_resupply"
+	"angles" "0 180 0"
+	"DesiredAmmo357" "0.25"
+	"DesiredAmmoAR2" "0.5"
+	"DesiredAmmoAR2_AltFire" "0.1"
+	"DesiredAmmoAR2_XenGrenade" "0.2"
+	"DesiredAmmoBuckshot" "0.5"
+	"DesiredAmmoGrenade" "0.1"
+	"DesiredAmmoPistol" "0.5"
+	"DesiredAmmoSMG1" "0.5"
+	"DesiredAmmoSMG1_Grenade" "0.1"
+	"DesiredArmor" "1"
+	"DesiredHealth" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "2"
+	"targetname" "dynamic_supply_with_hopwire"
+	"origin" "-160 -152 68.6108"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 -6268]"
+	}
+}
 cameras
 {
 	"activecamera" "1"
@@ -74782,8 +74830,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[648.924 404.104 79.668]"
-		"look" "[647.986 403.743 79.5974]"
+		"position" "[133.047 126.268 172.389]"
+		"look" "[133.414 127.206 172.353]"
 	}
 }
 cordons
