@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "4778"
-	"mapversion" "19"
+	"editorbuild" "8870"
+	"mapversion" "21"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -21,12 +21,81 @@ viewsettings
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
 	"nGridSpacing" "4"
-	"bShow3DGrid" "0"
+}
+palette_plus
+{
+	"color0" "255 255 255"
+	"color1" "255 255 255"
+	"color2" "255 255 255"
+	"color3" "255 255 255"
+	"color4" "255 255 255"
+	"color5" "255 255 255"
+	"color6" "255 255 255"
+	"color7" "255 255 255"
+	"color8" "255 255 255"
+	"color9" "255 255 255"
+	"color10" "255 255 255"
+	"color11" "255 255 255"
+	"color12" "255 255 255"
+	"color13" "255 255 255"
+	"color14" "255 255 255"
+	"color15" "255 255 255"
+}
+colorcorrection_plus
+{
+	"name0" ""
+	"weight0" "1"
+	"name1" ""
+	"weight1" "1"
+	"name2" ""
+	"weight2" "1"
+	"name3" ""
+	"weight3" "1"
+}
+light_plus
+{
+	"samples_sun" "6"
+	"samples_ambient" "40"
+	"samples_vis" "256"
+	"texlight" ""
+	"incremental_delay" "0"
+	"bake_dist" "1024"
+	"radius_scale" "1"
+	"brightness_scale" "1"
+	"ao_scale" "0"
+	"bounced" "1"
+	"incremental" "1"
+	"supersample" "0"
+	"bleed_hack" "1"
+	"soften_cosine" "0"
+	"debug" "0"
+	"cubemap" "1"
+}
+postprocess_plus
+{
+	"enable" "1"
+	"copied_from_controller" "1"
+	"bloom_scale" "1"
+	"bloom_exponent" "2.5"
+	"bloom_saturation" "1"
+	"auto_exposure_min" "0.5"
+	"auto_exposure_max" "2"
+	"tonemap_percent_target" "60"
+	"tonemap_percent_bright_pixels" "2"
+	"tonemap_min_avg_luminance" "3"
+	"tonemap_rate" "1"
+	"vignette_enable" "0"
+	"vignette_start" "1"
+	"vignette_end" "2"
+	"vignette_blur" "0"
+}
+bgimages_plus
+{
 }
 world
 {
 	"id" "1"
-	"mapversion" "19"
+	"mapversion" "21"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -294,8 +363,9 @@ entity
 entity
 {
 	"id" "5795"
-	"classname" "info_particle_target"
+	"classname" "info_target"
 	"angles" "0 0 0"
+	"spawnflags" "1"
 	"targetname" "fx_lightning_strike_impact_04"
 	"origin" "-970 -160 -7676"
 	editor
@@ -336,8 +406,9 @@ entity
 entity
 {
 	"id" "5926"
-	"classname" "info_particle_target"
+	"classname" "info_target"
 	"angles" "0 0 0"
+	"spawnflags" "1"
 	"targetname" "fx_lightning_strike_impact_05"
 	"origin" "-874 -64 -7676"
 	editor
@@ -378,8 +449,9 @@ entity
 entity
 {
 	"id" "6057"
-	"classname" "info_particle_target"
+	"classname" "info_target"
 	"angles" "0 0 0"
+	"spawnflags" "1"
 	"targetname" "fx_lightning_strike_impact_03"
 	"origin" "-1130 -32 -7676"
 	editor
@@ -420,8 +492,9 @@ entity
 entity
 {
 	"id" "6188"
-	"classname" "info_particle_target"
+	"classname" "info_target"
 	"angles" "0 0 0"
+	"spawnflags" "1"
 	"targetname" "fx_lightning_strike_impact_02"
 	"origin" "-926 148 -7676"
 	editor
@@ -462,8 +535,9 @@ entity
 entity
 {
 	"id" "17659"
-	"classname" "info_particle_target"
+	"classname" "info_target"
 	"angles" "0 0 0"
+	"spawnflags" "1"
 	"targetname" "fx_lightning_strike_impact_4"
 	"origin" "-1250 216 -7676"
 	editor
@@ -504,8 +578,9 @@ entity
 entity
 {
 	"id" "17789"
-	"classname" "info_particle_target"
+	"classname" "info_target"
 	"angles" "0 0 0"
+	"spawnflags" "1"
 	"targetname" "fx_lightning_strike_impact_8"
 	"origin" "-1412 216 -7676"
 	editor
@@ -546,8 +621,9 @@ entity
 entity
 {
 	"id" "18768"
-	"classname" "info_particle_target"
+	"classname" "info_target"
 	"angles" "0 0 0"
+	"spawnflags" "1"
 	"targetname" "fx_lightning_strike_impact_5"
 	"origin" "-1152 516 -7676"
 	editor
@@ -588,8 +664,9 @@ entity
 entity
 {
 	"id" "18898"
-	"classname" "info_particle_target"
+	"classname" "info_target"
 	"angles" "0 0 0"
+	"spawnflags" "1"
 	"targetname" "fx_lightning_strike_impact_9"
 	"origin" "-1396 488 -7676"
 	editor
@@ -610,9 +687,9 @@ entity
 	"targetname" "relay_lightning_strike"
 	connections
 	{
-		"OnTrigger" "fx_screen_flashStart0-1"
-		"OnTrigger" "fx_screen_flashStop1-1"
-		"OnTrigger" "case_lightning_strikePickRandomShuffle0-1"
+		"OnTrigger" "fx_screen_flash,Start,,0,-1"
+		"OnTrigger" "fx_screen_flash,Stop,,1,-1"
+		"OnTrigger" "case_lightning_strike,PickRandomShuffle,,0,-1"
 	}
 	"origin" "-960 0 -7488"
 	editor
@@ -651,8 +728,9 @@ entity
 entity
 {
 	"id" "166"
-	"classname" "info_particle_target"
+	"classname" "info_target"
 	"angles" "0 0 0"
+	"spawnflags" "1"
 	"targetname" "fx_lightning_strike_impact_01"
 	"origin" "-1002 0 -7676"
 	editor
@@ -694,34 +772,34 @@ entity
 	"targetname" "case_lightning_strike"
 	connections
 	{
-		"OnCase01" "fx_storm_lightning_strike_skybox_01Start0-1"
-		"OnCase01" "fx_storm_lightning_strike_skybox_01Stop1-1"
-		"OnCase02" "fx_storm_lightning_strike_skybox_02Stop1-1"
-		"OnCase02" "fx_storm_lightning_strike_skybox_02Start0-1"
-		"OnCase03" "fx_storm_lightning_strike_skybox_03Stop1-1"
-		"OnCase03" "fx_storm_lightning_strike_skybox_03Start0-1"
-		"OnCase04" "fx_storm_lightning_strike_skybox_04Stop1-1"
-		"OnCase04" "fx_storm_lightning_strike_skybox_04Start0-1"
-		"OnCase05" "fx_storm_lightning_strike_skybox_05Stop1-1"
-		"OnCase05" "fx_storm_lightning_strike_skybox_05Start0-1"
-		"OnCase03" "fx_storm_lightning_strike_skybox_06Stop1-1"
-		"OnCase03" "fx_storm_lightning_strike_skybox_06Start0.1-1"
-		"OnCase05" "fx_storm_lightning_strike_skybox_07Stop1-1"
-		"OnCase05" "fx_storm_lightning_strike_skybox_07Start0.1-1"
-		"OnCase04" "fx_storm_lightning_strike_skybox_08Stop1-1"
-		"OnCase04" "fx_storm_lightning_strike_skybox_08Start0.1-1"
-		"OnCase02" "fx_storm_lightning_strike_skybox_09Stop1-1"
-		"OnCase02" "fx_storm_lightning_strike_skybox_09Start0.1-1"
-		"OnCase01" "fx_storm_lightning_strike_skybox_06Stop1-1"
-		"OnCase01" "fx_storm_lightning_strike_skybox_06Start0.1-1"
-		"OnCase06" "fx_storm_lightning_strike_skybox_4Start0.1-1"
-		"OnCase06" "fx_storm_lightning_strike_skybox_4Stop1-1"
-		"OnCase07" "fx_storm_lightning_strike_skybox_8Start0.1-1"
-		"OnCase07" "fx_storm_lightning_strike_skybox_8Stop1-1"
-		"OnCase08" "fx_storm_lightning_strike_skybox_5Start0.1-1"
-		"OnCase08" "fx_storm_lightning_strike_skybox_5Stop1-1"
-		"OnCase09" "fx_storm_lightning_strike_skybox_5Start0.1-1"
-		"OnCase09" "fx_storm_lightning_strike_skybox_5Stop1-1"
+		"OnCase01" "fx_storm_lightning_strike_skybox_01,Start,,0,-1"
+		"OnCase01" "fx_storm_lightning_strike_skybox_01,Stop,,1,-1"
+		"OnCase02" "fx_storm_lightning_strike_skybox_02,Stop,,1,-1"
+		"OnCase02" "fx_storm_lightning_strike_skybox_02,Start,,0,-1"
+		"OnCase03" "fx_storm_lightning_strike_skybox_03,Stop,,1,-1"
+		"OnCase03" "fx_storm_lightning_strike_skybox_03,Start,,0,-1"
+		"OnCase04" "fx_storm_lightning_strike_skybox_04,Stop,,1,-1"
+		"OnCase04" "fx_storm_lightning_strike_skybox_04,Start,,0,-1"
+		"OnCase05" "fx_storm_lightning_strike_skybox_05,Stop,,1,-1"
+		"OnCase05" "fx_storm_lightning_strike_skybox_05,Start,,0,-1"
+		"OnCase03" "fx_storm_lightning_strike_skybox_06,Stop,,1,-1"
+		"OnCase03" "fx_storm_lightning_strike_skybox_06,Start,,0.1,-1"
+		"OnCase05" "fx_storm_lightning_strike_skybox_07,Stop,,1,-1"
+		"OnCase05" "fx_storm_lightning_strike_skybox_07,Start,,0.1,-1"
+		"OnCase04" "fx_storm_lightning_strike_skybox_08,Stop,,1,-1"
+		"OnCase04" "fx_storm_lightning_strike_skybox_08,Start,,0.1,-1"
+		"OnCase02" "fx_storm_lightning_strike_skybox_09,Stop,,1,-1"
+		"OnCase02" "fx_storm_lightning_strike_skybox_09,Start,,0.1,-1"
+		"OnCase01" "fx_storm_lightning_strike_skybox_06,Stop,,1,-1"
+		"OnCase01" "fx_storm_lightning_strike_skybox_06,Start,,0.1,-1"
+		"OnCase06" "fx_storm_lightning_strike_skybox_4,Start,,0.1,-1"
+		"OnCase06" "fx_storm_lightning_strike_skybox_4,Stop,,1,-1"
+		"OnCase07" "fx_storm_lightning_strike_skybox_8,Start,,0.1,-1"
+		"OnCase07" "fx_storm_lightning_strike_skybox_8,Stop,,1,-1"
+		"OnCase08" "fx_storm_lightning_strike_skybox_5,Start,,0.1,-1"
+		"OnCase08" "fx_storm_lightning_strike_skybox_5,Stop,,1,-1"
+		"OnCase09" "fx_storm_lightning_strike_skybox_5,Start,,0.1,-1"
+		"OnCase09" "fx_storm_lightning_strike_skybox_5,Stop,,1,-1"
 	}
 	"origin" "-944 0 -7488"
 	editor
@@ -808,8 +886,9 @@ entity
 entity
 {
 	"id" "13761"
-	"classname" "info_particle_target"
+	"classname" "info_target"
 	"angles" "0 0 0"
+	"spawnflags" "1"
 	"targetname" "fx_lightning_strike_impact_07"
 	"origin" "-1236 40 -7676"
 	editor
@@ -848,8 +927,9 @@ entity
 entity
 {
 	"id" "14476"
-	"classname" "info_particle_target"
+	"classname" "info_target"
 	"angles" "0 0 0"
+	"spawnflags" "1"
 	"targetname" "fx_lightning_strike_impact_08"
 	"origin" "-1012 248 -7676"
 	editor
@@ -910,7 +990,12 @@ entity
 }
 cameras
 {
-	"activecamera" "-1"
+	"activecamera" "0"
+	camera
+	{
+		"position" "[-813.76 150.983 -7505.47]"
+		"look" "[-814.659 151.002 -7505.91]"
+	}
 }
 cordons
 {
