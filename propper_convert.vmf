@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8869"
-	"mapversion" "104"
+	"editorbuild" "8870"
+	"mapversion" "110"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "4"
 }
 palette_plus
 {
@@ -95,7 +95,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "104"
+	"mapversion" "110"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -7739,6 +7739,360 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
+	solid
+	{
+		"id" "14698"
+		side
+		{
+			"id" "14147"
+			"plane" "(-584 -1281 256) (-584 -1251 256) (-576 -1251 256)"
+			vertices_plus
+			{
+				"v" "-584 -1281 256"
+				"v" "-584 -1251 256"
+				"v" "-576 -1251 256"
+				"v" "-576 -1281 256"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14146"
+			"plane" "(-584 -1251 84) (-584 -1281 84) (-576 -1281 84)"
+			vertices_plus
+			{
+				"v" "-584 -1251 84"
+				"v" "-584 -1281 84"
+				"v" "-576 -1281 84"
+				"v" "-576 -1251 84"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14145"
+			"plane" "(-584 -1281 84) (-584 -1251 84) (-584 -1251 256)"
+			vertices_plus
+			{
+				"v" "-584 -1281 84"
+				"v" "-584 -1251 84"
+				"v" "-584 -1251 256"
+				"v" "-584 -1281 256"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14144"
+			"plane" "(-576 -1251 84) (-576 -1281 84) (-576 -1281 256)"
+			vertices_plus
+			{
+				"v" "-576 -1251 84"
+				"v" "-576 -1281 84"
+				"v" "-576 -1281 256"
+				"v" "-576 -1251 256"
+			}
+			"material" "OP_METAL/COMBINE_BOOTH_TALL01B"
+			"uaxis" "[0 1 0 512] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14143"
+			"plane" "(-584 -1251 84) (-576 -1251 84) (-576 -1251 256)"
+			vertices_plus
+			{
+				"v" "-584 -1251 84"
+				"v" "-576 -1251 84"
+				"v" "-576 -1251 256"
+				"v" "-584 -1251 256"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14142"
+			"plane" "(-576 -1281 84) (-584 -1281 84) (-584 -1281 256)"
+			vertices_plus
+			{
+				"v" "-576 -1281 84"
+				"v" "-584 -1281 84"
+				"v" "-584 -1281 256"
+				"v" "-576 -1281 256"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "14699"
+		side
+		{
+			"id" "14159"
+			"plane" "(-584 -1240 256) (-584 -1224 256) (-576 -1224 256)"
+			vertices_plus
+			{
+				"v" "-584 -1240 256"
+				"v" "-584 -1224 256"
+				"v" "-576 -1224 256"
+				"v" "-576 -1240 256"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14158"
+			"plane" "(-584 -1224 84) (-584 -1240 84) (-576 -1240 84)"
+			vertices_plus
+			{
+				"v" "-584 -1224 84"
+				"v" "-584 -1240 84"
+				"v" "-576 -1240 84"
+				"v" "-576 -1224 84"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14157"
+			"plane" "(-584 -1240 84) (-584 -1224 84) (-584 -1224 256)"
+			vertices_plus
+			{
+				"v" "-584 -1240 84"
+				"v" "-584 -1224 84"
+				"v" "-584 -1224 256"
+				"v" "-584 -1240 256"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14156"
+			"plane" "(-576 -1224 84) (-576 -1240 84) (-576 -1240 256)"
+			vertices_plus
+			{
+				"v" "-576 -1224 84"
+				"v" "-576 -1240 84"
+				"v" "-576 -1240 256"
+				"v" "-576 -1224 256"
+			}
+			"material" "OP_METAL/COMBINE_BOOTH_TALL01B"
+			"uaxis" "[0 1 0 512] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14155"
+			"plane" "(-584 -1224 84) (-576 -1224 84) (-576 -1224 256)"
+			vertices_plus
+			{
+				"v" "-584 -1224 84"
+				"v" "-576 -1224 84"
+				"v" "-576 -1224 256"
+				"v" "-584 -1224 256"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14154"
+			"plane" "(-576 -1240 84) (-584 -1240 84) (-584 -1240 256)"
+			vertices_plus
+			{
+				"v" "-576 -1240 84"
+				"v" "-584 -1240 84"
+				"v" "-584 -1240 256"
+				"v" "-576 -1240 256"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "14809"
+		side
+		{
+			"id" "14183"
+			"plane" "(-448 -1600 56) (-448 -1600 8) (-448 -1536 8)"
+			vertices_plus
+			{
+				"v" "-448 -1600 56"
+				"v" "-448 -1600 8"
+				"v" "-448 -1536 8"
+				"v" "-448 -1536 56"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 4.66666] 0.244898"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14182"
+			"plane" "(-440 -1536 56) (-440 -1536 8) (-440 -1600 8)"
+			vertices_plus
+			{
+				"v" "-440 -1536 56"
+				"v" "-440 -1536 8"
+				"v" "-440 -1600 8"
+				"v" "-440 -1600 56"
+			}
+			"material" "OP_METAL/COMBINE_HATCH01A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 4.66666] 0.244898"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14181"
+			"plane" "(-448 -1536 56) (-448 -1536 8) (-440 -1536 8)"
+			vertices_plus
+			{
+				"v" "-448 -1536 56"
+				"v" "-448 -1536 8"
+				"v" "-440 -1536 8"
+				"v" "-440 -1536 56"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 4.66666] 0.244898"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14180"
+			"plane" "(-440 -1600 56) (-440 -1600 8) (-448 -1600 8)"
+			vertices_plus
+			{
+				"v" "-440 -1600 56"
+				"v" "-440 -1600 8"
+				"v" "-448 -1600 8"
+				"v" "-448 -1600 56"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 4.66666] 0.244898"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14179"
+			"plane" "(-448 -1600 56) (-448 -1536 56) (-440 -1536 56)"
+			vertices_plus
+			{
+				"v" "-448 -1600 56"
+				"v" "-448 -1536 56"
+				"v" "-440 -1536 56"
+				"v" "-440 -1600 56"
+			}
+			"material" "OP_METAL/COMBINE_HATCH01A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14178"
+			"plane" "(-448 -1536 8) (-448 -1600 8) (-440 -1600 8)"
+			vertices_plus
+			{
+				"v" "-448 -1536 8"
+				"v" "-448 -1600 8"
+				"v" "-440 -1600 8"
+				"v" "-440 -1536 8"
+			}
+			"material" "OP_METAL/COMBINE_HATCH01A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 186 255"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 }
 entity
 {
@@ -7747,6 +8101,8 @@ entity
 	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/props_op/birck_window_003a.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -10421,6 +10777,7 @@ entity
 	"EFlags" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "0 4.25 16"
@@ -13046,6 +13403,8 @@ entity
 	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/props_op/birck_window_002a.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -17044,6 +17403,7 @@ entity
 	"EFlags" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "116 -3.75 16"
@@ -22464,6 +22824,7 @@ entity
 	"EFlags" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "40 -92 14"
@@ -25523,6 +25884,7 @@ entity
 	"EFlags" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "254 -192 0"
@@ -26144,6 +26506,7 @@ entity
 	"EFlags" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "254 -192 0"
@@ -27119,6 +27482,7 @@ entity
 	"EFlags" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "-248 -384 16"
@@ -33392,6 +33756,7 @@ entity
 	"EFlags" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "-172 -396 16"
@@ -33696,6 +34061,7 @@ entity
 	"EFlags" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "-184 -352 16"
@@ -35047,6 +35413,7 @@ entity
 	"EFlags" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "-314 -224 16"
@@ -35550,6 +35917,7 @@ entity
 	"EFlags" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "-410 -192 16"
@@ -43755,6 +44123,7 @@ entity
 	"EFlags" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "-442 -192 16"
@@ -45674,6 +46043,7 @@ entity
 	"EFlags" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "-538 -320 16"
@@ -51183,6 +51553,7 @@ entity
 	"EFlags" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "96 -512 31"
@@ -52550,6 +52921,7 @@ entity
 	"EFlags" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "80 -560 31"
@@ -53563,6 +53935,7 @@ entity
 	"EFlags" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "96 -608 31"
@@ -54066,6 +54439,7 @@ entity
 	"EFlags" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "80 -656 31"
@@ -56658,6 +57032,7 @@ entity
 	"EFlags" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "204 -1088 69"
@@ -58105,6 +58480,7 @@ entity
 	"EFlags" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "204 -960 69"
@@ -59078,6 +59454,8 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/props_op/courtyard_window_001a.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -59098,6 +59476,8 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/props_op/courtyard_window_001a_inner.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -65765,6 +66145,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"maxcpulevel" "0"
@@ -68512,6 +68893,7 @@ entity
 	"EFlags" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "1020 -1984 64"
@@ -69605,6 +69987,7 @@ entity
 	"EFlags" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "1020 -1792 64"
@@ -71288,6 +71671,7 @@ entity
 	"EFlags" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "1164 -1984 64"
@@ -72145,6 +72529,7 @@ entity
 	"EFlags" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "1164 -1792 64"
@@ -73118,6 +73503,8 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/props_op/building_template021/window_a_inner.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -73138,6 +73525,8 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/props_op/building_template021/window_a.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -73158,6 +73547,8 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/props_op/building_template021/window_b.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -73178,6 +73569,8 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/props_op/building_template021/window_b_inner.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -73198,6 +73591,7 @@ entity
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
 	"EFlags" "0"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "1164 -1472 72"
@@ -74053,6 +74447,8 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/props_op/courtyard_windows/window_a.mdl"
 	"skin" "1"
 	"solid" "6"
@@ -74072,6 +74468,7 @@ entity
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
 	"EFlags" "0"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "1164 -1216 72"
@@ -74809,6 +75206,8 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/props_op/courtyard_windows/window_a_inner.mdl"
 	"solid" "6"
 	"origin" "1164 -1216 72"
@@ -74825,8 +75224,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-367.968 -1259 213.328]"
-		"look" "[-368.937 -1258.77 213.231]"
+		"position" "[-352.346 -1148.91 100.313]"
+		"look" "[-353.292 -1148.61 100.433]"
 	}
 }
 cordons

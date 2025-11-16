@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8870"
-	"mapversion" "4937"
+	"mapversion" "4938"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -86,7 +86,7 @@ bgimages_plus
 world
 {
 	"id" "78381"
-	"mapversion" "4937"
+	"mapversion" "4938"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -302,10 +302,10 @@ entity
 	"mindxlevel" "0"
 	"model" "sprites/glow1.vmt"
 	"renderamt" "255"
-	"rendercolor" "160 0 0"
-	"renderfx" "0"
+	"rendercolor" "0 255 125"
+	"renderfx" "9"
 	"rendermode" "9"
-	"scale" "0.15"
+	"scale" "0.25"
 	"spawnflags" "1"
 	"targetname" "pf_CombineButton_&i_sprite"
 	"origin" "-3.14999 -6 0.150002"

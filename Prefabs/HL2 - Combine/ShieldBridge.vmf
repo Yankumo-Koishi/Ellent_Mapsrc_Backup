@@ -1,7 +1,7 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8860"
+	"editorbuild" "8870"
 	"mapversion" "2081"
 	"formatversion" "100"
 	"prefab" "1"
@@ -61,7 +61,24 @@ light_plus
 	"soften_cosine" "0"
 	"debug" "0"
 	"cubemap" "1"
-	"hdr" "0"
+}
+postprocess_plus
+{
+	"enable" "1"
+	"copied_from_controller" "1"
+	"bloom_scale" "1"
+	"bloom_exponent" "2.5"
+	"bloom_saturation" "1"
+	"auto_exposure_min" "0.5"
+	"auto_exposure_max" "2"
+	"tonemap_percent_target" "60"
+	"tonemap_percent_bright_pixels" "2"
+	"tonemap_min_avg_luminance" "3"
+	"tonemap_rate" "1"
+	"vignette_enable" "0"
+	"vignette_start" "1"
+	"vignette_end" "2"
+	"vignette_blur" "0"
 }
 bgimages_plus
 {
@@ -778,6 +795,8 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
 	"model" "models/props_combine/combine_binocular01.mdl"
@@ -799,6 +818,7 @@ entity
 	"classname" "func_brush"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "0 0 21"
@@ -950,6 +970,8 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
 	"model" "models/props_combine/combine_lock01.mdl"
@@ -977,6 +999,8 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
 	"model" "models/props_combine/combine_lock01.mdl"
@@ -1004,6 +1028,8 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
 	"model" "models/props_combine/combine_binocular01.mdl"
@@ -1081,10 +1107,10 @@ entity
 	"targetname" "pf_ShieldBridge_&i_branch_left"
 	connections
 	{
-		"OnTrue" "pf_ShieldBridge_&i_sprite_left,Color,12 255 171,0,-1"
-		"OnTrue" "pf_ShieldBridge_&i_beam_left,TurnOn,,0,-1"
-		"OnFalse" "pf_ShieldBridge_&i_beam_left,TurnOff,,0,-1"
-		"OnFalse" "pf_ShieldBridge_&i_sprite_left,Color,255 0 0,0,-1"
+		"OnTrue" "pf_ShieldBridge_&i_sprite_leftColor12 255 1710-1"
+		"OnTrue" "pf_ShieldBridge_&i_beam_leftTurnOn0-1"
+		"OnFalse" "pf_ShieldBridge_&i_beam_leftTurnOff0-1"
+		"OnFalse" "pf_ShieldBridge_&i_sprite_leftColor255 0 00-1"
 	}
 	"origin" "-48 -64 110"
 	editor
@@ -1104,13 +1130,13 @@ entity
 	"targetname" "pf_ShieldBridge_&i_branch_listener"
 	connections
 	{
-		"OnAllTrue" "pf_ShieldBridge_&i_trap,Enable,,0,-1"
-		"OnMixed" "pf_ShieldBridge_&i_brush,Disable,,0,-1"
-		"OnAllFalse" "pf_ShieldBridge_&i_brush,Disable,,0,-1"
-		"OnAllTrue" "pf_ShieldBridge_&i_brush,Enable,,0,-1"
-		"OnAllFalse" "pf_ShieldBridge_&i_trap,Disable,,0,-1"
-		"OnMixed" "pf_ShieldBridge_&i_trap,Disable,,0,-1"
-		"OnAllTrue" "pf_ShieldBridge_&i_sound,PlaySound,,0,-1"
+		"OnAllTrue" "pf_ShieldBridge_&i_trapEnable0-1"
+		"OnMixed" "pf_ShieldBridge_&i_brushDisable0-1"
+		"OnAllFalse" "pf_ShieldBridge_&i_brushDisable0-1"
+		"OnAllTrue" "pf_ShieldBridge_&i_brushEnable0-1"
+		"OnAllFalse" "pf_ShieldBridge_&i_trapDisable0-1"
+		"OnMixed" "pf_ShieldBridge_&i_trapDisable0-1"
+		"OnAllTrue" "pf_ShieldBridge_&i_soundPlaySound0-1"
 	}
 	"origin" "0 -56 54"
 	editor
@@ -1133,6 +1159,8 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
 	"model" "models/props_combine/combine_binocular01.mdl"
@@ -1187,6 +1215,8 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
 	"model" "models/props_combine/combine_lock01.mdl"
@@ -1214,6 +1244,8 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
 	"model" "models/props_combine/combine_binocular01.mdl"
@@ -1241,6 +1273,8 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
 	"model" "models/props_combine/combine_lock01.mdl"
@@ -1291,10 +1325,10 @@ entity
 	"targetname" "pf_ShieldBridge_&i_branch_right"
 	connections
 	{
-		"OnTrue" "pf_ShieldBridge_&i_sprite_right,Color,12 255 171,0,-1"
-		"OnTrue" "pf_ShieldBridge_&i_beam_right,TurnOn,,0,-1"
-		"OnFalse" "pf_ShieldBridge_&i_beam_right,TurnOff,,0,-1"
-		"OnFalse" "pf_ShieldBridge_&i_sprite_right,Color,255 0 0,0,-1"
+		"OnTrue" "pf_ShieldBridge_&i_sprite_rightColor12 255 1710-1"
+		"OnTrue" "pf_ShieldBridge_&i_beam_rightTurnOn0-1"
+		"OnFalse" "pf_ShieldBridge_&i_beam_rightTurnOff0-1"
+		"OnFalse" "pf_ShieldBridge_&i_sprite_rightColor255 0 00-1"
 	}
 	"origin" "48 -64 110"
 	editor

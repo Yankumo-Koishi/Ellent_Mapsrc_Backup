@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8870"
-	"mapversion" "17"
+	"mapversion" "19"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "17"
+	"mapversion" "19"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -355,7 +355,7 @@ entity
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "0"
-	"origin" "-11.08 33.42 15.804"
+	"origin" "-11.08 33.42 -0.196"
 	editor
 	{
 		"color" "214 111 0"
@@ -363,27 +363,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[10000 -3768]"
-	}
-}
-entity
-{
-	"id" "133"
-	"classname" "light"
-	"_constant_attn" "0"
-	"_fifty_percent_distance" "0"
-	"_light" "147 255 231 7"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"_quadratic_attn" "1"
-	"_zero_percent_distance" "0"
-	"origin" "-11.08 33.42 -32.196"
-	editor
-	{
-		"color" "214 111 0"
-		"groupid" "88"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[10000 -4768]"
 	}
 }
 entity
