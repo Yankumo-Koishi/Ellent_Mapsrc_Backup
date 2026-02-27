@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8869"
-	"mapversion" "12"
+	"editorbuild" "8870"
+	"mapversion" "13"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "12"
+	"mapversion" "13"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -116,6 +116,7 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"forcetoenablemotion" "0"
+	"gmod_allowphysgun" "1"
 	"inertiaScale" "1.0"
 	"massScale" "0"
 	"minhealthdmg" "0"
@@ -137,7 +138,7 @@ entity
 	"viewhideflags" "0"
 	connections
 	{
-		"OnBreak" "tv_plasma_monitor,Kill,,0,-1"
+		"OnBreak" "tv_plasma_monitorKill0-1"
 	}
 	"origin" "0 3 -19.3563"
 	editor
@@ -155,6 +156,7 @@ entity
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
 	"EFlags" "0"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "0 -3 -0.5"

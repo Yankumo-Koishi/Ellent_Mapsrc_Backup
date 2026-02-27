@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8864"
-	"mapversion" "23"
+	"editorbuild" "8870"
+	"mapversion" "24"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -61,7 +61,24 @@ light_plus
 	"soften_cosine" "0"
 	"debug" "0"
 	"cubemap" "1"
-	"hdr" "0"
+}
+postprocess_plus
+{
+	"enable" "1"
+	"copied_from_controller" "1"
+	"bloom_scale" "1"
+	"bloom_exponent" "2.5"
+	"bloom_saturation" "1"
+	"auto_exposure_min" "0.5"
+	"auto_exposure_max" "2"
+	"tonemap_percent_target" "60"
+	"tonemap_percent_bright_pixels" "2"
+	"tonemap_min_avg_luminance" "3"
+	"tonemap_rate" "1"
+	"vignette_enable" "0"
+	"vignette_start" "1"
+	"vignette_end" "2"
+	"vignette_blur" "0"
 }
 bgimages_plus
 {
@@ -69,7 +86,7 @@ bgimages_plus
 world
 {
 	"id" "940"
-	"mapversion" "23"
+	"mapversion" "24"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -108,7 +125,7 @@ entity
 	"maxRange" "2048"
 	"minRange" "0"
 	"npc_man_point" "emplacement_gun_manpoint"
-	"origin" "-10 0 48"
+	"origin" "-10 0 47.66"
 	"parentname" "emplacement_gun_model"
 	"persistence" "3"
 	"persistence2" "0"
@@ -147,17 +164,17 @@ entity
 		side
 		{
 			"id" "6"
-			"plane" "(-18 -8 56.3423) (-18 -8 40.3423) (-18 8 40.3423)"
+			"plane" "(-18 -8 56) (-18 -8 40) (-18 8 40)"
 			vertices_plus
 			{
-				"v" "-18 -8 56.3423"
-				"v" "-18 -8 40.3423"
-				"v" "-18 8 40.3423"
-				"v" "-18 8 56.3423"
+				"v" "-18 -8 56"
+				"v" "-18 -8 40"
+				"v" "-18 8 40"
+				"v" "-18 8 56"
 			}
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -1.3692] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -165,17 +182,17 @@ entity
 		side
 		{
 			"id" "5"
-			"plane" "(-2 8 56.3423) (-2 8 40.3423) (-2 -8 40.3423)"
+			"plane" "(-2 8 56) (-2 8 40) (-2 -8 40)"
 			vertices_plus
 			{
-				"v" "-2 8 56.3423"
-				"v" "-2 8 40.3423"
-				"v" "-2 -8 40.3423"
-				"v" "-2 -8 56.3423"
+				"v" "-2 8 56"
+				"v" "-2 8 40"
+				"v" "-2 -8 40"
+				"v" "-2 -8 56"
 			}
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -1.3692] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -183,17 +200,17 @@ entity
 		side
 		{
 			"id" "4"
-			"plane" "(-2 -8 56.3423) (-2 -8 40.3423) (-18 -8 40.3423)"
+			"plane" "(-2 -8 56) (-2 -8 40) (-18 -8 40)"
 			vertices_plus
 			{
-				"v" "-2 -8 56.3423"
-				"v" "-2 -8 40.3423"
-				"v" "-18 -8 40.3423"
-				"v" "-18 -8 56.3423"
+				"v" "-2 -8 56"
+				"v" "-2 -8 40"
+				"v" "-18 -8 40"
+				"v" "-18 -8 56"
 			}
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -1.3692] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -201,17 +218,17 @@ entity
 		side
 		{
 			"id" "3"
-			"plane" "(-18 8 56.3423) (-18 8 40.3423) (-2 8 40.3423)"
+			"plane" "(-18 8 56) (-18 8 40) (-2 8 40)"
 			vertices_plus
 			{
-				"v" "-18 8 56.3423"
-				"v" "-18 8 40.3423"
-				"v" "-2 8 40.3423"
-				"v" "-2 8 56.3423"
+				"v" "-18 8 56"
+				"v" "-18 8 40"
+				"v" "-2 8 40"
+				"v" "-2 8 56"
 			}
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -1.3692] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -219,13 +236,13 @@ entity
 		side
 		{
 			"id" "2"
-			"plane" "(-18 8 40.3423) (-18 -8 40.3423) (-2 -8 40.3423)"
+			"plane" "(-18 8 40) (-18 -8 40) (-2 -8 40)"
 			vertices_plus
 			{
-				"v" "-18 8 40.3423"
-				"v" "-18 -8 40.3423"
-				"v" "-2 -8 40.3423"
-				"v" "-2 8 40.3423"
+				"v" "-18 8 40"
+				"v" "-18 -8 40"
+				"v" "-2 -8 40"
+				"v" "-2 8 40"
 			}
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[-1 0 0 0] 0.25"
@@ -237,13 +254,13 @@ entity
 		side
 		{
 			"id" "1"
-			"plane" "(-18 -8 56.3423) (-18 8 56.3423) (-2 8 56.3423)"
+			"plane" "(-18 -8 56) (-18 8 56) (-2 8 56)"
 			vertices_plus
 			{
-				"v" "-18 -8 56.3423"
-				"v" "-18 8 56.3423"
-				"v" "-2 8 56.3423"
-				"v" "-2 -8 56.3423"
+				"v" "-18 -8 56"
+				"v" "-18 8 56"
+				"v" "-2 8 56"
+				"v" "-2 -8 56"
 			}
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[1 0 0 0] 0.25"
