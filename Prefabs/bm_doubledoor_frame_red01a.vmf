@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8864"
-	"mapversion" "6"
+	"editorbuild" "8870"
+	"mapversion" "7"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "16"
 }
 palette_plus
 {
@@ -64,7 +64,24 @@ light_plus
 	"soften_cosine" "0"
 	"debug" "0"
 	"cubemap" "1"
-	"hdr" "0"
+}
+postprocess_plus
+{
+	"enable" "1"
+	"copied_from_controller" "1"
+	"bloom_scale" "1"
+	"bloom_exponent" "2.5"
+	"bloom_saturation" "1"
+	"auto_exposure_min" "0.5"
+	"auto_exposure_max" "2"
+	"tonemap_percent_target" "60"
+	"tonemap_percent_bright_pixels" "2"
+	"tonemap_min_avg_luminance" "3"
+	"tonemap_rate" "1"
+	"vignette_enable" "0"
+	"vignette_start" "1"
+	"vignette_end" "2"
+	"vignette_blur" "0"
 }
 bgimages_plus
 {
@@ -72,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "6"
+	"mapversion" "7"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -91,16 +108,16 @@ entity
 		side
 		{
 			"id" "402"
-			"plane" "(4 -32 64) (4 -30 62) (4 126 62)"
+			"plane" "(4 -80 64) (4 -78 62) (4 78 62)"
 			vertices_plus
 			{
-				"v" "4 -32 64"
-				"v" "4 -30 62"
-				"v" "4 126 62"
-				"v" "4 128 64"
+				"v" "4 -80 64"
+				"v" "4 -78 62"
+				"v" "4 78 62"
+				"v" "4 80 64"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
-			"uaxis" "[0 1 0 512] 0.25"
+			"uaxis" "[0 1 0 704] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -109,16 +126,16 @@ entity
 		side
 		{
 			"id" "401"
-			"plane" "(12 128 64) (12 126 62) (12 -30 62)"
+			"plane" "(12 80 64) (12 78 62) (12 -78 62)"
 			vertices_plus
 			{
-				"v" "12 128 64"
-				"v" "12 126 62"
-				"v" "12 -30 62"
-				"v" "12 -32 64"
+				"v" "12 80 64"
+				"v" "12 78 62"
+				"v" "12 -78 62"
+				"v" "12 -80 64"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
-			"uaxis" "[0 1 0 512] 0.25"
+			"uaxis" "[0 1 0 704] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -127,13 +144,13 @@ entity
 		side
 		{
 			"id" "400"
-			"plane" "(12 128 64) (12 -32 64) (4 -32 64)"
+			"plane" "(12 80 64) (12 -80 64) (4 -80 64)"
 			vertices_plus
 			{
-				"v" "12 128 64"
-				"v" "12 -32 64"
-				"v" "4 -32 64"
-				"v" "4 128 64"
+				"v" "12 80 64"
+				"v" "12 -80 64"
+				"v" "4 -80 64"
+				"v" "4 80 64"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -0] 0.25"
@@ -145,13 +162,13 @@ entity
 		side
 		{
 			"id" "399"
-			"plane" "(12 126 62) (12 128 64) (4 128 64)"
+			"plane" "(12 78 62) (12 80 64) (4 80 64)"
 			vertices_plus
 			{
-				"v" "12 126 62"
-				"v" "12 128 64"
-				"v" "4 128 64"
-				"v" "4 126 62"
+				"v" "12 78 62"
+				"v" "12 80 64"
+				"v" "4 80 64"
+				"v" "4 78 62"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -163,13 +180,13 @@ entity
 		side
 		{
 			"id" "398"
-			"plane" "(4 -30 62) (4 -32 64) (12 -32 64)"
+			"plane" "(4 -78 62) (4 -80 64) (12 -80 64)"
 			vertices_plus
 			{
-				"v" "4 -30 62"
-				"v" "4 -32 64"
-				"v" "12 -32 64"
-				"v" "12 -30 62"
+				"v" "4 -78 62"
+				"v" "4 -80 64"
+				"v" "12 -80 64"
+				"v" "12 -78 62"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -181,17 +198,17 @@ entity
 		side
 		{
 			"id" "397"
-			"plane" "(12 -30 62) (12 126 62) (4 126 62)"
+			"plane" "(12 -78 62) (12 78 62) (4 78 62)"
 			vertices_plus
 			{
-				"v" "12 -30 62"
-				"v" "12 126 62"
-				"v" "4 126 62"
-				"v" "4 -30 62"
+				"v" "12 -78 62"
+				"v" "12 78 62"
+				"v" "4 78 62"
+				"v" "4 -78 62"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
 			"uaxis" "[1 0 0 -16] 0.25"
-			"vaxis" "[0 -1 0 -112] 0.25"
+			"vaxis" "[0 -1 0 -304] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -209,16 +226,16 @@ entity
 		side
 		{
 			"id" "408"
-			"plane" "(4 126 -64) (4 128 -64) (4 128 44)"
+			"plane" "(4 78 -64) (4 80 -64) (4 80 44)"
 			vertices_plus
 			{
-				"v" "4 126 -64"
-				"v" "4 128 -64"
-				"v" "4 128 44"
-				"v" "4 126 44"
+				"v" "4 78 -64"
+				"v" "4 80 -64"
+				"v" "4 80 44"
+				"v" "4 78 44"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
-			"uaxis" "[0 1 0 512] 0.25"
+			"uaxis" "[0 1 0 704] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -227,16 +244,16 @@ entity
 		side
 		{
 			"id" "407"
-			"plane" "(12 128 44) (12 128 -64) (12 126 -64)"
+			"plane" "(12 80 44) (12 80 -64) (12 78 -64)"
 			vertices_plus
 			{
-				"v" "12 128 44"
-				"v" "12 128 -64"
-				"v" "12 126 -64"
-				"v" "12 126 44"
+				"v" "12 80 44"
+				"v" "12 80 -64"
+				"v" "12 78 -64"
+				"v" "12 78 44"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
-			"uaxis" "[0 1 0 512] 0.25"
+			"uaxis" "[0 1 0 704] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -245,13 +262,13 @@ entity
 		side
 		{
 			"id" "406"
-			"plane" "(4 128 -64) (4 126 -64) (12 126 -64)"
+			"plane" "(4 80 -64) (4 78 -64) (12 78 -64)"
 			vertices_plus
 			{
-				"v" "4 128 -64"
-				"v" "4 126 -64"
-				"v" "12 126 -64"
-				"v" "12 128 -64"
+				"v" "4 80 -64"
+				"v" "4 78 -64"
+				"v" "12 78 -64"
+				"v" "12 80 -64"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -0] 0.25"
@@ -263,13 +280,13 @@ entity
 		side
 		{
 			"id" "405"
-			"plane" "(4 128 44) (4 128 -64) (12 128 -64)"
+			"plane" "(4 80 44) (4 80 -64) (12 80 -64)"
 			vertices_plus
 			{
-				"v" "4 128 44"
-				"v" "4 128 -64"
-				"v" "12 128 -64"
-				"v" "12 128 44"
+				"v" "4 80 44"
+				"v" "4 80 -64"
+				"v" "12 80 -64"
+				"v" "12 80 44"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -281,17 +298,17 @@ entity
 		side
 		{
 			"id" "404"
-			"plane" "(4 126 44) (4 128 44) (12 128 44)"
+			"plane" "(4 78 44) (4 80 44) (12 80 44)"
 			vertices_plus
 			{
-				"v" "4 126 44"
-				"v" "4 128 44"
-				"v" "12 128 44"
-				"v" "12 126 44"
+				"v" "4 78 44"
+				"v" "4 80 44"
+				"v" "12 80 44"
+				"v" "12 78 44"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -299,13 +316,13 @@ entity
 		side
 		{
 			"id" "403"
-			"plane" "(12 126 44) (12 126 -64) (4 126 -64)"
+			"plane" "(12 78 44) (12 78 -64) (4 78 -64)"
 			vertices_plus
 			{
-				"v" "12 126 44"
-				"v" "12 126 -64"
-				"v" "4 126 -64"
-				"v" "4 126 44"
+				"v" "12 78 44"
+				"v" "12 78 -64"
+				"v" "4 78 -64"
+				"v" "4 78 44"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
 			"uaxis" "[1 0 0 -16] 0.25"
@@ -327,16 +344,16 @@ entity
 		side
 		{
 			"id" "414"
-			"plane" "(4 128 44) (4 128 64) (4 126 62)"
+			"plane" "(4 80 44) (4 80 64) (4 78 62)"
 			vertices_plus
 			{
-				"v" "4 128 44"
-				"v" "4 128 64"
-				"v" "4 126 62"
-				"v" "4 126 46"
+				"v" "4 80 44"
+				"v" "4 80 64"
+				"v" "4 78 62"
+				"v" "4 78 46"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
-			"uaxis" "[0 1 0 512] 0.25"
+			"uaxis" "[0 1 0 704] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -345,16 +362,16 @@ entity
 		side
 		{
 			"id" "413"
-			"plane" "(12 128 44) (12 126 46) (12 126 62)"
+			"plane" "(12 80 44) (12 78 46) (12 78 62)"
 			vertices_plus
 			{
-				"v" "12 128 44"
-				"v" "12 126 46"
-				"v" "12 126 62"
-				"v" "12 128 64"
+				"v" "12 80 44"
+				"v" "12 78 46"
+				"v" "12 78 62"
+				"v" "12 80 64"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
-			"uaxis" "[0 1 0 512] 0.25"
+			"uaxis" "[0 1 0 704] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -363,13 +380,13 @@ entity
 		side
 		{
 			"id" "412"
-			"plane" "(4 128 44) (12 128 44) (12 128 64)"
+			"plane" "(4 80 44) (12 80 44) (12 80 64)"
 			vertices_plus
 			{
-				"v" "4 128 44"
-				"v" "12 128 44"
-				"v" "12 128 64"
-				"v" "4 128 64"
+				"v" "4 80 44"
+				"v" "12 80 44"
+				"v" "12 80 64"
+				"v" "4 80 64"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -381,13 +398,13 @@ entity
 		side
 		{
 			"id" "411"
-			"plane" "(4 128 64) (12 128 64) (12 126 62)"
+			"plane" "(4 80 64) (12 80 64) (12 78 62)"
 			vertices_plus
 			{
-				"v" "4 128 64"
-				"v" "12 128 64"
-				"v" "12 126 62"
-				"v" "4 126 62"
+				"v" "4 80 64"
+				"v" "12 80 64"
+				"v" "12 78 62"
+				"v" "4 78 62"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -399,13 +416,13 @@ entity
 		side
 		{
 			"id" "410"
-			"plane" "(4 126 46) (12 126 46) (12 128 44)"
+			"plane" "(4 78 46) (12 78 46) (12 80 44)"
 			vertices_plus
 			{
-				"v" "4 126 46"
-				"v" "12 126 46"
-				"v" "12 128 44"
-				"v" "4 128 44"
+				"v" "4 78 46"
+				"v" "12 78 46"
+				"v" "12 80 44"
+				"v" "4 80 44"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -417,13 +434,13 @@ entity
 		side
 		{
 			"id" "409"
-			"plane" "(12 126 46) (4 126 46) (4 126 62)"
+			"plane" "(12 78 46) (4 78 46) (4 78 62)"
 			vertices_plus
 			{
-				"v" "12 126 46"
-				"v" "4 126 46"
-				"v" "4 126 62"
-				"v" "12 126 62"
+				"v" "12 78 46"
+				"v" "4 78 46"
+				"v" "4 78 62"
+				"v" "12 78 62"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
 			"uaxis" "[1 0 0 -16] 0.25"
@@ -445,16 +462,16 @@ entity
 		side
 		{
 			"id" "420"
-			"plane" "(4 128 44) (4 126 46) (4 -30 46)"
+			"plane" "(4 80 44) (4 78 46) (4 -78 46)"
 			vertices_plus
 			{
-				"v" "4 128 44"
-				"v" "4 126 46"
-				"v" "4 -30 46"
-				"v" "4 -32 44"
+				"v" "4 80 44"
+				"v" "4 78 46"
+				"v" "4 -78 46"
+				"v" "4 -80 44"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
-			"uaxis" "[0 1 0 512] 0.25"
+			"uaxis" "[0 1 0 704] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -463,16 +480,16 @@ entity
 		side
 		{
 			"id" "419"
-			"plane" "(12 -32 44) (12 -30 46) (12 126 46)"
+			"plane" "(12 -80 44) (12 -78 46) (12 78 46)"
 			vertices_plus
 			{
-				"v" "12 -32 44"
-				"v" "12 -30 46"
-				"v" "12 126 46"
-				"v" "12 128 44"
+				"v" "12 -80 44"
+				"v" "12 -78 46"
+				"v" "12 78 46"
+				"v" "12 80 44"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
-			"uaxis" "[0 1 0 512] 0.25"
+			"uaxis" "[0 1 0 704] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -481,13 +498,13 @@ entity
 		side
 		{
 			"id" "418"
-			"plane" "(12 128 44) (12 126 46) (4 126 46)"
+			"plane" "(12 80 44) (12 78 46) (4 78 46)"
 			vertices_plus
 			{
-				"v" "12 128 44"
-				"v" "12 126 46"
-				"v" "4 126 46"
-				"v" "4 128 44"
+				"v" "12 80 44"
+				"v" "12 78 46"
+				"v" "4 78 46"
+				"v" "4 80 44"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -499,13 +516,13 @@ entity
 		side
 		{
 			"id" "417"
-			"plane" "(4 -32 44) (4 -30 46) (12 -30 46)"
+			"plane" "(4 -80 44) (4 -78 46) (12 -78 46)"
 			vertices_plus
 			{
-				"v" "4 -32 44"
-				"v" "4 -30 46"
-				"v" "12 -30 46"
-				"v" "12 -32 44"
+				"v" "4 -80 44"
+				"v" "4 -78 46"
+				"v" "12 -78 46"
+				"v" "12 -80 44"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -517,17 +534,17 @@ entity
 		side
 		{
 			"id" "416"
-			"plane" "(12 -32 44) (12 128 44) (4 128 44)"
+			"plane" "(12 -80 44) (12 80 44) (4 80 44)"
 			vertices_plus
 			{
-				"v" "12 -32 44"
-				"v" "12 128 44"
-				"v" "4 128 44"
-				"v" "4 -32 44"
+				"v" "12 -80 44"
+				"v" "12 80 44"
+				"v" "4 80 44"
+				"v" "4 -80 44"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
 			"uaxis" "[1 0 0 -16] 0.25"
-			"vaxis" "[0 -1 0 -40] 0.25"
+			"vaxis" "[0 -1 0 -232] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -535,17 +552,17 @@ entity
 		side
 		{
 			"id" "415"
-			"plane" "(12 126 46) (12 -30 46) (4 -30 46)"
+			"plane" "(12 78 46) (12 -78 46) (4 -78 46)"
 			vertices_plus
 			{
-				"v" "12 126 46"
-				"v" "12 -30 46"
-				"v" "4 -30 46"
-				"v" "4 126 46"
+				"v" "12 78 46"
+				"v" "12 -78 46"
+				"v" "4 -78 46"
+				"v" "4 78 46"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
 			"uaxis" "[1 0 0 -16] 0.25"
-			"vaxis" "[0 -1 0 192] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -563,16 +580,16 @@ entity
 		side
 		{
 			"id" "426"
-			"plane" "(4 -32 44) (4 -30 46) (4 -30 62)"
+			"plane" "(4 -80 44) (4 -78 46) (4 -78 62)"
 			vertices_plus
 			{
-				"v" "4 -32 44"
-				"v" "4 -30 46"
-				"v" "4 -30 62"
-				"v" "4 -32 64"
+				"v" "4 -80 44"
+				"v" "4 -78 46"
+				"v" "4 -78 62"
+				"v" "4 -80 64"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
-			"uaxis" "[0 1 0 512] 0.25"
+			"uaxis" "[0 1 0 704] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -581,16 +598,16 @@ entity
 		side
 		{
 			"id" "425"
-			"plane" "(12 -32 44) (12 -32 64) (12 -30 62)"
+			"plane" "(12 -80 44) (12 -80 64) (12 -78 62)"
 			vertices_plus
 			{
-				"v" "12 -32 44"
-				"v" "12 -32 64"
-				"v" "12 -30 62"
-				"v" "12 -30 46"
+				"v" "12 -80 44"
+				"v" "12 -80 64"
+				"v" "12 -78 62"
+				"v" "12 -78 46"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
-			"uaxis" "[0 1 0 512] 0.25"
+			"uaxis" "[0 1 0 704] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -599,13 +616,13 @@ entity
 		side
 		{
 			"id" "424"
-			"plane" "(12 -32 44) (4 -32 44) (4 -32 64)"
+			"plane" "(12 -80 44) (4 -80 44) (4 -80 64)"
 			vertices_plus
 			{
-				"v" "12 -32 44"
-				"v" "4 -32 44"
-				"v" "4 -32 64"
-				"v" "12 -32 64"
+				"v" "12 -80 44"
+				"v" "4 -80 44"
+				"v" "4 -80 64"
+				"v" "12 -80 64"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -617,13 +634,13 @@ entity
 		side
 		{
 			"id" "423"
-			"plane" "(4 -30 62) (12 -30 62) (12 -32 64)"
+			"plane" "(4 -78 62) (12 -78 62) (12 -80 64)"
 			vertices_plus
 			{
-				"v" "4 -30 62"
-				"v" "12 -30 62"
-				"v" "12 -32 64"
-				"v" "4 -32 64"
+				"v" "4 -78 62"
+				"v" "12 -78 62"
+				"v" "12 -80 64"
+				"v" "4 -80 64"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -635,13 +652,13 @@ entity
 		side
 		{
 			"id" "422"
-			"plane" "(4 -32 44) (12 -32 44) (12 -30 46)"
+			"plane" "(4 -80 44) (12 -80 44) (12 -78 46)"
 			vertices_plus
 			{
-				"v" "4 -32 44"
-				"v" "12 -32 44"
-				"v" "12 -30 46"
-				"v" "4 -30 46"
+				"v" "4 -80 44"
+				"v" "12 -80 44"
+				"v" "12 -78 46"
+				"v" "4 -78 46"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -653,13 +670,13 @@ entity
 		side
 		{
 			"id" "421"
-			"plane" "(4 -30 46) (12 -30 46) (12 -30 62)"
+			"plane" "(4 -78 46) (12 -78 46) (12 -78 62)"
 			vertices_plus
 			{
-				"v" "4 -30 46"
-				"v" "12 -30 46"
-				"v" "12 -30 62"
-				"v" "4 -30 62"
+				"v" "4 -78 46"
+				"v" "12 -78 46"
+				"v" "12 -78 62"
+				"v" "4 -78 62"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
 			"uaxis" "[1 0 0 -16] 0.25"
@@ -681,16 +698,16 @@ entity
 		side
 		{
 			"id" "432"
-			"plane" "(4 73 46) (4 75 46) (4 75 62)"
+			"plane" "(4 25 46) (4 27 46) (4 27 62)"
 			vertices_plus
 			{
-				"v" "4 73 46"
-				"v" "4 75 46"
-				"v" "4 75 62"
-				"v" "4 73 62"
+				"v" "4 25 46"
+				"v" "4 27 46"
+				"v" "4 27 62"
+				"v" "4 25 62"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
-			"uaxis" "[0 1 0 512] 0.25"
+			"uaxis" "[0 1 0 704] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -699,16 +716,16 @@ entity
 		side
 		{
 			"id" "431"
-			"plane" "(12 75 46) (12 73 46) (12 73 62)"
+			"plane" "(12 27 46) (12 25 46) (12 25 62)"
 			vertices_plus
 			{
-				"v" "12 75 46"
-				"v" "12 73 46"
-				"v" "12 73 62"
-				"v" "12 75 62"
+				"v" "12 27 46"
+				"v" "12 25 46"
+				"v" "12 25 62"
+				"v" "12 27 62"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
-			"uaxis" "[0 1 0 512] 0.25"
+			"uaxis" "[0 1 0 704] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -717,17 +734,17 @@ entity
 		side
 		{
 			"id" "430"
-			"plane" "(4 73 62) (4 75 62) (12 75 62)"
+			"plane" "(4 25 62) (4 27 62) (12 27 62)"
 			vertices_plus
 			{
-				"v" "4 73 62"
-				"v" "4 75 62"
-				"v" "12 75 62"
-				"v" "12 73 62"
+				"v" "4 25 62"
+				"v" "4 27 62"
+				"v" "12 27 62"
+				"v" "12 25 62"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -735,17 +752,17 @@ entity
 		side
 		{
 			"id" "429"
-			"plane" "(4 75 46) (4 73 46) (12 73 46)"
+			"plane" "(4 27 46) (4 25 46) (12 25 46)"
 			vertices_plus
 			{
-				"v" "4 75 46"
-				"v" "4 73 46"
-				"v" "12 73 46"
-				"v" "12 75 46"
+				"v" "4 27 46"
+				"v" "4 25 46"
+				"v" "12 25 46"
+				"v" "12 27 46"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -753,13 +770,13 @@ entity
 		side
 		{
 			"id" "428"
-			"plane" "(12 73 62) (12 73 46) (4 73 46)"
+			"plane" "(12 25 62) (12 25 46) (4 25 46)"
 			vertices_plus
 			{
-				"v" "12 73 62"
-				"v" "12 73 46"
-				"v" "4 73 46"
-				"v" "4 73 62"
+				"v" "12 25 62"
+				"v" "12 25 46"
+				"v" "4 25 46"
+				"v" "4 25 62"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
 			"uaxis" "[1 0 0 -16] 0.25"
@@ -771,13 +788,13 @@ entity
 		side
 		{
 			"id" "427"
-			"plane" "(4 75 62) (4 75 46) (12 75 46)"
+			"plane" "(4 27 62) (4 27 46) (12 27 46)"
 			vertices_plus
 			{
-				"v" "4 75 62"
-				"v" "4 75 46"
-				"v" "12 75 46"
-				"v" "12 75 62"
+				"v" "4 27 62"
+				"v" "4 27 46"
+				"v" "12 27 46"
+				"v" "12 27 62"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
 			"uaxis" "[1 0 0 -16] 0.25"
@@ -799,16 +816,16 @@ entity
 		side
 		{
 			"id" "438"
-			"plane" "(4 21 46) (4 23 46) (4 23 62)"
+			"plane" "(4 -27 46) (4 -25 46) (4 -25 62)"
 			vertices_plus
 			{
-				"v" "4 21 46"
-				"v" "4 23 46"
-				"v" "4 23 62"
-				"v" "4 21 62"
+				"v" "4 -27 46"
+				"v" "4 -25 46"
+				"v" "4 -25 62"
+				"v" "4 -27 62"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
-			"uaxis" "[0 1 0 512] 0.25"
+			"uaxis" "[0 1 0 704] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -817,16 +834,16 @@ entity
 		side
 		{
 			"id" "437"
-			"plane" "(12 23 46) (12 21 46) (12 21 62)"
+			"plane" "(12 -25 46) (12 -27 46) (12 -27 62)"
 			vertices_plus
 			{
-				"v" "12 23 46"
-				"v" "12 21 46"
-				"v" "12 21 62"
-				"v" "12 23 62"
+				"v" "12 -25 46"
+				"v" "12 -27 46"
+				"v" "12 -27 62"
+				"v" "12 -25 62"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
-			"uaxis" "[0 1 0 512] 0.25"
+			"uaxis" "[0 1 0 704] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -835,17 +852,17 @@ entity
 		side
 		{
 			"id" "436"
-			"plane" "(4 21 62) (4 23 62) (12 23 62)"
+			"plane" "(4 -27 62) (4 -25 62) (12 -25 62)"
 			vertices_plus
 			{
-				"v" "4 21 62"
-				"v" "4 23 62"
-				"v" "12 23 62"
-				"v" "12 21 62"
+				"v" "4 -27 62"
+				"v" "4 -25 62"
+				"v" "12 -25 62"
+				"v" "12 -27 62"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -853,17 +870,17 @@ entity
 		side
 		{
 			"id" "435"
-			"plane" "(4 23 46) (4 21 46) (12 21 46)"
+			"plane" "(4 -25 46) (4 -27 46) (12 -27 46)"
 			vertices_plus
 			{
-				"v" "4 23 46"
-				"v" "4 21 46"
-				"v" "12 21 46"
-				"v" "12 23 46"
+				"v" "4 -25 46"
+				"v" "4 -27 46"
+				"v" "12 -27 46"
+				"v" "12 -25 46"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -871,13 +888,13 @@ entity
 		side
 		{
 			"id" "434"
-			"plane" "(12 21 62) (12 21 46) (4 21 46)"
+			"plane" "(12 -27 62) (12 -27 46) (4 -27 46)"
 			vertices_plus
 			{
-				"v" "12 21 62"
-				"v" "12 21 46"
-				"v" "4 21 46"
-				"v" "4 21 62"
+				"v" "12 -27 62"
+				"v" "12 -27 46"
+				"v" "4 -27 46"
+				"v" "4 -27 62"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
 			"uaxis" "[1 0 0 -16] 0.25"
@@ -889,13 +906,13 @@ entity
 		side
 		{
 			"id" "433"
-			"plane" "(4 23 62) (4 23 46) (12 23 46)"
+			"plane" "(4 -25 62) (4 -25 46) (12 -25 46)"
 			vertices_plus
 			{
-				"v" "4 23 62"
-				"v" "4 23 46"
-				"v" "12 23 46"
-				"v" "12 23 62"
+				"v" "4 -25 62"
+				"v" "4 -25 46"
+				"v" "12 -25 46"
+				"v" "12 -25 62"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
 			"uaxis" "[1 0 0 -16] 0.25"
@@ -917,16 +934,16 @@ entity
 		side
 		{
 			"id" "444"
-			"plane" "(4 -32 44) (4 -32 -64) (4 -30 -64)"
+			"plane" "(4 -80 44) (4 -80 -64) (4 -78 -64)"
 			vertices_plus
 			{
-				"v" "4 -32 44"
-				"v" "4 -32 -64"
-				"v" "4 -30 -64"
-				"v" "4 -30 44"
+				"v" "4 -80 44"
+				"v" "4 -80 -64"
+				"v" "4 -78 -64"
+				"v" "4 -78 44"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
-			"uaxis" "[0 1 0 512] 0.25"
+			"uaxis" "[0 1 0 704] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -935,16 +952,16 @@ entity
 		side
 		{
 			"id" "443"
-			"plane" "(12 -30 -64) (12 -32 -64) (12 -32 44)"
+			"plane" "(12 -78 -64) (12 -80 -64) (12 -80 44)"
 			vertices_plus
 			{
-				"v" "12 -30 -64"
-				"v" "12 -32 -64"
-				"v" "12 -32 44"
-				"v" "12 -30 44"
+				"v" "12 -78 -64"
+				"v" "12 -80 -64"
+				"v" "12 -80 44"
+				"v" "12 -78 44"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
-			"uaxis" "[0 1 0 512] 0.25"
+			"uaxis" "[0 1 0 704] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -953,13 +970,13 @@ entity
 		side
 		{
 			"id" "442"
-			"plane" "(4 -30 -64) (4 -32 -64) (12 -32 -64)"
+			"plane" "(4 -78 -64) (4 -80 -64) (12 -80 -64)"
 			vertices_plus
 			{
-				"v" "4 -30 -64"
-				"v" "4 -32 -64"
-				"v" "12 -32 -64"
-				"v" "12 -30 -64"
+				"v" "4 -78 -64"
+				"v" "4 -80 -64"
+				"v" "12 -80 -64"
+				"v" "12 -78 -64"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -0] 0.25"
@@ -971,13 +988,13 @@ entity
 		side
 		{
 			"id" "441"
-			"plane" "(12 -32 44) (12 -32 -64) (4 -32 -64)"
+			"plane" "(12 -80 44) (12 -80 -64) (4 -80 -64)"
 			vertices_plus
 			{
-				"v" "12 -32 44"
-				"v" "12 -32 -64"
-				"v" "4 -32 -64"
-				"v" "4 -32 44"
+				"v" "12 -80 44"
+				"v" "12 -80 -64"
+				"v" "4 -80 -64"
+				"v" "4 -80 44"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -989,17 +1006,17 @@ entity
 		side
 		{
 			"id" "440"
-			"plane" "(4 -32 44) (4 -30 44) (12 -30 44)"
+			"plane" "(4 -80 44) (4 -78 44) (12 -78 44)"
 			vertices_plus
 			{
-				"v" "4 -32 44"
-				"v" "4 -30 44"
-				"v" "12 -30 44"
-				"v" "12 -32 44"
+				"v" "4 -80 44"
+				"v" "4 -78 44"
+				"v" "12 -78 44"
+				"v" "12 -80 44"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1007,13 +1024,13 @@ entity
 		side
 		{
 			"id" "439"
-			"plane" "(4 -30 44) (4 -30 -64) (12 -30 -64)"
+			"plane" "(4 -78 44) (4 -78 -64) (12 -78 -64)"
 			vertices_plus
 			{
-				"v" "4 -30 44"
-				"v" "4 -30 -64"
-				"v" "12 -30 -64"
-				"v" "12 -30 44"
+				"v" "4 -78 44"
+				"v" "4 -78 -64"
+				"v" "12 -78 -64"
+				"v" "12 -78 44"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
 			"uaxis" "[1 0 0 -16] 0.25"
@@ -1035,16 +1052,16 @@ entity
 		side
 		{
 			"id" "450"
-			"plane" "(4 -2 -64) (4 0 -64) (4 0 44)"
+			"plane" "(4 -50 -64) (4 -48 -64) (4 -48 44)"
 			vertices_plus
 			{
-				"v" "4 -2 -64"
-				"v" "4 0 -64"
-				"v" "4 0 44"
-				"v" "4 -2 44"
+				"v" "4 -50 -64"
+				"v" "4 -48 -64"
+				"v" "4 -48 44"
+				"v" "4 -50 44"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
-			"uaxis" "[0 1 0 512] 0.25"
+			"uaxis" "[0 1 0 704] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1053,16 +1070,16 @@ entity
 		side
 		{
 			"id" "449"
-			"plane" "(12 0 -64) (12 -2 -64) (12 -2 44)"
+			"plane" "(12 -48 -64) (12 -50 -64) (12 -50 44)"
 			vertices_plus
 			{
-				"v" "12 0 -64"
-				"v" "12 -2 -64"
-				"v" "12 -2 44"
-				"v" "12 0 44"
+				"v" "12 -48 -64"
+				"v" "12 -50 -64"
+				"v" "12 -50 44"
+				"v" "12 -48 44"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
-			"uaxis" "[0 1 0 512] 0.25"
+			"uaxis" "[0 1 0 704] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1071,13 +1088,13 @@ entity
 		side
 		{
 			"id" "448"
-			"plane" "(4 0 -64) (4 -2 -64) (12 -2 -64)"
+			"plane" "(4 -48 -64) (4 -50 -64) (12 -50 -64)"
 			vertices_plus
 			{
-				"v" "4 0 -64"
-				"v" "4 -2 -64"
-				"v" "12 -2 -64"
-				"v" "12 0 -64"
+				"v" "4 -48 -64"
+				"v" "4 -50 -64"
+				"v" "12 -50 -64"
+				"v" "12 -48 -64"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -0] 0.25"
@@ -1089,17 +1106,17 @@ entity
 		side
 		{
 			"id" "447"
-			"plane" "(4 -2 44) (4 0 44) (12 0 44)"
+			"plane" "(4 -50 44) (4 -48 44) (12 -48 44)"
 			vertices_plus
 			{
-				"v" "4 -2 44"
-				"v" "4 0 44"
-				"v" "12 0 44"
-				"v" "12 -2 44"
+				"v" "4 -50 44"
+				"v" "4 -48 44"
+				"v" "12 -48 44"
+				"v" "12 -50 44"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1107,13 +1124,13 @@ entity
 		side
 		{
 			"id" "446"
-			"plane" "(4 0 44) (4 0 -64) (12 0 -64)"
+			"plane" "(4 -48 44) (4 -48 -64) (12 -48 -64)"
 			vertices_plus
 			{
-				"v" "4 0 44"
-				"v" "4 0 -64"
-				"v" "12 0 -64"
-				"v" "12 0 44"
+				"v" "4 -48 44"
+				"v" "4 -48 -64"
+				"v" "12 -48 -64"
+				"v" "12 -48 44"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
 			"uaxis" "[1 0 0 -16] 0.25"
@@ -1125,13 +1142,13 @@ entity
 		side
 		{
 			"id" "445"
-			"plane" "(12 -2 44) (12 -2 -64) (4 -2 -64)"
+			"plane" "(12 -50 44) (12 -50 -64) (4 -50 -64)"
 			vertices_plus
 			{
-				"v" "12 -2 44"
-				"v" "12 -2 -64"
-				"v" "4 -2 -64"
-				"v" "4 -2 44"
+				"v" "12 -50 44"
+				"v" "12 -50 -64"
+				"v" "4 -50 -64"
+				"v" "4 -50 44"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
 			"uaxis" "[1 0 0 -16] 0.25"
@@ -1153,16 +1170,16 @@ entity
 		side
 		{
 			"id" "456"
-			"plane" "(4 -30 -64) (4 -2 -64) (4 -2 -52)"
+			"plane" "(4 -78 -64) (4 -50 -64) (4 -50 -52)"
 			vertices_plus
 			{
-				"v" "4 -30 -64"
-				"v" "4 -2 -64"
-				"v" "4 -2 -52"
-				"v" "4 -30 -52"
+				"v" "4 -78 -64"
+				"v" "4 -50 -64"
+				"v" "4 -50 -52"
+				"v" "4 -78 -52"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
-			"uaxis" "[0 1 0 512] 0.25"
+			"uaxis" "[0 1 0 704] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1171,16 +1188,16 @@ entity
 		side
 		{
 			"id" "455"
-			"plane" "(12 -2 -64) (12 -30 -64) (12 -30 -52)"
+			"plane" "(12 -50 -64) (12 -78 -64) (12 -78 -52)"
 			vertices_plus
 			{
-				"v" "12 -2 -64"
-				"v" "12 -30 -64"
-				"v" "12 -30 -52"
-				"v" "12 -2 -52"
+				"v" "12 -50 -64"
+				"v" "12 -78 -64"
+				"v" "12 -78 -52"
+				"v" "12 -50 -52"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
-			"uaxis" "[0 1 0 512] 0.25"
+			"uaxis" "[0 1 0 704] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1189,13 +1206,13 @@ entity
 		side
 		{
 			"id" "454"
-			"plane" "(4 -2 -64) (4 -30 -64) (12 -30 -64)"
+			"plane" "(4 -50 -64) (4 -78 -64) (12 -78 -64)"
 			vertices_plus
 			{
-				"v" "4 -2 -64"
-				"v" "4 -30 -64"
-				"v" "12 -30 -64"
-				"v" "12 -2 -64"
+				"v" "4 -50 -64"
+				"v" "4 -78 -64"
+				"v" "12 -78 -64"
+				"v" "12 -50 -64"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -0] 0.25"
@@ -1207,17 +1224,17 @@ entity
 		side
 		{
 			"id" "453"
-			"plane" "(4 -30 -52) (4 -2 -52) (12 -2 -52)"
+			"plane" "(4 -78 -52) (4 -50 -52) (12 -50 -52)"
 			vertices_plus
 			{
-				"v" "4 -30 -52"
-				"v" "4 -2 -52"
-				"v" "12 -2 -52"
-				"v" "12 -30 -52"
+				"v" "4 -78 -52"
+				"v" "4 -50 -52"
+				"v" "12 -50 -52"
+				"v" "12 -78 -52"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
 			"uaxis" "[1 0 0 -16] 0.25"
-			"vaxis" "[0 -1 0 72] 0.25"
+			"vaxis" "[0 -1 0 -120] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1225,13 +1242,13 @@ entity
 		side
 		{
 			"id" "452"
-			"plane" "(12 -30 -52) (12 -30 -64) (4 -30 -64)"
+			"plane" "(12 -78 -52) (12 -78 -64) (4 -78 -64)"
 			vertices_plus
 			{
-				"v" "12 -30 -52"
-				"v" "12 -30 -64"
-				"v" "4 -30 -64"
-				"v" "4 -30 -52"
+				"v" "12 -78 -52"
+				"v" "12 -78 -64"
+				"v" "4 -78 -64"
+				"v" "4 -78 -52"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -1243,13 +1260,13 @@ entity
 		side
 		{
 			"id" "451"
-			"plane" "(4 -2 -52) (4 -2 -64) (12 -2 -64)"
+			"plane" "(4 -50 -52) (4 -50 -64) (12 -50 -64)"
 			vertices_plus
 			{
-				"v" "4 -2 -52"
-				"v" "4 -2 -64"
-				"v" "12 -2 -64"
-				"v" "12 -2 -52"
+				"v" "4 -50 -52"
+				"v" "4 -50 -64"
+				"v" "12 -50 -64"
+				"v" "12 -50 -52"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -1271,16 +1288,16 @@ entity
 		side
 		{
 			"id" "462"
-			"plane" "(4 98 -64) (4 126 -64) (4 126 -52)"
+			"plane" "(4 50 -64) (4 78 -64) (4 78 -52)"
 			vertices_plus
 			{
-				"v" "4 98 -64"
-				"v" "4 126 -64"
-				"v" "4 126 -52"
-				"v" "4 98 -52"
+				"v" "4 50 -64"
+				"v" "4 78 -64"
+				"v" "4 78 -52"
+				"v" "4 50 -52"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
-			"uaxis" "[0 1 0 512] 0.25"
+			"uaxis" "[0 1 0 704] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1289,16 +1306,16 @@ entity
 		side
 		{
 			"id" "461"
-			"plane" "(12 126 -64) (12 98 -64) (12 98 -52)"
+			"plane" "(12 78 -64) (12 50 -64) (12 50 -52)"
 			vertices_plus
 			{
-				"v" "12 126 -64"
-				"v" "12 98 -64"
-				"v" "12 98 -52"
-				"v" "12 126 -52"
+				"v" "12 78 -64"
+				"v" "12 50 -64"
+				"v" "12 50 -52"
+				"v" "12 78 -52"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
-			"uaxis" "[0 1 0 512] 0.25"
+			"uaxis" "[0 1 0 704] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1307,13 +1324,13 @@ entity
 		side
 		{
 			"id" "460"
-			"plane" "(4 126 -64) (4 98 -64) (12 98 -64)"
+			"plane" "(4 78 -64) (4 50 -64) (12 50 -64)"
 			vertices_plus
 			{
-				"v" "4 126 -64"
-				"v" "4 98 -64"
-				"v" "12 98 -64"
-				"v" "12 126 -64"
+				"v" "4 78 -64"
+				"v" "4 50 -64"
+				"v" "12 50 -64"
+				"v" "12 78 -64"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -0] 0.25"
@@ -1325,17 +1342,17 @@ entity
 		side
 		{
 			"id" "459"
-			"plane" "(4 98 -52) (4 126 -52) (12 126 -52)"
+			"plane" "(4 50 -52) (4 78 -52) (12 78 -52)"
 			vertices_plus
 			{
-				"v" "4 98 -52"
-				"v" "4 126 -52"
-				"v" "12 126 -52"
-				"v" "12 98 -52"
+				"v" "4 50 -52"
+				"v" "4 78 -52"
+				"v" "12 78 -52"
+				"v" "12 50 -52"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
 			"uaxis" "[1 0 0 -16] 0.25"
-			"vaxis" "[0 -1 0 72] 0.25"
+			"vaxis" "[0 -1 0 -120] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1343,13 +1360,13 @@ entity
 		side
 		{
 			"id" "458"
-			"plane" "(4 126 -52) (4 126 -64) (12 126 -64)"
+			"plane" "(4 78 -52) (4 78 -64) (12 78 -64)"
 			vertices_plus
 			{
-				"v" "4 126 -52"
-				"v" "4 126 -64"
-				"v" "12 126 -64"
-				"v" "12 126 -52"
+				"v" "4 78 -52"
+				"v" "4 78 -64"
+				"v" "12 78 -64"
+				"v" "12 78 -52"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -1361,13 +1378,13 @@ entity
 		side
 		{
 			"id" "457"
-			"plane" "(12 98 -52) (12 98 -64) (4 98 -64)"
+			"plane" "(12 50 -52) (12 50 -64) (4 50 -64)"
 			vertices_plus
 			{
-				"v" "12 98 -52"
-				"v" "12 98 -64"
-				"v" "4 98 -64"
-				"v" "4 98 -52"
+				"v" "12 50 -52"
+				"v" "12 50 -64"
+				"v" "4 50 -64"
+				"v" "4 50 -52"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -1389,16 +1406,16 @@ entity
 		side
 		{
 			"id" "468"
-			"plane" "(4 96 -64) (4 98 -64) (4 98 44)"
+			"plane" "(4 48 -64) (4 50 -64) (4 50 44)"
 			vertices_plus
 			{
-				"v" "4 96 -64"
-				"v" "4 98 -64"
-				"v" "4 98 44"
-				"v" "4 96 44"
+				"v" "4 48 -64"
+				"v" "4 50 -64"
+				"v" "4 50 44"
+				"v" "4 48 44"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
-			"uaxis" "[0 1 0 512] 0.25"
+			"uaxis" "[0 1 0 704] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1407,16 +1424,16 @@ entity
 		side
 		{
 			"id" "467"
-			"plane" "(12 98 -64) (12 96 -64) (12 96 44)"
+			"plane" "(12 50 -64) (12 48 -64) (12 48 44)"
 			vertices_plus
 			{
-				"v" "12 98 -64"
-				"v" "12 96 -64"
-				"v" "12 96 44"
-				"v" "12 98 44"
+				"v" "12 50 -64"
+				"v" "12 48 -64"
+				"v" "12 48 44"
+				"v" "12 50 44"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
-			"uaxis" "[0 1 0 512] 0.25"
+			"uaxis" "[0 1 0 704] 0.25"
 			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1425,13 +1442,13 @@ entity
 		side
 		{
 			"id" "466"
-			"plane" "(4 98 -64) (4 96 -64) (12 96 -64)"
+			"plane" "(4 50 -64) (4 48 -64) (12 48 -64)"
 			vertices_plus
 			{
-				"v" "4 98 -64"
-				"v" "4 96 -64"
-				"v" "12 96 -64"
-				"v" "12 98 -64"
+				"v" "4 50 -64"
+				"v" "4 48 -64"
+				"v" "12 48 -64"
+				"v" "12 50 -64"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -0] 0.25"
@@ -1443,17 +1460,17 @@ entity
 		side
 		{
 			"id" "465"
-			"plane" "(4 96 44) (4 98 44) (12 98 44)"
+			"plane" "(4 48 44) (4 50 44) (12 50 44)"
 			vertices_plus
 			{
-				"v" "4 96 44"
-				"v" "4 98 44"
-				"v" "12 98 44"
-				"v" "12 96 44"
+				"v" "4 48 44"
+				"v" "4 50 44"
+				"v" "12 50 44"
+				"v" "12 48 44"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1461,13 +1478,13 @@ entity
 		side
 		{
 			"id" "464"
-			"plane" "(12 96 44) (12 96 -64) (4 96 -64)"
+			"plane" "(12 48 44) (12 48 -64) (4 48 -64)"
 			vertices_plus
 			{
-				"v" "12 96 44"
-				"v" "12 96 -64"
-				"v" "4 96 -64"
-				"v" "4 96 44"
+				"v" "12 48 44"
+				"v" "12 48 -64"
+				"v" "4 48 -64"
+				"v" "4 48 44"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
 			"uaxis" "[1 0 0 -16] 0.25"
@@ -1479,13 +1496,13 @@ entity
 		side
 		{
 			"id" "463"
-			"plane" "(4 98 44) (4 98 -64) (12 98 -64)"
+			"plane" "(4 50 44) (4 50 -64) (12 50 -64)"
 			vertices_plus
 			{
-				"v" "4 98 44"
-				"v" "4 98 -64"
-				"v" "12 98 -64"
-				"v" "12 98 44"
+				"v" "4 50 44"
+				"v" "4 50 -64"
+				"v" "12 50 -64"
+				"v" "12 50 44"
 			}
 			"material" "METAL/OFFICE_DOUBLEDOOR_FRAME01"
 			"uaxis" "[1 0 0 -16] 0.25"
