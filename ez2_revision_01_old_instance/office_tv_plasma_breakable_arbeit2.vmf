@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8870"
-	"mapversion" "13"
+	"editorbuild" "8871"
+	"mapversion" "16"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "13"
+	"mapversion" "16"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -138,7 +138,7 @@ entity
 	"viewhideflags" "0"
 	connections
 	{
-		"OnBreak" "tv_plasma_monitorKill0-1"
+		"OnBreak" "tv_plasma_monitor,Kill,,0,-1"
 	}
 	"origin" "0 3 -19.3563"
 	editor
@@ -277,8 +277,8 @@ entity
 				"v" "29 -3.5 17"
 			}
 			"material" "OP_EFFECTS/LAB_MONITOR_OFF_ARBEIT"
-			"uaxis" "[1 0 0 256] 0.125"
-			"vaxis" "[0 0 -1 254] 0.125"
+			"uaxis" "[1 0 0 512] 0.0566"
+			"vaxis" "[0 0 -1 480] 0.05"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"

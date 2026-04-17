@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8869"
-	"mapversion" "11"
+	"editorbuild" "8871"
+	"mapversion" "15"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "11"
+	"mapversion" "15"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -275,8 +275,8 @@ entity
 				"v" "29 -3.5 17"
 			}
 			"material" "OP_EFFECTS/LAB_MONITOR_SCREEN_ARBEIT"
-			"uaxis" "[1 0 0 256] 0.125"
-			"vaxis" "[0 0 -1 254] 0.125"
+			"uaxis" "[1 0 0 512] 0.0566"
+			"vaxis" "[0 0 -1 475] 0.05"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"

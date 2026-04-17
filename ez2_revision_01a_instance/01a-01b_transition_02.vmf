@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8870"
-	"mapversion" "6"
+	"mapversion" "7"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "6"
+	"mapversion" "7"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -1663,7 +1663,7 @@ world
 				"v" "0 -240 128"
 				"v" "256 -240 128"
 			}
-			"material" "CONCRETE/CONCRETEWALL036A"
+			"material" "CONCRETE/SUBWAY_CONCRETEWALL_01A"
 			"uaxis" "[-0 -1 0 -0] 0.25"
 			"vaxis" "[-1 0 0 -0.00201416] 0.25"
 			"rotation" "0"
@@ -2607,7 +2607,7 @@ world
 				"v" "-16 -128 128"
 				"v" "-16 128 128"
 			}
-			"material" "CONCRETE/CONCRETEWALL036A"
+			"material" "CONCRETE/SUBWAY_CONCRETEWALL_01A"
 			"uaxis" "[0 -1 0 -0] 0.25"
 			"vaxis" "[-1 0 0 -0.00201416] 0.25"
 			"rotation" "0"
@@ -7346,8 +7346,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-87.1375 -39.6984 55.0313]"
-		"look" "[-87.9357 -40.2783 55.1948]"
+		"position" "[69.8845 -115.465 23.4657]"
+		"look" "[69.8579 -114.564 23.8993]"
 	}
 }
 cordons
