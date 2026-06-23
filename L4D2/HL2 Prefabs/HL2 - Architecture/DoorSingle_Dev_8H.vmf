@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8870"
-	"mapversion" "3573"
+	"editorbuild" "8871"
+	"mapversion" "3574"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -86,7 +86,7 @@ bgimages_plus
 world
 {
 	"id" "69750"
-	"mapversion" "3573"
+	"mapversion" "3574"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -108,10 +108,12 @@ entity
 	"forceclosed" "0"
 	"hardware" "1"
 	"health" "0"
+	"kickspeed" "500"
 	"model" "models/props_c17/door01_left.mdl"
 	"modelscale" "1.0"
 	"opendir" "0"
 	"opendistoverride" "-1"
+	"openonkick" "1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"returndelay" "-1"

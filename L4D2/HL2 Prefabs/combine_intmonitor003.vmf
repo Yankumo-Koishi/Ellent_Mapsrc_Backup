@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8869"
-	"mapversion" "7"
+	"editorbuild" "8871"
+	"mapversion" "9"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -18,7 +18,7 @@ viewsettings
 }
 palette_plus
 {
-	"color0" "255 255 255"
+	"color0" "181 145 255"
 	"color1" "255 255 255"
 	"color2" "255 255 255"
 	"color3" "255 255 255"
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "7"
+	"mapversion" "9"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -121,16 +121,17 @@ entity
 {
 	"id" "6"
 	"classname" "env_sprite"
+	"angles" "0 0 0"
 	"framerate" "10.0"
 	"GlowProxySize" "4"
 	"HDRColorScale" "1.0"
 	"model" "sprites/light_glow02.vmt"
-	"renderamt" "255"
+	"renderamt" "125"
 	"rendercolor" "110 180 245"
 	"rendermode" "9"
 	"scale" "1.25"
 	"spawnflags" "1"
-	"origin" "-8 0 -8"
+	"origin" "-16 0 0"
 	editor
 	{
 		"color" "20 140 20"
@@ -143,10 +144,10 @@ entity
 {
 	"id" "10"
 	"classname" "light_spot"
-	"_cone" "45"
+	"_cone" "55"
 	"_constant_attn" "0"
 	"_exponent" "1"
-	"_inner_cone" "30"
+	"_inner_cone" "40"
 	"_light" "110 180 245 150"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
@@ -168,11 +169,11 @@ entity
 	"id" "18"
 	"classname" "light"
 	"_fifty_percent_distance" "256"
-	"_light" "110 180 245 25"
+	"_light" "110 180 245 15"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
-	"_zero_percent_distance" "512"
+	"_zero_percent_distance" "1024"
 	"origin" "32 0 -8"
 	editor
 	{

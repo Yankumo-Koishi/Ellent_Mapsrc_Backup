@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8870"
-	"mapversion" "26"
+	"editorbuild" "8871"
+	"mapversion" "27"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -95,7 +95,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "26"
+	"mapversion" "27"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -4569,7 +4569,7 @@ entity
 	"model" "models/props_skybox/skybox_stars.mdl"
 	"skin" "0"
 	"solid" "6"
-	"origin" "-1120 -192 -560"
+	"origin" "-48 112 -560"
 	editor
 	{
 		"color" "255 255 0"
