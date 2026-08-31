@@ -1,0 +1,5 @@
+D:\Sbeam\steamapps\common\EntropyZero2\entropyzero2\workshop_project\ez2_revision_01b_2/models/propper/ez2_revision_01b\cargo_container_square_colored.mdl
+D:\Sbeam\steamapps\common\EntropyZero2\entropyzero2\workshop_project\ez2_revision_01b_2/models/propper/ez2_revision_01b\cargo_container_square_colored.dx90.vtx
+D:\Sbeam\steamapps\common\EntropyZero2\entropyzero2\workshop_project\ez2_revision_01b_2/models/propper/ez2_revision_01b\cargo_container_square_colored.vvd
+D:\Sbeam\steamapps\common\EntropyZero2\entropyzero2\workshop_project\ez2_revision_01b_2/models/propper/ez2_revision_01b\cargo_container_square_colored.phy
+D:\Sbeam\steamapps\common\EntropyZero2\entropyzero2\workshop_project\ez2_revision_01b_2/materials/survival_cargo_container_color_cargo_container_square_color1.vmt
