@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8870"
-	"mapversion" "7"
+	"editorbuild" "8872"
+	"mapversion" "8"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "7"
+	"mapversion" "8"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -3826,6 +3826,7 @@ entity
 	"GlowProxySize" "4"
 	"HDRColorScale" "1.0"
 	"model" "sprites/light_glow02.spr"
+	"modelscale" "1"
 	"renderamt" "100"
 	"rendercolor" "255 222 133"
 	"rendermode" "9"
@@ -3864,7 +3865,7 @@ entity
 {
 	"id" "52"
 	"classname" "info_landmark"
-	"targetname" "01a-01b_landmark"
+	"targetname" "01a-01c_landmark"
 	"origin" "248 232 8"
 	editor
 	{
@@ -5877,6 +5878,7 @@ entity
 	"GlowProxySize" "4"
 	"HDRColorScale" "1.0"
 	"model" "sprites/light_glow02.spr"
+	"modelscale" "1"
 	"renderamt" "100"
 	"rendercolor" "255 222 133"
 	"rendermode" "9"
@@ -5899,6 +5901,7 @@ entity
 	"GlowProxySize" "4"
 	"HDRColorScale" "1.0"
 	"model" "sprites/light_glow02.spr"
+	"modelscale" "1"
 	"renderamt" "100"
 	"rendercolor" "255 222 133"
 	"rendermode" "9"
@@ -5921,6 +5924,7 @@ entity
 	"GlowProxySize" "4"
 	"HDRColorScale" "1.0"
 	"model" "sprites/light_glow02.spr"
+	"modelscale" "1"
 	"renderamt" "100"
 	"rendercolor" "255 222 133"
 	"rendermode" "9"
@@ -5943,6 +5947,7 @@ entity
 	"GlowProxySize" "4"
 	"HDRColorScale" "1.0"
 	"model" "sprites/light_glow02.spr"
+	"modelscale" "1"
 	"renderamt" "100"
 	"rendercolor" "255 222 133"
 	"rendermode" "9"
@@ -7137,6 +7142,7 @@ entity
 	"GlowProxySize" "4"
 	"HDRColorScale" "1.0"
 	"model" "sprites/light_glow02.spr"
+	"modelscale" "1"
 	"renderamt" "100"
 	"rendercolor" "255 222 133"
 	"rendermode" "9"
@@ -7346,8 +7352,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[69.8845 -115.465 23.4657]"
-		"look" "[69.8579 -114.564 23.8993]"
+		"position" "[195.901 312.01 314.529]"
+		"look" "[195.536 311.556 313.715]"
 	}
 }
 cordons

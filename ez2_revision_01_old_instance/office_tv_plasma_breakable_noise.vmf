@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8864"
-	"mapversion" "9"
+	"editorbuild" "8872"
+	"mapversion" "11"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -64,7 +64,24 @@ light_plus
 	"soften_cosine" "0"
 	"debug" "0"
 	"cubemap" "1"
-	"hdr" "0"
+}
+postprocess_plus
+{
+	"enable" "1"
+	"copied_from_controller" "1"
+	"bloom_scale" "1"
+	"bloom_exponent" "2.5"
+	"bloom_saturation" "1"
+	"auto_exposure_min" "0.5"
+	"auto_exposure_max" "2"
+	"tonemap_percent_target" "60"
+	"tonemap_percent_bright_pixels" "2"
+	"tonemap_min_avg_luminance" "3"
+	"tonemap_rate" "1"
+	"vignette_enable" "0"
+	"vignette_start" "1"
+	"vignette_end" "2"
+	"vignette_blur" "0"
 }
 bgimages_plus
 {
@@ -72,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "9"
+	"mapversion" "11"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -207,9 +224,9 @@ entity
 				"v" "-29 -3.5 17"
 				"v" "29 -3.5 17"
 			}
-			"material" "EFFECTS/TVSCREEN_NOISE001A"
-			"uaxis" "[1 0 0 64] 0.453125"
-			"vaxis" "[0 0 -1 62.1714] 0.273438"
+			"material" "OP_EFFECTS/TVSCREEN_NOISE001A"
+			"uaxis" "[1 0 0 0] 0.453125"
+			"vaxis" "[0 0 -1 30.1714] 0.273438"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
