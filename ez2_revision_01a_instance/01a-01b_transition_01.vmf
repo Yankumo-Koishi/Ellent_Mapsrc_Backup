@@ -1,7 +1,7 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8871"
+	"editorbuild" "8873"
 	"mapversion" "33"
 	"formatversion" "100"
 	"prefab" "0"
@@ -9381,7 +9381,7 @@ entity
 	"spawnflags" "0"
 	connections
 	{
-		"OnEmpty" "!selfSkin10-1"
+		"OnEmpty" "!self,Skin,1,0,-1"
 	}
 	"origin" "128 80.02 -72"
 	editor
@@ -11134,6 +11134,7 @@ entity
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
 	"model" "sprites/glow01.spr"
+	"modelscale" "1"
 	"renderamt" "150"
 	"rendercolor" "232 220 163"
 	"renderfx" "0"
@@ -11208,6 +11209,7 @@ entity
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
 	"model" "sprites/light_glow02.vmt"
+	"modelscale" "1"
 	"renderamt" "150"
 	"rendercolor" "200 4 4"
 	"renderfx" "0"
@@ -13644,6 +13646,7 @@ entity
 	"GlowProxySize" "4"
 	"HDRColorScale" "0.7"
 	"model" "sprites/light_glow02.vmt"
+	"modelscale" "1"
 	"renderamt" "80"
 	"rendercolor" "255 240 136"
 	"rendermode" "9"
@@ -13707,6 +13710,7 @@ entity
 	"GlowProxySize" "4"
 	"HDRColorScale" "0.7"
 	"model" "sprites/light_glow02.vmt"
+	"modelscale" "1"
 	"renderamt" "80"
 	"rendercolor" "255 240 136"
 	"rendermode" "9"
@@ -13729,6 +13733,7 @@ entity
 	"GlowProxySize" "4"
 	"HDRColorScale" "0.7"
 	"model" "sprites/light_glow02.vmt"
+	"modelscale" "1"
 	"renderamt" "80"
 	"rendercolor" "255 240 136"
 	"rendermode" "9"
@@ -13751,6 +13756,7 @@ entity
 	"GlowProxySize" "4"
 	"HDRColorScale" "0.7"
 	"model" "sprites/light_glow02.vmt"
+	"modelscale" "1"
 	"renderamt" "80"
 	"rendercolor" "255 240 136"
 	"rendermode" "9"

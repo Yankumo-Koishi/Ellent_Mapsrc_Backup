@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8871"
-	"mapversion" "532"
+	"editorbuild" "8873"
+	"mapversion" "533"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -107,7 +107,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "532"
+	"mapversion" "533"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -66806,9 +66806,9 @@ world
 				"v" "7200 -8320 512"
 				"v" "7200 -8576 768"
 			}
-			"material" "DEV/COLOR_Y03"
-			"uaxis" "[0 1 0 0] 0.5"
-			"vaxis" "[0 0 -1 -256] 0.5"
+			"material" "NATURE/ROCKWALL003A"
+			"uaxis" "[0 1 0 256] 2.5"
+			"vaxis" "[0 0 -1 341.333] 2.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -66907,9 +66907,9 @@ world
 				"v" "7200 -8576 768"
 				"v" "7200 -8320 512"
 			}
-			"material" "DEV/COLOR_Y03"
-			"uaxis" "[0 1 0 0] 0.5"
-			"vaxis" "[0 0 -1 0] 0.5"
+			"material" "NATURE/ROCKWALL003A"
+			"uaxis" "[0 1 0 256] 2.5"
+			"vaxis" "[0 0 -1 341.333] 2.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -67026,9 +67026,9 @@ world
 				"v" "7200 -7296 -384"
 				"v" "7200 -7296 768"
 			}
-			"material" "DEV/COLOR_Y03"
-			"uaxis" "[0 1 0 0] 0.5"
-			"vaxis" "[0 0 -1 -256] 0.5"
+			"material" "NATURE/ROCKWALL003A"
+			"uaxis" "[0 1 0 256] 2.5"
+			"vaxis" "[0 0 -1 341.333] 2.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -67163,9 +67163,9 @@ world
 				"v" "7200 -8576 768"
 				"v" "6112 -8576 768"
 			}
-			"material" "DEV/COLOR_Y03"
-			"uaxis" "[1 0 0 -0] 0.5"
-			"vaxis" "[0 0 -1 -256] 0.5"
+			"material" "NATURE/ROCKWALL003A"
+			"uaxis" "[1 0 0 -316.235] 2.5"
+			"vaxis" "[0 0 -1 341.333] 2.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -67383,9 +67383,9 @@ world
 				"v" "6112 -7552 512"
 				"v" "6112 -8320 512"
 			}
-			"material" "DEV/COLOR_Y03"
-			"uaxis" "[0 1 0 0] 0.5"
-			"vaxis" "[0 0 -1 0] 0.5"
+			"material" "NATURE/ROCKWALL003A"
+			"uaxis" "[0 1 0 -316.235] 2.5"
+			"vaxis" "[0 0 -1 341.333] 2.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -67520,9 +67520,9 @@ world
 				"v" "6112 -8320 -384"
 				"v" "6112 -8576 -384"
 			}
-			"material" "DEV/COLOR_Y03"
-			"uaxis" "[0 1 0 0] 0.5"
-			"vaxis" "[0 0 -1 -256] 0.5"
+			"material" "NATURE/ROCKWALL003A"
+			"uaxis" "[0 1 0 -316.235] 2.5"
+			"vaxis" "[0 0 -1 341.333] 2.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -67621,9 +67621,9 @@ world
 				"v" "6112 -7552 -384"
 				"v" "6112 -7552 512"
 			}
-			"material" "DEV/COLOR_Y03"
-			"uaxis" "[0 1 0 0] 0.5"
-			"vaxis" "[0 0 -1 -256] 0.5"
+			"material" "NATURE/ROCKWALL003A"
+			"uaxis" "[0 1 0 -316.235] 2.5"
+			"vaxis" "[0 0 -1 341.333] 2.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -67877,9 +67877,9 @@ world
 				"v" "7552 -6784 784"
 				"v" "7200 -7296 784"
 			}
-			"material" "DEV/COLOR_Y03"
-			"uaxis" "[0 1 0 0] 0.5"
-			"vaxis" "[0 0 -1 -256] 0.5"
+			"material" "NATURE/ROCKWALL003A"
+			"uaxis" "[0 1 0 256] 2.5"
+			"vaxis" "[0 0 -1 341.333] 2.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -68014,9 +68014,9 @@ world
 				"v" "6112 -7296 784"
 				"v" "6112 -6784 784"
 			}
-			"material" "DEV/COLOR_Y03"
-			"uaxis" "[0 1 0 0] 0.5"
-			"vaxis" "[0 0 -1 -256] 0.5"
+			"material" "NATURE/ROCKWALL003A"
+			"uaxis" "[0 1 0 -316.235] 2.5"
+			"vaxis" "[0 0 -1 341.333] 2.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -68115,9 +68115,9 @@ world
 				"v" "7552 -6528 784"
 				"v" "7552 -6784 784"
 			}
-			"material" "DEV/COLOR_Y03"
-			"uaxis" "[0 1 0 0] 0.5"
-			"vaxis" "[0 0 -1 -256] 0.5"
+			"material" "NATURE/ROCKWALL003A"
+			"uaxis" "[0 1 0 256] 2.5"
+			"vaxis" "[0 0 -1 341.333] 2.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -68371,9 +68371,9 @@ world
 				"v" "6112 -6784 784"
 				"v" "6112 -6528 784"
 			}
-			"material" "DEV/COLOR_Y03"
-			"uaxis" "[0 1 0 0] 0.5"
-			"vaxis" "[0 0 -1 -256] 0.5"
+			"material" "NATURE/ROCKWALL003A"
+			"uaxis" "[0 1 0 -316.235] 2.5"
+			"vaxis" "[0 0 -1 341.333] 2.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -68609,9 +68609,9 @@ world
 				"v" "6112 -6528 784"
 				"v" "6112 -6144 784"
 			}
-			"material" "DEV/COLOR_Y03"
-			"uaxis" "[0 1 0 0] 0.5"
-			"vaxis" "[0 0 -1 -256] 0.5"
+			"material" "NATURE/ROCKWALL003A"
+			"uaxis" "[0 1 0 -316.235] 2.5"
+			"vaxis" "[0 0 -1 341.333] 2.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -68728,9 +68728,9 @@ world
 				"v" "6112 -6144 784"
 				"v" "6272 -5376 144"
 			}
-			"material" "DEV/COLOR_Y03"
-			"uaxis" "[0 1 0 0] 0.5"
-			"vaxis" "[0 0 -1 -256] 0.5"
+			"material" "NATURE/ROCKWALL003A"
+			"uaxis" "[0 1 0 -316.235] 2.5"
+			"vaxis" "[0 0 -1 341.333] 2.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -68811,9 +68811,9 @@ world
 				"v" "6112 -6144 768"
 				"v" "7552 -6144 768"
 			}
-			"material" "DEV/COLOR_Y03"
-			"uaxis" "[1 0 0 -0] 0.5"
-			"vaxis" "[0 -1 0 -0] 0.5"
+			"material" "NATURE/ROCKWALL003A"
+			"uaxis" "[1 0 0 -316.235] 2.5"
+			"vaxis" "[0 -1 0 -102.4] 2.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -68948,9 +68948,9 @@ world
 				"v" "7296 -5376 -384"
 				"v" "7296 -5376 144"
 			}
-			"material" "DEV/COLOR_Y03"
-			"uaxis" "[0 1 0 0] 0.5"
-			"vaxis" "[0 0 -1 -256] 0.5"
+			"material" "NATURE/ROCKWALL003A"
+			"uaxis" "[0 1 0 256] 2.5"
+			"vaxis" "[0 0 -1 341.333] 2.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -69067,9 +69067,9 @@ world
 				"v" "7552 -6144 784"
 				"v" "7552 -6528 784"
 			}
-			"material" "DEV/COLOR_Y03"
-			"uaxis" "[0 1 0 0] 0.5"
-			"vaxis" "[0 0 -1 -256] 0.5"
+			"material" "NATURE/ROCKWALL003A"
+			"uaxis" "[0 1 0 256] 2.5"
+			"vaxis" "[0 0 -1 341.333] 2.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -69186,9 +69186,9 @@ world
 				"v" "7296 -5376 -384"
 				"v" "7296 -4864 -384"
 			}
-			"material" "DEV/COLOR_Y03"
-			"uaxis" "[0 1 0 0] 0.5"
-			"vaxis" "[0 0 -1 -256] 0.5"
+			"material" "NATURE/ROCKWALL003A"
+			"uaxis" "[0 1 0 256] 2.5"
+			"vaxis" "[0 0 -1 341.333] 2.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -69287,9 +69287,9 @@ world
 				"v" "6272 -4864 128"
 				"v" "6272 -5376 128"
 			}
-			"material" "DEV/COLOR_Y03"
-			"uaxis" "[1 0 0 -0] 0.5"
-			"vaxis" "[0 -1 0 -0] 0.5"
+			"material" "NATURE/ROCKWALL003A"
+			"uaxis" "[1 0 0 -64] 2.5"
+			"vaxis" "[0 -1 0 -256] 2.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -69442,9 +69442,9 @@ world
 				"v" "6272 -4864 128"
 				"v" "6272 -4864 -384"
 			}
-			"material" "DEV/COLOR_Y03"
-			"uaxis" "[0 1 0 0] 0.5"
-			"vaxis" "[0 0 -1 -256] 0.5"
+			"material" "NATURE/ROCKWALL003A"
+			"uaxis" "[0 1 0 -316.235] 2.5"
+			"vaxis" "[0 0 -1 341.333] 2.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -81613,7 +81613,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -81714,7 +81714,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -81815,7 +81815,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -81916,7 +81916,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -82017,7 +82017,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -82118,7 +82118,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -82219,7 +82219,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -82320,7 +82320,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -82421,7 +82421,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -82522,7 +82522,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -82623,7 +82623,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -82724,7 +82724,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -82825,7 +82825,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -82926,7 +82926,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -83027,7 +83027,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -83128,7 +83128,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -83229,7 +83229,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -83330,7 +83330,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -83447,7 +83447,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -83548,7 +83548,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -83649,7 +83649,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -83750,7 +83750,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -83851,7 +83851,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -83952,7 +83952,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -84053,7 +84053,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -84154,7 +84154,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -84255,7 +84255,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -84356,7 +84356,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -84457,7 +84457,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -84558,7 +84558,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -84659,7 +84659,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -84760,7 +84760,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -84861,7 +84861,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -84962,7 +84962,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -106616,7 +106616,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -106757,7 +106757,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -106878,7 +106878,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -107019,7 +107019,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -107156,7 +107156,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -107277,7 +107277,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -107398,7 +107398,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -107519,7 +107519,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -107640,7 +107640,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -107761,7 +107761,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -107882,7 +107882,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -108003,7 +108003,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -108124,7 +108124,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -109213,7 +109213,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -109334,7 +109334,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -109455,7 +109455,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -109576,7 +109576,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -109941,7 +109941,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -110062,7 +110062,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -110183,7 +110183,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -110304,7 +110304,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -110425,7 +110425,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -110546,7 +110546,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -111154,7 +111154,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -111437,7 +111437,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -111639,7 +111639,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -111969,7 +111969,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -112090,7 +112090,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -112211,7 +112211,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -112411,7 +112411,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -112532,7 +112532,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -112653,7 +112653,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -113309,7 +113309,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -113430,7 +113430,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -113550,8 +113550,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[10144.8 -4574.5 -548.027]"
-		"look" "[10144.3 -4575.4 -548.213]"
+		"position" "[6335.06 -5990.67 -7.35915]"
+		"look" "[6335.57 -5991.52 -7.7148]"
 	}
 }
 cordons
