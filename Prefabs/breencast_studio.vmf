@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8869"
-	"mapversion" "22"
+	"editorbuild" "8873"
+	"mapversion" "24"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "22"
+	"mapversion" "24"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -2987,6 +2987,7 @@ entity
 	"FriendlyFireOverride" "2"
 	"hintlimiting" "0"
 	"model" "models/breen_monitor.mdl"
+	"modelscale" "1.0"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -3011,6 +3012,7 @@ entity
 	"classname" "point_camera"
 	"angles" "-0 90 0"
 	"fogColor" "0 0 0"
+	"fogColor_HDR" "0 0 0"
 	"fogEnd" "4096"
 	"fogMaxDensity" "1"
 	"fogStart" "2048"
@@ -3120,6 +3122,7 @@ entity
 	"classname" "point_camera"
 	"angles" "0 90 0"
 	"fogColor" "0 0 0"
+	"fogColor_HDR" "0 0 0"
 	"fogEnd" "4096"
 	"fogMaxDensity" "1"
 	"fogStart" "2048"
@@ -3803,6 +3806,7 @@ entity
 	"classname" "point_camera"
 	"angles" "0 90 0"
 	"fogColor" "0 0 0"
+	"fogColor_HDR" "0 0 0"
 	"fogEnd" "4096"
 	"fogMaxDensity" "1"
 	"fogStart" "2048"
@@ -4458,6 +4462,7 @@ entity
 	"classname" "point_camera"
 	"angles" "0 90 0"
 	"fogColor" "0 0 0"
+	"fogColor_HDR" "0 0 0"
 	"fogEnd" "4096"
 	"fogMaxDensity" "1"
 	"fogStart" "2048"
@@ -5120,12 +5125,12 @@ entity
 	"targetname" "relay_restartbreencastforce"
 	connections
 	{
-		"OnTrigger" "$breenscene,Start,,5,-1"
+		"OnTrigger" "lcs_tv_breencast,Start,,5,-1"
 		"OnTrigger" "relay_displayslatejumbo,Trigger,,0,-1"
 		"OnTrigger" "relay_displayslatetv,Trigger,,0,-1"
 		"OnTrigger" "relay_displayslateconsole,Trigger,,0,-1"
 		"OnTrigger" "relay_displaybreen,Trigger,,5,-1"
-		"OnTrigger" "$breenscene,Cancel,,0,-1"
+		"OnTrigger" "lcs_tv_breencast,Cancel,,0,-1"
 	}
 	"origin" "-64 0 96"
 	editor
@@ -5281,8 +5286,8 @@ entity
 	"id" "616"
 	"classname" "func_instance_parms"
 	"parm1" "$camera string"
-	"parm2" "$breenscene target_destination"
 	"parm3" "$monitor string"
+	"parm4" "$scene scene"
 	"origin" "-104 32 122.545"
 	editor
 	{
@@ -5290,6 +5295,27 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "672"
+	"classname" "logic_choreographed_scene"
+	"busyactor" "1"
+	"SceneFile" "$scene"
+	"targetname" "lcs_tv_breencast"
+	connections
+	{
+		"OnCompletion" "logic_breen_endbreencast,Trigger,,0,-1"
+	}
+	"origin" "-104 9.79881 81.1282"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "This is the Breencast scene. By default, it restarts the Breencast on completion."
+		"logicalpos" "[0 3500]"
 	}
 }
 cameras

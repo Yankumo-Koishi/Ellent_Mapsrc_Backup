@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8870"
-	"mapversion" "10"
+	"editorbuild" "8873"
+	"mapversion" "11"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "10"
+	"mapversion" "11"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -454,8 +454,8 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouch" "shield01_snd_touchPlaySound0-1"
-		"OnEndTouch" "shield01_snd_touchStopSound0-1"
+		"OnStartTouch" "shield01_snd_touch,PlaySound,,0,-1"
+		"OnEndTouch" "shield01_snd_touch,StopSound,,0,-1"
 	}
 	solid
 	{

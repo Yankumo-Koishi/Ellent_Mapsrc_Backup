@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8872"
-	"mapversion" "5454"
+	"editorbuild" "8873"
+	"mapversion" "5455"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -143,7 +143,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "5454"
+	"mapversion" "5455"
 	"classname" "worldspawn"
 	"chaptertitle" "Revision: Chapter 1"
 	"chaptertitlenomessage" "1"
@@ -444851,6 +444851,7 @@ entity
 	"origin" "896 4632 2048"
 	"point0" "896 4632 2304"
 	"point1" "896 4632 1792"
+	"origin" "896 4632 2048"
 	editor
 	{
 		"color" "176 229 0"
@@ -520240,6 +520241,9 @@ entity
 	"FriendlyFireOverride" "2"
 	"IsAmmoResupplier" "0"
 	"IsMedic" "1"
+	"maxactivemanhacks" "1"
+	"maxDist" "480"
+	"maxDown" "384"
 	"model" "models/combine_medic_soldier.mdl"
 	"modelscale" "1.0"
 	"NumGrenades" "5"
@@ -520283,6 +520287,9 @@ entity
 	"DontPickupWeapons" "1"
 	"FriendlyFireOverride" "2"
 	"IsAmmoResupplier" "1"
+	"maxactivemanhacks" "1"
+	"maxDist" "480"
+	"maxDown" "384"
 	"model" "models/combine_soldier.mdl"
 	"modelscale" "1.0"
 	"NumGrenades" "5"
@@ -520327,6 +520334,9 @@ entity
 	"FriendlyFireOverride" "2"
 	"IsAmmoResupplier" "1"
 	"IsMedic" "0"
+	"maxactivemanhacks" "1"
+	"maxDist" "480"
+	"maxDown" "384"
 	"model" "models/combine_soldier.mdl"
 	"modelscale" "1.0"
 	"NumGrenades" "5"
@@ -547952,6 +547962,7 @@ entity
 	"FriendlyFireOverride" "2"
 	"hintgroup" "assassin_highground"
 	"manhacks" "0"
+	"maxactivemanhacks" "1"
 	"model" "models/bms_combine_assassin.mdl"
 	"NumGrenades" "5"
 	"physdamagescale" "1.0"
@@ -548002,6 +548013,7 @@ entity
 	"FriendlyFireOverride" "2"
 	"hintgroup" "assassin_highground"
 	"manhacks" "0"
+	"maxactivemanhacks" "1"
 	"model" "models/bms_combine_assassin.mdl"
 	"NumGrenades" "5"
 	"physdamagescale" "1.0"
@@ -548052,6 +548064,7 @@ entity
 	"FriendlyFireOverride" "2"
 	"hintgroup" "assassin_highground"
 	"manhacks" "0"
+	"maxactivemanhacks" "1"
 	"model" "models/bms_combine_assassin.mdl"
 	"NumGrenades" "5"
 	"physdamagescale" "1.0"
@@ -548102,6 +548115,7 @@ entity
 	"FriendlyFireOverride" "2"
 	"hintgroup" "assassin_highground"
 	"manhacks" "0"
+	"maxactivemanhacks" "1"
 	"model" "models/bms_combine_assassin.mdl"
 	"NumGrenades" "5"
 	"physdamagescale" "1.0"
@@ -548152,6 +548166,7 @@ entity
 	"FriendlyFireOverride" "2"
 	"hintgroup" "assassin_highground"
 	"manhacks" "0"
+	"maxactivemanhacks" "1"
 	"model" "models/bms_combine_assassin.mdl"
 	"NumGrenades" "5"
 	"physdamagescale" "1.0"
@@ -550165,6 +550180,7 @@ entity
 	"FriendlyFireOverride" "2"
 	"hintgroup" "assassin_highground"
 	"manhacks" "0"
+	"maxactivemanhacks" "1"
 	"model" "models/bms_combine_assassin.mdl"
 	"NumGrenades" "10"
 	"physdamagescale" "1.0"
@@ -550211,6 +550227,7 @@ entity
 	"FriendlyFireOverride" "2"
 	"hintgroup" "assassin_highground"
 	"manhacks" "0"
+	"maxactivemanhacks" "1"
 	"model" "models/bms_combine_assassin.mdl"
 	"NumGrenades" "10"
 	"physdamagescale" "1.0"
@@ -550257,6 +550274,7 @@ entity
 	"FriendlyFireOverride" "2"
 	"hintgroup" "assassin_highground"
 	"manhacks" "0"
+	"maxactivemanhacks" "1"
 	"model" "models/bms_combine_assassin.mdl"
 	"NumGrenades" "10"
 	"physdamagescale" "1.0"
@@ -550303,6 +550321,7 @@ entity
 	"FriendlyFireOverride" "2"
 	"hintgroup" "assassin_highground"
 	"manhacks" "0"
+	"maxactivemanhacks" "1"
 	"model" "models/bms_combine_assassin.mdl"
 	"NumGrenades" "10"
 	"physdamagescale" "1.0"
@@ -1002431,8 +1002450,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[1132.6 4795.81 2410.83]"
-		"look" "[1292.6 4821.8 2509]"
+		"position" "[5234.87 5232.11 2142.75]"
+		"look" "[5271.71 5080.14 2035.68]"
 	}
 }
 cordons
